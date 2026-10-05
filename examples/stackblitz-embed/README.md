@@ -14,13 +14,13 @@ Or run `node serve.mjs` directly. There are no dependencies and no install step.
 
 The server uses Node built-ins and serves only files within this example folder, regardless of the current working directory. It supports GET and HEAD, returns MIME types for the example assets, rejects traversal and Windows alternate path syntax, and checks resolved symlink targets before serving a file. It has no upload, API or directory listing endpoint.
 
-## Planned StackBlitz import
+## StackBlitz import
 
-**Status: prepared locally; this example's StackBlitz import has not been opened or verified.** A maintainer must first publish this folder to the public repository's `main` branch and then check the import, server preview, frames and copy controls in StackBlitz. This link is a planned GitHub import, not a claim that a saved StackBlitz project exists:
+**Status: the published GitHub subfolder import opened in StackBlitz, and `npm start` started the preview server.** The initial nested Hugging Face frames refused to load in that preview. This update adds credentialless frames for cross-origin-isolated previews; the updated nested frames and copy controls still need browser verification. This is a GitHub import, not a claim that a saved StackBlitz project exists:
 
-[Planned StackBlitz import — unverified](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
+[Open the StackBlitz import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 
-To give a visitor their own editable copy instead, use the [planned fork import — also unverified](https://stackblitz.com/fork/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html).
+To give a visitor their own editable copy instead, use the [fork import](https://stackblitz.com/fork/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html). The fork URL follows StackBlitz's documented format; that fork flow has not been separately verified.
 
 StackBlitz imports only this subfolder's contents, so the starter has no relative dependencies on the repository root. The `start` script is `node serve.mjs`; StackBlitz's documented default chooses `start` when there is no `dev` script. A `.stackblitzrc` or custom `startCommand` is therefore unnecessary. The `stackblitz.installDependencies: false` setting in `package.json` avoids an automatic dependency install for this dependency-free example.
 
@@ -37,9 +37,13 @@ Copy one of the snippets from the preview, keep the meaningful `title`, and adju
 
 Keep a visible fallback link near the frame. A visitor's browser, network or destination content security policy may block external iframes. This example uses `referrerpolicy="no-referrer"` and does not attempt to read cross-origin frame content. If the destination has a content security policy, its allowed frame sources need to include `https://sewlore-sewlore-sewing-tools.static.hf.space`. Check the destination's actual layout and policies before release.
 
+The preview frames and copyable snippets include the boolean `credentialless` attribute. In supporting browsers this gives the public tool a fresh, temporary context so a page using Cross-Origin-Embedder-Policy can embed a document that does not itself set COEP. No security response headers are removed or weakened. This attribute does not override a destination's CSP or X-Frame-Options prohibition. Browsers without support ignore the attribute and apply their usual embedding rules; use the visible fallback or open the preview in a separate tab if the nested frame is blocked.
+
 ## Privacy and optional attribution
 
 The live app calculates locally in the browser, does not upload entered measurements and adds no analytics. This starter does not collect measurements, set cookies or add analytics. Hosting services still receive normal requests to load pages and assets. StackBlitz also receives the requests needed to run its editor and preview when the example is opened there. Following an external link uses the destination site's own privacy practices.
+
+Credentialless frames do not use the origin's existing cookies or storage. Their new storage partition lasts only for the top-level document's lifetime, and is cleared when that document unloads. Persistent offline caching is therefore not promised in this embedded view. The calculator needs no account or existing stored measurements, so its arithmetic can run in this temporary context.
 
 Both default snippets omit `source`. Leave it out for an embed on Sewlore so navigation within the site is not labelled as a referral. A partner can opt into outbound source attribution by adding an agreed value, for example `&source=partner_name`, to the iframe URL. Encode this as `&amp;source=partner_name` in HTML. This setting tags outbound Sewlore links and does not send the measurement inputs. Do not add attribution on the partner's behalf without that choice.
 
@@ -56,10 +60,12 @@ Both default snippets omit `source`. Leave it out for an embed on Sewlore so nav
 
 Checked on 2026-10-05: Node syntax checks passed for `serve.mjs` and `embed.js`; `package.json` parsed with no dependencies; both displayed HTML snippets parsed to the same URLs and titles as their live frames. Seventeen local HTTP checks passed, covering asset GETs and MIME types, HEAD, missing files, rejected POST, encoded and plain traversal, Windows path syntax, invalid encoding and a null byte. The server was started from the parent directory to verify that its file root remains this example folder.
 
-Browser layout, clipboard interaction, the live frames inside a StackBlitz preview and the planned StackBlitz import have not been verified by these checks. There is no install, deployment or saved StackBlitz project as part of this preparation.
+The StackBlitz GitHub import and `npm start` preview startup were subsequently observed in the browser; the initial nested frames were blocked. The credentialless change has not yet been checked in that nested preview, and these local checks do not verify browser layout or clipboard interaction. No saved StackBlitz project is claimed.
 
 ## Official references
 
 The GitHub subdirectory URL format, fork option and script selection are documented in [StackBlitz: Launching projects from GitHub](https://developer.stackblitz.com/guides/integration/open-from-github). The supported `package.json` configuration, `installDependencies` and `startCommand` defaults are documented in [StackBlitz: Project configuration](https://developer.stackblitz.com/platform/webcontainers/project-config). Both references were checked on 2026-10-05.
+
+[Chrome: Iframe credentialless](https://developer.chrome.com/blog/iframe-credentialless) documents the iframe attribute and its temporary storage context. [MDN: IFrame credentialless](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/IFrame_credentialless) notes its limited browser availability. [StackBlitz: Browser support](https://developer.stackblitz.com/platform/webcontainers/browser-support) explains cross-origin-isolated preview restrictions and opening the server preview separately. These references were checked on 2026-10-05.
 
 This source example follows the repository's MIT license. External hosts and services retain their own terms.

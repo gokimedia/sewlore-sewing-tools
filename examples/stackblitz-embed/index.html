@@ -27,6 +27,7 @@
         </div>
         <div class="frame-shell">
           <iframe
+            credentialless
             src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;tool=stretch"
             title="Sewlore Fabric Stretch Lab: measurement inputs and results"
             width="100%"
@@ -41,6 +42,7 @@
             <button type="button" data-copy="stretch-code" aria-describedby="copy-status">Copy HTML</button>
           </div>
           <pre tabindex="0" aria-labelledby="stretch-code-heading"><code id="stretch-code">&lt;iframe
+  credentialless
   src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;amp;tool=stretch"
   title="Sewlore Fabric Stretch Lab: measurement inputs and results"
   width="100%" height="680"
@@ -58,6 +60,7 @@
         </div>
         <div class="frame-shell">
           <iframe
+            credentialless
             src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;tool=print-scale"
             title="Sewlore PDF Print Scale Checker: test square inputs and results"
             width="100%"
@@ -72,6 +75,7 @@
             <button type="button" data-copy="print-code" aria-describedby="copy-status">Copy HTML</button>
           </div>
           <pre tabindex="0" aria-labelledby="print-code-heading"><code id="print-code">&lt;iframe
+  credentialless
   src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;amp;tool=print-scale"
   title="Sewlore PDF Print Scale Checker: test square inputs and results"
   width="100%" height="680"
@@ -94,6 +98,7 @@
       <div class="note-block">
         <h3>Measurement privacy</h3>
         <p>The tool app calculates in the visitor's browser and does not upload entered measurements or add analytics. This starter adds no analytics, cookies or measurement collection. Hugging Face and the site hosting this example still receive normal web requests, such as the request to load a page or file. If opened in StackBlitz, that platform also receives the requests needed for its editor and preview.</p>
+        <p>In supporting browsers, <code>credentialless</code> loads each frame in a temporary context without existing cookies or storage. Its storage is cleared when the top-level page unloads, so persistent offline caching should not be assumed. Browsers that do not support the attribute keep their usual embedding rules; the visible fallback links remain available.</p>
       </div>
       <div class="note-block">
         <h3>Source attribution is optional</h3>
