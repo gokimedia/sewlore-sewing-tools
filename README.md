@@ -50,6 +50,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore on Substack](https://substack.com/@sewlore)
 - [Sewlore on Tumblr](https://www.tumblr.com/sewlore)
 - [Sewlore on LinkedIn](https://www.linkedin.com/company/sewlore/)
+- [Sewlore on Medium](https://medium.com/@sewlore)
 
 **Visual sewing notes on Pinterest**
 
