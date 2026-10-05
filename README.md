@@ -20,13 +20,14 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 ## Published resources and examples
 
-[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
+[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, original Substack note and profile, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
 
 **Tools and guides**
 
 - [Fabric Stretch Calculator](https://sewlore.com/pages/fabric-stretch-calculator)
 - [PDF Pattern Print Scale Checker](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
+- [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
 - [Check PDF Pattern Print Scale in Both Directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions)
 - [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
 - [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
@@ -36,7 +37,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
 - [Sewing Project Planner — Markdown Template](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewing-project-planner.md)
 
-**Interactive tools and code examples**
+**Interactive tools, code and project profiles**
 
 - [Sewlore Sewing Tools on Hugging Face](https://huggingface.co/spaces/sewlore/sewlore-sewing-tools)
 - [Direct Sewing Tools App](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html)
@@ -44,6 +45,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [StackBlitz: Sewlore Tool Embed Starter — GitHub Import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 - [Sewlore Sewing Tools Source Code](https://github.com/gokimedia/sewlore-sewing-tools)
 - [Sewlore on Hugging Face](https://huggingface.co/sewlore)
+- [Sewlore on Substack](https://substack.com/@sewlore)
 
 **Visual sewing notes on Pinterest**
 
