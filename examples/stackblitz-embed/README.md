@@ -16,7 +16,7 @@ The server uses Node built-ins and serves only files within this example folder,
 
 ## StackBlitz import
 
-**Status: the published GitHub subfolder import opened in StackBlitz, and `npm start` started the preview server.** The initial nested Hugging Face frames refused to load in that preview. This update adds credentialless frames for cross-origin-isolated previews; the updated nested frames and copy controls still need browser verification. This is a GitHub import, not a claim that a saved StackBlitz project exists:
+**Status: verified in StackBlitz on 2026-10-05.** The public GitHub subfolder import opened, `npm start` started the preview server, and both embedded tools loaded and calculated inside the preview. Credentialless frames resolved the initial nested-frame loading problem in the checked Chrome session. Both copy controls displayed their success message. This is a public GitHub import; no separate saved StackBlitz project is required to open this example:
 
 [Open the StackBlitz import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 
@@ -60,7 +60,9 @@ Both default snippets omit `source`. Leave it out for an embed on Sewlore so nav
 
 Checked on 2026-10-05: Node syntax checks passed for `serve.mjs` and `embed.js`; `package.json` parsed with no dependencies; both displayed HTML snippets parsed to the same URLs and titles as their live frames. Seventeen local HTTP checks passed, covering asset GETs and MIME types, HEAD, missing files, rejected POST, encoded and plain traversal, Windows path syntax, invalid encoding and a null byte. The server was started from the parent directory to verify that its file root remains this example folder.
 
-The StackBlitz GitHub import and `npm start` preview startup were subsequently observed in the browser; the initial nested frames were blocked. The credentialless change has not yet been checked in that nested preview, and these local checks do not verify browser layout or clipboard interaction. No saved StackBlitz project is claimed.
+The StackBlitz GitHub import, `npm start` preview startup and both credentialless tool frames were subsequently checked in Chrome. Entering 10 / 14 / 10.5 cm in the stretch frame produced 40% stretch, 5% residual growth and 87.5% recovered extension. Entering 10 / 9.8 / 10.1 cm in the print frame produced -2% / +1% errors and a 3 percentage-point axis difference. These are arithmetic examples, not physical fabric or printer test data.
+
+Both Copy HTML controls displayed their success message, and their visible snippets contained the expected iframe URLs, descriptive titles and credentialless attribute. Clipboard bytes were not independently verified. The same two frames loaded and calculated in a local browser preview. Browser support and destination embedding policies still vary, so keep the fallback links. No separate saved StackBlitz project is claimed.
 
 ## Official references
 
