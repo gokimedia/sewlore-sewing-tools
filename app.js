@@ -1,6 +1,15 @@
 import { calculateStretch, calculatePrintScale, convertLength, csvCell } from './calculations.js';
 
 const $ = id => document.getElementById(id);
+const pageParams = new URLSearchParams(location.search);
+const isEmbedded = pageParams.get('embed') === '1';
+if (isEmbedded) {
+  document.body.classList.add('is-embedded');
+  const privacyNote = document.createElement('p');
+  privacyNote.className = 'privacy-note embed-privacy-note';
+  privacyNote.textContent = 'Free to use. Calculations run on your device; your measurements stay in this browser.';
+  document.querySelector('.tool-tabs').before(privacyNote);
+}
 const state = {
   stretch: { unit: 'cm', example: true, record: null },
   print: { unit: 'cm', example: true, record: null },
@@ -229,10 +238,23 @@ function activateTab(index, updateHash = false, focus = false) {
     tab.button.tabIndex = i === index ? 0 : -1;
     tab.panel.hidden = i !== index;
   });
-  if (updateHash && location.hash !== tabs[index].hash) history.replaceState(null, '', `${location.pathname}${location.search}${tabs[index].hash}`);
+  if (updateHash) {
+    if (isEmbedded) {
+      const url = new URL(location.href);
+      url.searchParams.set('tool', tabs[index].panel.id);
+      url.hash = '';
+      history.replaceState(null, '', `${url.pathname}${url.search}`);
+    } else if (location.hash !== tabs[index].hash) {
+      history.replaceState(null, '', `${location.pathname}${location.search}${tabs[index].hash}`);
+    }
+  }
   if (focus) tabs[index].button.focus();
 }
-function syncHash() { activateTab(location.hash === '#print-scale' ? 1 : 0); }
+function syncHash() {
+  const hashIndex = tabs.findIndex(tab => tab.hash === location.hash);
+  const queryTool = new URLSearchParams(location.search).get('tool');
+  activateTab(hashIndex >= 0 ? hashIndex : queryTool === 'print-scale' ? 1 : 0);
+}
 tabs.forEach((tab, index) => {
   tab.button.addEventListener('click', () => activateTab(index, true));
   tab.button.addEventListener('keydown', event => {
@@ -265,7 +287,7 @@ for (const [kind, fields, update] of [['stretch', stretchFields, updateStretch],
 }
 
 // Attribution only appears in outbound Sewlore links. No visit or measurement telemetry is collected.
-const requestedSource = new URLSearchParams(location.search).get('source');
+const requestedSource = pageParams.get('source');
 const source = requestedSource && /^[a-z0-9][a-z0-9._-]{0,63}$/i.test(requestedSource) ? requestedSource : 'sewing_tools';
 for (const link of document.querySelectorAll('[data-sewlore-link]')) {
   const url = new URL(link.href);
