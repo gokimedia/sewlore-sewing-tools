@@ -20,7 +20,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 ## Published resources and examples
 
-[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, original posts on Substack and Tumblr, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
+[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, original posts on Substack, Tumblr and LinkedIn, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
 
 **Tools and guides**
 
@@ -29,6 +29,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
 - [Before You Print the Whole PDF, Check Width and Height](https://www.tumblr.com/sewlore/829670998191243264/check-width-and-height-before-the-full-pdf-pattern)
+- [A Sewing Calculator Should Show Where Certainty Ends](https://www.linkedin.com/pulse/sewing-calculator-should-show-where-certainty-ends-sewlore-nmgqf/)
 - [Check PDF Pattern Print Scale in Both Directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions)
 - [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
 - [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
@@ -48,6 +49,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore on Hugging Face](https://huggingface.co/sewlore)
 - [Sewlore on Substack](https://substack.com/@sewlore)
 - [Sewlore on Tumblr](https://www.tumblr.com/sewlore)
+- [Sewlore on LinkedIn](https://www.linkedin.com/company/sewlore/)
 
 **Visual sewing notes on Pinterest**
 
