@@ -1,0 +1,14 @@
+{
+  "name": "sewlore-tool-embed-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free example for embedding Sewlore's browser-based sewing measurement tools.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node serve.mjs"
+  },
+  "stackblitz": {
+    "installDependencies": false
+  }
+}

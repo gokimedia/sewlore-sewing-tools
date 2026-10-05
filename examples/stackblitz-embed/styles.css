@@ -1,0 +1,103 @@
+:root {
+  color-scheme: light;
+  --ink: #203b34;
+  --muted: #4e625a;
+  --paper: #f7f4ec;
+  --card: #ffffff;
+  --line: #cbd8d0;
+  --accent: #215b49;
+  --soft: #eaf2ed;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.6;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: #155441; text-decoration-thickness: 0.09em; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 0.16em; }
+a:focus-visible, button:focus-visible, pre:focus-visible {
+  outline: 3px solid #b15a00;
+  outline-offset: 4px;
+}
+.skip-link {
+  position: absolute;
+  z-index: 2;
+  top: 0.75rem;
+  left: 0.75rem;
+  transform: translateY(-160%);
+  padding: 0.5rem 0.8rem;
+  background: var(--card);
+  border: 2px solid var(--accent);
+}
+.skip-link:focus { transform: none; }
+.page-header, main, footer { width: min(1220px, calc(100% - 3rem)); margin-inline: auto; }
+.page-header { padding-block: clamp(2.2rem, 5vw, 4.5rem) 2rem; }
+.eyebrow { margin: 0 0 0.5rem; color: var(--accent); font-size: 0.78rem; font-weight: 750; letter-spacing: 0.11em; text-transform: uppercase; }
+h1, h2, h3 { line-height: 1.2; text-wrap: balance; }
+h1 { max-width: 800px; margin: 0 0 1.1rem; font-size: clamp(2rem, 4vw, 3.7rem); letter-spacing: -0.04em; }
+h2 { margin: 0 0 0.8rem; font-size: 1.65rem; letter-spacing: -0.025em; }
+h3 { margin: 0 0 0.6rem; font-size: 1.04rem; }
+p { margin: 0 0 1rem; }
+.intro { max-width: 790px; font-size: 1.12rem; color: var(--muted); }
+.detail { font-size: 0.95rem; max-width: 790px; }
+.examples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; scroll-margin-top: 1rem; }
+.tool-card { min-width: 0; border: 1px solid var(--line); border-radius: 1rem; background: var(--card); overflow: hidden; }
+.card-heading { padding: 1.5rem 1.5rem 0.8rem; }
+.card-heading p:last-child { color: var(--muted); font-size: 0.96rem; }
+.frame-shell { margin: 0 1rem; border: 1px solid var(--line); border-radius: 0.5rem; overflow: hidden; background: var(--soft); }
+iframe { display: block; width: 100%; height: 680px; border: 0; }
+.card-content { padding: 1.3rem 1.5rem 1.5rem; }
+.fallback { font-size: 0.9rem; }
+.new-tab { font-size: 0.85em; }
+.snippet-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.6rem; margin-top: 1.3rem; }
+.snippet-heading h3 { margin: 0; }
+button {
+  min-height: 44px;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 0.4rem;
+  color: white;
+  background: var(--accent);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+button:hover { background: #143e30; }
+code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.88em; overflow-wrap: anywhere; }
+pre {
+  margin: 0.8rem 0 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: #f4f7f5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+  font-size: 0.82rem;
+}
+pre code { font-size: 1em; }
+.copy-status { min-height: 1.6em; margin: 1rem 0 2rem; color: var(--muted); font-size: 0.92rem; }
+.integration-notes { display: grid; grid-template-columns: 1.25fr 1fr 1fr; gap: 1.7rem; padding-block: 2rem; border-top: 1px solid var(--line); }
+.integration-notes p { color: var(--muted); font-size: 0.93rem; }
+.note-block { border-left: 3px solid var(--line); padding-left: 1.25rem; }
+footer { padding-block: 1.5rem 2rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
+footer p { margin: 0; max-width: 850px; }
+
+@media (max-width: 950px) {
+  .integration-notes { grid-template-columns: 1fr 1fr; }
+  .integration-notes > :first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 760px) {
+  .page-header, main, footer { width: min(620px, calc(100% - 2rem)); }
+  .examples, .integration-notes { grid-template-columns: 1fr; }
+  .card-heading, .card-content { padding-inline: 1rem; }
+  .frame-shell { margin-inline: 0.6rem; }
+  .integration-notes { gap: 1.1rem; }
+  .note-block { padding-left: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

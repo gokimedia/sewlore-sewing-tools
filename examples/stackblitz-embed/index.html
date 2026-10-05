@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try two accessible iframe integrations for Sewlore sewing tools, copy the markup, and understand privacy and optional source attribution.">
+  <title>Sewlore Tool Embed Starter</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./embed.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#examples">Skip to embed examples</a>
+  <header class="page-header">
+    <p class="eyebrow">Sewlore · Developer example</p>
+    <h1>Two tools. A few lines of HTML.</h1>
+    <p class="intro">Add a fabric stretch calculator or a PDF print scale checker to a sewing resource page. These examples load the live tools from Hugging Face; the calculations stay inside each embedded app.</p>
+    <p class="detail">The <code>tool</code> parameter selects the opening tab. Both tool tabs remain available in each frame.</p>
+  </header>
+
+  <main>
+    <section class="examples" id="examples" aria-label="Tool embed examples">
+      <article class="tool-card" aria-labelledby="stretch-heading">
+        <div class="card-heading">
+          <p class="eyebrow">Example 01</p>
+          <h2 id="stretch-heading">Fabric Stretch Lab</h2>
+          <p>Record relaxed, stretched and released lengths. The tool calculates stretch percentage and records the change after release.</p>
+        </div>
+        <div class="frame-shell">
+          <iframe
+            src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;tool=stretch"
+            title="Sewlore Fabric Stretch Lab: measurement inputs and results"
+            width="100%"
+            height="680"
+            loading="lazy"
+            referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="card-content">
+          <p class="fallback">Frame unavailable? <a href="https://sewlore.com/pages/fabric-stretch-calculator" target="_blank" rel="noopener noreferrer">Open the fabric stretch calculator <span class="new-tab">(new tab)</span></a>.</p>
+          <div class="snippet-heading">
+            <h3 id="stretch-code-heading">Copy this iframe</h3>
+            <button type="button" data-copy="stretch-code" aria-describedby="copy-status">Copy HTML</button>
+          </div>
+          <pre tabindex="0" aria-labelledby="stretch-code-heading"><code id="stretch-code">&lt;iframe
+  src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;amp;tool=stretch"
+  title="Sewlore Fabric Stretch Lab: measurement inputs and results"
+  width="100%" height="680"
+  loading="lazy" referrerpolicy="no-referrer"
+  style="border:0; display:block;"&gt;
+&lt;/iframe&gt;</code></pre>
+        </div>
+      </article>
+
+      <article class="tool-card" aria-labelledby="print-heading">
+        <div class="card-heading">
+          <p class="eyebrow">Example 02</p>
+          <h2 id="print-heading">PDF Print Scale Checker</h2>
+          <p>Compare a printed test square's width and height with its intended size. Check both directions before printing a complete pattern.</p>
+        </div>
+        <div class="frame-shell">
+          <iframe
+            src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;tool=print-scale"
+            title="Sewlore PDF Print Scale Checker: test square inputs and results"
+            width="100%"
+            height="680"
+            loading="lazy"
+            referrerpolicy="no-referrer"></iframe>
+        </div>
+        <div class="card-content">
+          <p class="fallback">Frame unavailable? <a href="https://sewlore.com/pages/pdf-pattern-print-scale-checker" target="_blank" rel="noopener noreferrer">Open the PDF print scale checker <span class="new-tab">(new tab)</span></a>.</p>
+          <div class="snippet-heading">
+            <h3 id="print-code-heading">Copy this iframe</h3>
+            <button type="button" data-copy="print-code" aria-describedby="copy-status">Copy HTML</button>
+          </div>
+          <pre tabindex="0" aria-labelledby="print-code-heading"><code id="print-code">&lt;iframe
+  src="https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&amp;amp;tool=print-scale"
+  title="Sewlore PDF Print Scale Checker: test square inputs and results"
+  width="100%" height="680"
+  loading="lazy" referrerpolicy="no-referrer"
+  style="border:0; display:block;"&gt;
+&lt;/iframe&gt;</code></pre>
+        </div>
+      </article>
+    </section>
+
+    <p class="copy-status" id="copy-status" role="status" aria-live="polite">Copy a snippet, or select its text and use your browser's copy shortcut.</p>
+
+    <section class="integration-notes" aria-labelledby="integration-heading">
+      <div>
+        <p class="eyebrow">Before you embed</p>
+        <h2 id="integration-heading">Choose the context, keep the fallback.</h2>
+        <p>Use one tool frame per resource page when that is enough. Adjust its height to suit your layout, retain a descriptive <code>title</code>, and keep a visible link to the corresponding Sewlore page for visitors whose browser blocks the frame.</p>
+        <p>The frames scroll independently. This example does not read their inputs or send measurement data between the parent page and the tools.</p>
+      </div>
+      <div class="note-block">
+        <h3>Measurement privacy</h3>
+        <p>The tool app calculates in the visitor's browser and does not upload entered measurements or add analytics. This starter adds no analytics, cookies or measurement collection. Hugging Face and the site hosting this example still receive normal web requests, such as the request to load a page or file. If opened in StackBlitz, that platform also receives the requests needed for its editor and preview.</p>
+      </div>
+      <div class="note-block">
+        <h3>Source attribution is optional</h3>
+        <p>These snippets intentionally omit <code>source</code>. Leave it out when embedding on Sewlore so navigation within the site is not labelled as a referral.</p>
+        <p>A partner may opt into attribution by adding <code>&amp;source=partner_name</code> to the iframe URL. It tags outbound Sewlore links; it does not submit measurements. Replace <code>partner_name</code> with an agreed source value, and keep it out of the default embed unless the partner chooses it.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Integration example by <a href="https://sewlore.com" target="_blank" rel="noopener noreferrer">Sewlore <span class="new-tab">(new tab)</span></a>. Tool explanations and the printable reference resources are available in the live app.</p>
+  </footer>
+</body>
+</html>
