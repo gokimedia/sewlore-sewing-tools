@@ -14,7 +14,9 @@ short_description: Fabric stretch and PDF print scale tools for sewing
 
 Two small, transparent measurement tools for people who sew. Enter measurements from your own fabric sample or printed test square. No sign-up is required.
 
-[Open the demo](https://huggingface.co/spaces/sewlore/sewlore-sewing-tools) · [Source code](https://github.com/gokimedia/sewlore-sewing-tools) · [Sewlore](https://sewlore.com/)
+[Fabric stretch calculator on Sewlore](https://sewlore.com/pages/fabric-stretch-calculator) · [PDF print scale checker on Sewlore](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
+
+[Open the direct app](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html) · [Hugging Face Space](https://huggingface.co/spaces/sewlore/sewlore-sewing-tools) · [Source code](https://github.com/gokimedia/sewlore-sewing-tools)
 
 ## Fabric Stretch Lab
 
@@ -28,7 +30,7 @@ For the **illustrative** measurements 10 cm → 14 cm → 10.5 cm, the results a
 
 Results describe the entered measurements; they do not prove garment fit or tell you how much negative ease to use. Follow your pattern's fabric requirements and make an appropriate fitting sample.
 
-[Fabric and elastic guide](https://sewlore.com/blogs/sewing-journal/choose-fabric-and-elastic-for-sewing)
+[How to measure stretch and record recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery) · [Fabric and elastic guide](https://sewlore.com/blogs/sewing-journal/choose-fabric-and-elastic-for-sewing)
 
 ## PDF Print Scale Checker
 
@@ -39,15 +41,22 @@ Measure a printed test square in both directions and enter the intended side len
 
 For an **illustrative** 100 mm target measured as 98 × 101 mm, width error is −2% and height error is +1%. Different axis errors can indicate uneven output; a single scaling change may not resolve both. The interface's comparison threshold is a stated convenience, not a printer accuracy certification. The checker does not identify the cause of print errors or resize/grade a sewing pattern.
 
+The app accepts centimetres or inches. Enter that example as **10 cm intended side, 9.8 cm width and 10.1 cm height**. The equivalent inch measurements are approximately 3.937007874, 3.858267717 and 3.976377953 inches respectively. The unit selector converts the entered lengths for you, so manual rounding is unnecessary; use the same unit for all three fields.
+
 Use the PDF's own test square. Print at the settings specified in the pattern, usually Actual Size/100%, and check before printing every sheet.
 
-[Printing and assembly guide](https://sewlore.com/pages/printing-assembly)
+[Check PDF print scale in both directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions) · [Printing and assembly guide](https://sewlore.com/pages/printing-assembly)
 
 ## Privacy and source attribution
 
 Calculations run locally in your browser. The application does not upload entered measurements or add analytics. You may download your current measurement record as CSV. The hosting platform still receives normal web requests; following an external link uses that site's own privacy policy. An optional `?source=github`, `?source=huggingface`, or `?source=pinterest` parameter adds channel attribution only to outbound Sewlore links.
 
 The initial example values are illustrative and are labelled as such. This repository contains no invented textile dataset, sewn product photos, user counts or paid pattern files. After the first successful load, the local application files may be cached for offline reuse; external guides still need a connection.
+
+## Companion resources
+
+- [Printable fabric measurement log](https://sewlore-sewlore-sewing-tools.static.hf.space/resources/fabric-measurement-log.html): keep the direction, lengths, rest time and observations beside your sample. This log is not a calibrated ruler or a pattern test square.
+- [Sewing project planner (Markdown)](https://sewlore-sewlore-sewing-tools.static.hf.space/resources/sewing-project-planner.md): copy the template into your notes or a compatible editor to record materials, fitting changes and project progress.
 
 ## Run and test
 
@@ -60,6 +69,13 @@ node --test tests/calculations.test.mjs
 ```
 
 Deep links: `#stretch` and `#print-scale`. Native labels, keyboard tab selection, live validation and unit conversion support the measurement workflow.
+
+For an embedded view, use the direct app with query selection:
+
+- [Embedded Fabric Stretch Lab](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&tool=stretch): `?embed=1&tool=stretch`
+- [Embedded PDF Print Scale Checker](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&tool=print-scale): `?embed=1&tool=print-scale`
+
+The embedded view keeps the tool tabs, input labels, privacy note, results and measurement methods while hiding the standalone header, introduction and footer. A valid `#stretch` or `#print-scale` fragment takes precedence over `tool`; omit the fragment in an iframe to avoid native anchor scrolling. An attribution parameter can be combined with the embed options, for example `?embed=1&tool=stretch&source=sewlore`.
 
 ## Reuse
 
