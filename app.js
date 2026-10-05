@@ -288,8 +288,11 @@ for (const [kind, fields, update] of [['stretch', stretchFields, updateStretch],
 
 // Attribution only appears in outbound Sewlore links. No visit or measurement telemetry is collected.
 const requestedSource = pageParams.get('source');
-const source = requestedSource && /^[a-z0-9][a-z0-9._-]{0,63}$/i.test(requestedSource) ? requestedSource : 'sewing_tools';
+const hasExplicitSource = Boolean(requestedSource && /^[a-z0-9][a-z0-9._-]{0,63}$/i.test(requestedSource));
+const source = hasExplicitSource ? requestedSource : 'sewing_tools';
 for (const link of document.querySelectorAll('[data-sewlore-link]')) {
+  // An embed on Sewlore should not relabel navigation within the site as a referral.
+  if (isEmbedded && !hasExplicitSource) continue;
   const url = new URL(link.href);
   url.searchParams.set('utm_source', source);
   url.searchParams.set('utm_medium', 'referral');

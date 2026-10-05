@@ -79,4 +79,6 @@ The embedded view keeps the tool tabs, input labels, privacy note, results and m
 
 ## Reuse
 
+Embedded views without an explicit source keep Sewlore links free of campaign parameters. When embedding on Sewlore, omit the source parameter so navigation within the site is not relabelled as a referral. A partner embedding the tool can choose its own source value to opt into attribution.
+
 The original application code and educational templates are available under the MIT licence. Sewlore names and branding remain trademarks of their respective owner; the licence does not imply endorsement. Contributions should improve measurement transparency or usability. Please do not add fabricated results, advertising repositories or unrelated link placements.
