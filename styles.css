@@ -8,3 +8,16 @@ body.is-embedded .site-header,body.is-embedded .hero,body.is-embedded .resource-
 body.is-embedded main{width:min(1120px,calc(100% - 32px));padding-block:12px 24px}
 body.is-embedded .embed-privacy-note{margin:0 0 14px;font-size:12px;line-height:1.6}
 body.is-embedded .tool-panel{padding-top:24px}
+.resource-directory .brand{display:block;font-size:31px}
+.resource-directory .directory-intro{padding-block:48px 30px;max-width:800px}
+.resource-directory .directory-intro h1{font-size:clamp(35px,5vw,54px);margin-block:16px 21px}
+.resource-directory .directory-intro>p:last-child{color:var(--muted);font-size:15px;line-height:1.75}
+.resource-directory .directory-section{padding-block:26px 31px;border-top:1px solid var(--line)}
+.resource-directory .directory-section h2{font-size:32px;margin-block:9px 22px;line-height:1.2}
+.resource-directory .directory-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.resource-directory .directory-grid li{padding:20px 22px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius)}
+.resource-directory .directory-grid a{display:inline-block;font-size:14px;font-weight:600;line-height:1.6}
+.resource-directory .directory-grid p{margin-top:9px;font-size:12px;line-height:1.7;color:var(--muted)}
+.resource-directory .directory-section-note{font-size:13px;color:var(--muted);max-width:800px;margin:-6px 0 23px;line-height:1.75}
+.resource-directory .directory-method-note{border-top:1px solid var(--line);padding-block:22px 36px;color:var(--muted);font-size:12px;line-height:1.75}
+@media(max-width:680px){.resource-directory .directory-intro{padding-block:31px 26px}.resource-directory .directory-intro>p:last-child{font-size:14px}.resource-directory .directory-grid{grid-template-columns:1fr}.resource-directory .directory-section h2{font-size:28px}.resource-directory .directory-grid li{padding:19px 21px}.resource-directory .directory-section{padding-block:23px 27px}}

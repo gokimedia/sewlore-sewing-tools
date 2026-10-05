@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gokimedia.github.io/sewlore-sewing-tools/sitemap.xml

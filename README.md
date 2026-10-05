@@ -18,6 +18,42 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 [Open the direct app](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html) · [Hugging Face Space](https://huggingface.co/spaces/sewlore/sewlore-sewing-tools) · [Source code](https://github.com/gokimedia/sewlore-sewing-tools)
 
+## Published resources and examples
+
+[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
+
+**Tools and guides**
+
+- [Fabric Stretch Calculator](https://sewlore.com/pages/fabric-stretch-calculator)
+- [PDF Pattern Print Scale Checker](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
+- [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
+- [Check PDF Pattern Print Scale in Both Directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions)
+- [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
+- [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
+
+**Blank templates**
+
+- [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
+- [Sewing Project Planner — Markdown Template](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewing-project-planner.md)
+
+**Interactive tools and code examples**
+
+- [Sewlore Sewing Tools on Hugging Face](https://huggingface.co/spaces/sewlore/sewlore-sewing-tools)
+- [Direct Sewing Tools App](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html)
+- [CodePen: One Scale Factor, Two Directions](https://codepen.io/editor/gokimedia/pen/01a10db1-763f-70b5-a88e-cd0427f982fc)
+- [StackBlitz: Sewlore Tool Embed Starter — GitHub Import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
+- [Sewlore Sewing Tools Source Code](https://github.com/gokimedia/sewlore-sewing-tools)
+- [Sewlore on Hugging Face](https://huggingface.co/sewlore)
+
+**Visual sewing notes on Pinterest**
+
+- [How to Calculate Fabric Stretch Percentage](https://www.pinterest.com/pin/1125970344374469388/)
+- [Record Fabric Length After Release](https://www.pinterest.com/pin/1125970344374469430/)
+- [PDF Sewing Patterns Need a Width and Height Check](https://www.pinterest.com/pin/1125970344374469642/)
+- [Print the Test Page Before the Full Sewing Pattern](https://www.pinterest.com/pin/1125970344374469713/)
+- [Keep Your Measurements with Your Sewing Project Notes](https://www.pinterest.com/pin/1125970344374469787/)
+- [Free Leaf Appliqué Bookmark Pattern with a 50 mm Print Check](https://www.pinterest.com/pin/1125970344374469859/)
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
