@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fabric Measurement Log | Sewlore</title>
+  <meta name="description" content="A printable fabric measurement log for recording stretch, released length, wash measurements and your sewing sample notes.">
+  <style>
+    :root { color-scheme: light; --ink: #193c30; --text: #21332c; --muted: #495b51; --line: #7b8b80; --paper: #fffefa; --pale: #eef2ec; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e8ece6; color: var(--text); font: 16px/1.45 system-ui, sans-serif; }
+    .tools { max-width: 980px; margin: 24px auto 16px; padding: 0 24px; }
+    .tools p { margin: 10px 0; color: #34473a; }
+    button { border: 2px solid var(--ink); border-radius: 6px; background: var(--ink); color: white; padding: 10px 18px; font: inherit; cursor: pointer; }
+    button.secondary { background: white; color: var(--ink); margin-left: 8px; }
+    button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #b67820; outline-offset: 3px; }
+    main { max-width: 932px; margin: 0 auto 30px; padding: 38px 40px 28px; background: var(--paper); box-shadow: 0 5px 30px #21332c12; }
+    .brand { margin: 0 0 10px; letter-spacing: .15em; font-weight: 750; color: var(--ink); font-size: 13px; }
+    h1 { margin: 0 0 8px; color: var(--ink); font: 700 34px/1.15 Georgia, serif; }
+    .intro { max-width: 660px; margin: 0 0 24px; color: var(--muted); }
+    h2, legend { font-size: 16px; font-weight: 750; color: var(--ink); }
+    h2 { margin: 22px 0 8px; }
+    fieldset { border: 0; margin: 0; padding: 0; }
+    legend { padding: 0; margin: 0 0 9px; }
+    .grid { display: grid; gap: 12px 20px; grid-template-columns: 1fr 1fr; }
+    label { font-size: 13px; display: block; color: var(--muted); }
+    input, textarea { display: block; width: 100%; min-width: 0; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; color: var(--text); padding: 6px 2px; font: 15px/1.3 system-ui, sans-serif; }
+    input { min-height: 32px; }
+    textarea { resize: vertical; min-height: 54px; }
+    .hint { margin: 0 0 8px; font-size: 13px; color: var(--muted); }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; table-layout: fixed; min-width: 590px; }
+    th, td { text-align: left; border: 1px solid var(--line); padding: 7px; }
+    th { background: var(--pale); font-size: 12px; font-weight: 650; vertical-align: top; }
+    td { height: 40px; }
+    td input { border: 0; min-height: 25px; font-size: 14px; padding: 2px; }
+    .formulas { border-left: 3px solid var(--ink); padding: 8px 12px; margin: 14px 0 0; font-size: 13px; }
+    .formulas p { margin: 3px 0; }
+    .wide { grid-column: 1 / -1; }
+    footer { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 11px; color: var(--muted); font-size: 11px; display: flex; justify-content: space-between; gap: 20px; }
+    a { color: #174e3a; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    .bottom-note { font-size: 12px; color: var(--muted); margin: 9px 0 0; }
+    @media (max-width: 620px) {
+      main { margin: 0 12px 24px; padding: 24px 18px; }
+      .tools { padding: 0 18px; }
+      h1 { font-size: 29px; }
+      .grid { grid-template-columns: 1fr; }
+      footer { display: block; }
+    }
+    @page { size: auto; margin: 12mm; }
+    @media print {
+      body { background: white; font-size: 9pt; }
+      .tools { display: none; }
+      main { width: 100%; max-width: none; margin: 0; padding: 0; box-shadow: none; }
+      .brand { font-size: 8pt; margin-bottom: 4mm; }
+      h1 { font-size: 23pt; }
+      .intro { margin-bottom: 5mm; font-size: 9pt; }
+      .grid { grid-template-columns: 1fr 1fr; gap: 3mm 5mm; }
+      h2, legend { font-size: 10pt; }
+      h2 { margin: 5mm 0 2mm; }
+      label, .hint { font-size: 8pt; }
+      input, textarea { font-size: 9pt; padding: 1mm 0; min-height: 7mm; }
+      textarea { min-height: 13mm; resize: none; }
+      table { min-width: 0; }
+      .table-wrap { overflow: visible; }
+      th { background: white; font-size: 7.5pt; }
+      td, th { padding: 1.6mm; }
+      td { height: 9mm; }
+      td input { font-size: 8pt; min-height: 5mm; }
+      .formulas { font-size: 8pt; padding: 2mm 3mm; margin-top: 3mm; }
+      footer { margin-top: 4mm; padding-top: 2mm; font-size: 7pt; }
+      .bottom-note { font-size: 7.5pt; }
+      section, fieldset, table, .formulas, footer { break-inside: avoid; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <div class="tools" aria-label="Worksheet controls">
+    <button type="button" id="print-button">Print or save to PDF</button>
+    <button type="button" class="secondary" id="clear-button">Clear entries</button>
+    <p>Type in the fields or print a blank copy. Entries stay in this open page. Print or save a copy before closing or reloading.</p>
+  </div>
+  <main>
+    <header>
+      <p class="brand">SEWLORE · PROJECT NOTES</p>
+      <h1>Fabric Measurement Log</h1>
+      <p class="intro">Keep the raw measurements, direction and conditions with your sample. Use one unit consistently within each calculation.</p>
+    </header>
+    <form id="measurement-form">
+      <fieldset>
+        <legend>Identify the sample</legend>
+        <div class="grid">
+          <label>Fabric name or sample ID<input name="fabric-id" autocomplete="off"></label>
+          <label>Date<input name="date" autocomplete="off"></label>
+          <label>Fibre, structure or supplier notes<input name="fabric-notes" autocomplete="off"></label>
+          <label>Project or pattern reference<input name="project" autocomplete="off"></label>
+          <label>Sample condition before measuring<input name="condition" autocomplete="off"></label>
+          <label>Unit used throughout this record<input name="unit" autocomplete="off"></label>
+        </div>
+      </fieldset>
+      <section aria-labelledby="stretch-heading">
+        <h2 id="stretch-heading">Stretch and released length</h2>
+        <p class="hint">Use a separate row for each direction or repeat. Record when the released reading was taken.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">Direction / repeat</th><th scope="col">Starting length</th><th scope="col">Extended length</th><th scope="col">Released length</th><th scope="col">Time after release</th><th scope="col">Observation</th></tr></thead>
+            <tbody>
+              <tr><td><input aria-label="Stretch row 1 direction or repeat" name="s1-direction"></td><td><input aria-label="Stretch row 1 starting length" name="s1-start"></td><td><input aria-label="Stretch row 1 extended length" name="s1-extended"></td><td><input aria-label="Stretch row 1 released length" name="s1-released"></td><td><input aria-label="Stretch row 1 time after release" name="s1-time"></td><td><input aria-label="Stretch row 1 observation" name="s1-notes"></td></tr>
+              <tr><td><input aria-label="Stretch row 2 direction or repeat" name="s2-direction"></td><td><input aria-label="Stretch row 2 starting length" name="s2-start"></td><td><input aria-label="Stretch row 2 extended length" name="s2-extended"></td><td><input aria-label="Stretch row 2 released length" name="s2-released"></td><td><input aria-label="Stretch row 2 time after release" name="s2-time"></td><td><input aria-label="Stretch row 2 observation" name="s2-notes"></td></tr>
+              <tr><td><input aria-label="Stretch row 3 direction or repeat" name="s3-direction"></td><td><input aria-label="Stretch row 3 starting length" name="s3-start"></td><td><input aria-label="Stretch row 3 extended length" name="s3-extended"></td><td><input aria-label="Stretch row 3 released length" name="s3-released"></td><td><input aria-label="Stretch row 3 time after release" name="s3-time"></td><td><input aria-label="Stretch row 3 observation" name="s3-notes"></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="formulas">
+          <p><strong>Stretch %</strong> = (extended − starting) ÷ starting × 100</p>
+          <p><strong>Remaining extension %</strong> = (released − starting) ÷ starting × 100</p>
+          <p>Starting length must be greater than zero. Keep the sign of each result.</p>
+        </div>
+      </section>
+      <section aria-labelledby="wash-heading">
+        <h2 id="wash-heading">Measurements before and after care</h2>
+        <div class="grid">
+          <label class="wide">Actual washing, drying and preparation method<input name="care-method" autocomplete="off"></label>
+        </div>
+        <div class="table-wrap" style="margin-top:10px">
+          <table>
+            <thead><tr><th scope="col">Direction</th><th scope="col">Before care</th><th scope="col">After care</th><th scope="col">Observation</th></tr></thead>
+            <tbody>
+              <tr><td><input aria-label="Care row 1 direction" name="w1-direction"></td><td><input aria-label="Care row 1 length before care" name="w1-before"></td><td><input aria-label="Care row 1 length after care" name="w1-after"></td><td><input aria-label="Care row 1 observation" name="w1-notes"></td></tr>
+              <tr><td><input aria-label="Care row 2 direction" name="w2-direction"></td><td><input aria-label="Care row 2 length before care" name="w2-before"></td><td><input aria-label="Care row 2 length after care" name="w2-after"></td><td><input aria-label="Care row 2 observation" name="w2-notes"></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section aria-labelledby="notes-heading">
+        <h2 id="notes-heading">Decision and next sample</h2>
+        <div class="grid">
+          <label>Pattern requirements to compare<textarea name="requirements"></textarea></label>
+          <label>Seam sample notes or next action<textarea name="next-action"></textarea></label>
+        </div>
+      </section>
+    </form>
+    <p class="bottom-note">A personal sample record, not a fabric certification or a garment fit assessment. This page is a worksheet, not a calibrated ruler.</p>
+    <footer>
+      <span>Sewlore · Personal planning worksheet · Version 1 · October 2026</span>
+      <a href="https://sewlore.com/blogs/sewing-journal/choose-fabric-and-elastic-for-sewing">Fabric preparation guide at sewlore.com</a>
+    </footer>
+  </main>
+  <script>
+    document.getElementById('print-button').addEventListener('click', () => window.print());
+    document.getElementById('clear-button').addEventListener('click', () => document.getElementById('measurement-form').reset());
+  </script>
+</body>
+</html>

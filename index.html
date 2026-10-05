@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F5F0">
+  <meta name="description" content="Measure fabric stretch, residual growth and recovery. Check a PDF sewing pattern's printed test square against its target size. Free tools from Sewlore.">
+  <title>Fabric Stretch Lab &amp; PDF Print Scale Checker | Sewlore</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to tools</a>
+  <header class="site-header">
+    <a class="brand" data-sewlore-link="home" href="https://sewlore.com/" aria-label="Sewlore home">
+      <svg class="brand-mark" viewBox="0 0 42 42" fill="none" aria-hidden="true"><path d="M9 32C17 26 26 18 33 9M12 29C5 15 16 7 33 9C35 23 29 34 12 29Z" stroke="currentColor" stroke-width="1.6"/><path d="M16 25L15 17M23 19L23 12M20 22L29 23" stroke="currentColor" stroke-width="1.2"/></svg>
+      <span>sewlore<span class="brand-subtitle">TOOLS FOR YOUR SEWING TABLE</span></span>
+    </a>
+    <a class="header-link" data-sewlore-link="journal" href="https://sewlore.com/blogs/sewing-journal/choose-fabric-and-elastic-for-sewing">Read the fabric guide <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SMALL CHECKS, BEFORE YOU CUT</p>
+        <h1 id="page-title">A little measuring.<br>A better starting point.</h1>
+        <p class="hero-description">Give your fabric a gentle stretch. Check your printed square. Turn the measurements you have into something useful for your next sewing project.</p>
+        <div class="privacy-note"><span aria-hidden="true">◎</span> Free to use. Your measurements stay in this browser.</div>
+      </div>
+      <div class="hero-illustration" aria-hidden="true">
+        <svg viewBox="0 0 330 240" fill="none">
+          <path d="M50 42L214 28L251 130L69 157Z" fill="#E3C8B7"/>
+          <path d="M73 69L228 55M86 98L237 83M93 128L246 111M85 40L108 149M125 37L149 143M165 32L190 137M204 29L231 132" stroke="#A84B37" stroke-opacity=".28" stroke-width="1"/>
+          <path d="M50 42L214 28L251 130L69 157Z" stroke="#A84B37" stroke-width="1.4" stroke-dasharray="4 5"/>
+          <path d="M42 175L268 157L272 191L45 209Z" fill="#F7F5F0" stroke="#314C73" stroke-width="1.5"/>
+          <path d="M57 174L58 187M70 173L71 181M83 172L84 185M96 171L97 179M109 170L110 183M122 169L123 177M135 168L136 181M148 167L149 175M161 166L162 179M174 165L175 173M187 164L188 177M200 163L201 171M213 162L214 175M226 161L227 169M239 160L240 173M252 159L253 167" stroke="#314C73"/>
+          <path d="M269 46C292 34 312 53 300 70C288 88 268 80 276 65C281 55 292 59 289 68" stroke="#314C73" stroke-width="1.7"/>
+          <path d="M285 80C283 104 289 117 270 130" stroke="#314C73" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="102" cy="92" r="3.5" fill="#A84B37"/><circle cx="196" cy="85" r="3.5" fill="#A84B37"/>
+          <path d="M110 91L187 86" stroke="#A84B37" stroke-width="1.5" stroke-dasharray="3 3"/>
+        </svg>
+        <span class="illustration-label">Measure · record · make</span>
+      </div>
+    </section>
+
+    <noscript><p class="notice warning">These calculators need JavaScript enabled. No account or internet service is required for the calculations.</p></noscript>
+
+    <div class="tool-tabs" role="tablist" aria-label="Sewing tools">
+      <button id="tab-stretch" class="tool-tab" type="button" role="tab" aria-controls="stretch" aria-selected="true" tabindex="0"><span class="tab-number">01</span> Fabric Stretch Lab</button>
+      <button id="tab-print" class="tool-tab" type="button" role="tab" aria-controls="print-scale" aria-selected="false" tabindex="-1"><span class="tab-number">02</span> PDF Print Scale Checker</button>
+    </div>
+
+    <section id="stretch" class="tool-panel" role="tabpanel" aria-labelledby="tab-stretch" tabindex="0">
+      <div class="section-heading"><div><p class="eyebrow">KNOW YOUR MATERIAL</p><h2>Fabric Stretch Lab</h2></div><span class="section-tag">A practical sample check</span></div>
+      <p class="section-intro">Measure one marked span before stretching, at a comfortable stretch, and again after releasing it. Test each direction separately and keep the pull and rest time consistent.</p>
+      <div class="calculator-layout">
+        <form id="stretch-form" class="measurement-card" novalidate>
+          <div class="card-heading"><h3>Your measurements</h3><label class="unit-control">Unit <select id="stretch-unit" aria-label="Unit for all fabric measurements"><option value="cm">cm</option><option value="in">in</option></select></label></div>
+          <p id="stretch-example-note" class="example-note">Editable example values — illustrative, not measured fabric data.</p>
+          <div class="field"><label for="fabric-label">Sample name <span class="optional">optional</span></label><input id="fabric-label" type="text" maxlength="100" value="Example knit" placeholder="e.g. blue jersey"><span class="field-help">Give your own sample a name when saving a record.</span></div>
+          <div class="field-grid"><div class="field"><label for="fabric-direction">Direction</label><select id="fabric-direction"><option value="Across width">Across width</option><option value="Along length">Along length</option><option value="On the bias">On the bias</option><option value="Other / not recorded">Other / not recorded</option></select></div><div class="field"><label for="rest-time">Rest time <span class="optional">optional</span></label><input id="rest-time" type="text" maxlength="60" value="60 seconds" placeholder="e.g. 60 seconds"></div></div>
+          <div class="field"><label for="original-length">Original, relaxed length <span class="field-unit">cm</span></label><input id="original-length" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="10" placeholder="10" aria-describedby="original-help"><span id="original-help" class="field-help">The span between two marks before you pull.</span></div>
+          <div class="field"><label for="stretched-length">Stretched length <span class="field-unit">cm</span></label><input id="stretched-length" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="14" placeholder="14" aria-describedby="stretched-help"><span id="stretched-help" class="field-help">Pull gently to a comfortable extension, without distortion.</span></div>
+          <div class="field"><label for="released-length">Released length <span class="field-unit">cm</span></label><input id="released-length" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="10.2" placeholder="10.2" aria-describedby="released-help"><span id="released-help" class="field-help">Let the sample rest, then measure without smoothing it back.</span></div>
+          <div id="stretch-error" class="form-error" role="alert" aria-live="assertive" hidden></div>
+          <div class="form-actions"><button type="submit" class="button primary">Calculate stretch <span aria-hidden="true">→</span></button><button id="stretch-clear" type="button" class="button text-button">Clear example</button></div>
+          <button id="stretch-example" type="button" class="example-button" hidden>Load example measurements</button>
+        </form>
+
+        <div class="results-column">
+          <div id="stretch-results" class="results-card" aria-live="polite" aria-atomic="true">
+            <div class="results-heading"><p class="eyebrow">YOUR SAMPLE, IN NUMBERS</p><span id="stretch-result-label" class="result-label">Example calculation</span></div>
+            <div class="primary-metric"><span class="metric-name">Fabric stretch</span><strong id="stretch-percent">40<span>%</span></strong><p>Extra length compared with the original span.</p></div>
+            <div class="secondary-metrics"><div><span class="metric-name">Residual growth</span><strong id="growth-percent">2%</strong><p>Extra length still present after release.</p></div><div><span class="metric-name">Extension recovered</span><strong id="recovery-percent">95%</strong><p>The share of the stretched extension that returned.</p></div></div>
+            <div class="measurement-bars" aria-hidden="true"><div><span>Original</span><i><b id="bar-original" style="width:71.43%"></b></i></div><div><span>Stretched</span><i><b id="bar-stretched" style="width:100%"></b></i></div><div><span>Released</span><i><b id="bar-released" style="width:72.86%"></b></i></div></div>
+            <p id="stretch-interpretation" class="result-explanation">This example extends by 4 cm and remains 0.2 cm longer after release.</p>
+            <p id="stretch-warning" class="notice warning" hidden></p>
+            <button id="stretch-download" type="button" class="button secondary">Download this record (CSV) <span aria-hidden="true">↓</span></button>
+          </div>
+          <p id="stretch-pending" class="notice pending" role="status" hidden>Enter your measurements, then calculate to see your result.</p>
+          <div class="method-card"><h3>What the percentages mean</h3><dl><dt>Stretch</dt><dd>(stretched − original) ÷ original × 100</dd><dt>Residual growth</dt><dd>(released − original) ÷ original × 100</dd><dt>Extension recovered</dt><dd>(stretched − released) ÷ (stretched − original) × 100</dd></dl><p>Recovery is undefined when there was no extension. Unexpected readings can produce values outside 0–100%; the tool flags them without hiding the measurement.</p><p>This is a practical comparison of your samples. It does not certify a fabric, predict garment fit, or replace the pattern’s fabric requirements.</p></div>
+        </div>
+      </div>
+      <aside class="next-step"><div><p class="eyebrow">PUT THE MEASUREMENT TO WORK</p><h3>Choose the fabric, then test the seam.</h3><p>Keep the sample, its direction, rest time and care conditions together. Compare the pattern’s requirements, and sew a scrap with the proposed needle and elastic.</p></div><a class="button secondary" data-sewlore-link="fabric-guide" href="https://sewlore.com/blogs/sewing-journal/choose-fabric-and-elastic-for-sewing">Read Sewlore’s fabric guide <span aria-hidden="true">↗</span></a></aside>
+    </section>
+
+    <section id="print-scale" class="tool-panel" role="tabpanel" aria-labelledby="tab-print" tabindex="0" hidden>
+      <div class="section-heading"><div><p class="eyebrow">CHECK THE PAGE FIRST</p><h2>PDF Print Scale Checker</h2></div><span class="section-tag">Measure both directions</span></div>
+      <p class="section-intro">Print the pattern’s test page, then measure the supplied square’s width (X) and height (Y). Enter the intended side length from the PDF and use the same unit for all three measurements.</p>
+      <div class="calculator-layout">
+        <form id="print-form" class="measurement-card" novalidate>
+          <div class="card-heading"><h3>Your test square</h3><label class="unit-control">Unit <select id="print-unit" aria-label="Unit for all print measurements"><option value="cm">cm</option><option value="in">in</option></select></label></div>
+          <p id="print-example-note" class="example-note">Editable example values — illustrative, not a printer test.</p>
+          <div class="field"><label for="print-label">Pattern or printer <span class="optional">optional</span></label><input id="print-label" type="text" maxlength="100" value="Example test square" placeholder="e.g. bookmark PDF, home printer"></div>
+          <div class="field"><label for="target-side">Intended square side <span class="field-unit">cm</span></label><input id="target-side" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="10" placeholder="10" aria-describedby="target-help"><span id="target-help" class="field-help">Use the size printed beside the square in the PDF.</span></div>
+          <div class="field"><label for="measured-x">Measured width (X) <span class="field-unit">cm</span></label><input id="measured-x" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="9.8" placeholder="9.8" aria-describedby="x-help"><span id="x-help" class="field-help">Measure between the square’s specified endpoints.</span></div>
+          <div class="field"><label for="measured-y">Measured height (Y) <span class="field-unit">cm</span></label><input id="measured-y" class="length-input" type="number" min="0" step="any" inputmode="decimal" required value="9.8" placeholder="9.8" aria-describedby="y-help"><span id="y-help" class="field-help">Check the vertical side independently.</span></div>
+          <div id="print-error" class="form-error" role="alert" aria-live="assertive" hidden></div>
+          <div class="form-actions"><button type="submit" class="button primary">Check print scale <span aria-hidden="true">→</span></button><button id="print-clear" type="button" class="button text-button">Clear example</button></div>
+          <button id="print-example" type="button" class="example-button" hidden>Load example measurements</button>
+        </form>
+
+        <div class="results-column">
+          <div id="print-results" class="results-card" aria-live="polite" aria-atomic="true">
+            <div class="results-heading"><p class="eyebrow">THE PRINTED SIZE</p><span id="print-result-label" class="result-label">Example calculation</span></div>
+            <div class="print-metrics"><div><span class="metric-name">Width (X) error</span><strong id="x-error">−2%</strong><p id="x-scale">98% of intended width</p></div><div><span class="metric-name">Height (Y) error</span><strong id="y-error">−2%</strong><p id="y-scale">98% of intended height</p></div></div>
+            <p id="print-status" class="notice warning">Both measurements are outside ±0.5% of the intended side.</p>
+            <p id="print-nonuniform" class="notice warning" hidden></p>
+            <p id="print-difference" class="result-explanation">X/Y error difference: 0 percentage points.</p>
+            <div class="square-diagram" aria-hidden="true"><span class="axis-label axis-x">X · width</span><div class="target-square"><div class="measured-square" id="measured-square"></div></div><span class="axis-label axis-y">Y · height</span><div class="diagram-key"><span><i class="key-target"></i> Intended</span><span><i class="key-measured"></i> Measured (diagram only)</span></div></div>
+            <button id="print-download" type="button" class="button secondary">Download this record (CSV) <span aria-hidden="true">↓</span></button>
+          </div>
+          <p id="print-pending" class="notice pending" role="status" hidden>Enter your measurements, then check to see your result.</p>
+          <div class="method-card"><h3>Read the result carefully</h3><p>Error = (measured − intended) ÷ intended × 100. A negative value means the printed side is smaller; a positive value means it is larger.</p><p>The tool uses ±0.5% as a comparison threshold, and flags an X/Y difference greater than 0.5 percentage points. These are tool thresholds, not a guarantee of accuracy. Follow your pattern’s stated tolerance.</p><p>If the result is off, check the PDF’s instructions, paper size and Actual Size / 100% setting, then print another test page. Different X/Y readings can also reflect measurement uncertainty; repeat the measurement.</p><p>These readings do not identify the cause of a printing problem. Do not use them to grade a pattern or resize a garment.</p></div>
+        </div>
+      </div>
+      <aside class="next-step"><div><p class="eyebrow">BEFORE YOU ASSEMBLE</p><h3>Start with one correctly sized page.</h3><p>Check the test square before printing the whole pattern. Follow the file’s paper and assembly instructions, then verify the new print.</p></div><a class="button secondary" data-sewlore-link="printing-guide" href="https://sewlore.com/pages/printing-assembly">Read the printing guide <span aria-hidden="true">↗</span></a></aside>
+    </section>
+
+    <section class="resource-strip" aria-labelledby="resource-title"><div><p class="eyebrow">A SMALL PROJECT TO TRY</p><h2 id="resource-title">Make a leaf-appliqué bookmark.</h2><p>Explore Sewlore’s free printable bookmark pattern, with A4 and US Letter files and instructions on the download page.</p></div><a class="button secondary" data-sewlore-link="bookmark" href="https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern">Get the free pattern <span aria-hidden="true">↗</span></a></section>
+    <section class="resource-strip" aria-labelledby="logs-title"><div><p class="eyebrow">KEEP YOUR NOTES TOGETHER</p><h2 id="logs-title">A measurement log and a project planner.</h2><p>Print or fill a fabric measurement log, and import the Markdown project planner into your preferred notes app. These are blank templates for your own records.</p></div><div><p><a href="resources/fabric-measurement-log.html">Open the measurement log</a> · <a href="resources/fabric-measurement-log.svg" download>Download the printable SVG</a></p><p><a href="resources/sewing-project-planner.md" download>Download the project planner (Markdown)</a></p></div></section>
+  </main>
+
+  <footer><p><a data-sewlore-link="home-footer" href="https://sewlore.com/">Sewlore</a> · Thoughtful preparation for your next project.</p><p id="offline-status">Calculations run on your device. No account, uploads or analytics.</p></footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

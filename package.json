@@ -1,0 +1,11 @@
+{
+  "name": "sewlore-sewing-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-capable fabric stretch and PDF print measurement tools.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/calculations.test.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
