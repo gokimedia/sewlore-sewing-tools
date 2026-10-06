@@ -27,6 +27,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Fabric Stretch Calculator](https://sewlore.com/pages/fabric-stretch-calculator)
 - [PDF Pattern Print Scale Checker](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
 - [Seam Allowance Converter — Cloudflare Pages](https://sewlore-seam-allowance.pages.dev/) — Convert a stated length between mm, cm and inches; the equivalents are not allowance recommendations.
+- [Fabric Shrinkage Calculator — Firebase Hosting](https://sewlore-fabric-shrinkage.web.app/) — Compare paired length and width readings after fabric care, with optional rectangular-area change and signed contraction or expansion.
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
 - [Measure Fabric Stretch and Record What Happens After Release](https://medium.com/@sewlore/measure-fabric-stretch-and-record-what-happens-after-release-27d0a3482ed1)
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
