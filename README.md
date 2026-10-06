@@ -26,6 +26,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Fabric Stretch Calculator](https://sewlore.com/pages/fabric-stretch-calculator)
 - [PDF Pattern Print Scale Checker](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
+- [Seam Allowance Converter — Cloudflare Pages](https://sewlore-seam-allowance.pages.dev/) — Convert a stated length between mm, cm and inches; the equivalents are not allowance recommendations.
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
 - [Measure Fabric Stretch and Record What Happens After Release](https://medium.com/@sewlore/measure-fabric-stretch-and-record-what-happens-after-release-27d0a3482ed1)
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
@@ -42,6 +43,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
 - [Sewing Project Planner — Markdown Template](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewing-project-planner.md)
 - [Sewing Project Planner — Notion template](https://tarotcards.notion.site/Sewing-Project-Planner-Sewlore-3f188465ddcc80a28e97ccd65b9249b6)
+- [Printable Sewing Preparation Library — AWS CloudFront](https://d2yc073h25je5b.cloudfront.net/) — Find blank preparation worksheets and project-planning templates in printable and editable formats.
 
 **Interactive tools, code and project profiles**
 
