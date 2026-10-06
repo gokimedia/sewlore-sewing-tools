@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sewlore-sewing-tools-v5';
+const CACHE_NAME = 'sewlore-sewing-tools-v6';
 const LOCAL_FILES = ['./', './index.html', './styles.css', './app.js', './calculations.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(LOCAL_FILES)).then(() => self.skipWaiting()));
