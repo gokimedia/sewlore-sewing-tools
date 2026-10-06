@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1180" viewBox="0 0 1400 1180" role="img" aria-labelledby="diagram-title diagram-description">
+  <title id="diagram-title">Two side reductions, one area change</title>
+  <desc id="diagram-description">Illustrative mathematical rectangles at the same scale. A 100 by 100 unit rectangle has area 10,000 square units. Reducing its width by 10 percent and its height by 5 percent gives a 90 by 95 unit rectangle with area 8,550 square units, a 14.5 percent area reduction. The two removed strips overlap in a 10 by 5 unit corner, area 50 square units. This overlap is 0.5 percent of the original area; subtracting the double count corrects the additive 15 percent estimate by 0.5 percentage points.</desc>
+  <metadata>Generated programmatically with AI-assisted code using OpenAI Codex; prepared for Sewlore. No human visual author is claimed. Distributed under the repository MIT license for any applicable copyright. Repository notice: Copyright (c) 2026 Sewlore. This is abstract illustrative geometry, not a photograph, physical sample, or measured dataset.</metadata>
+  <defs>
+    <pattern id="corner-hatch" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#9b4034"/>
+      <path d="M-2 2 L2 -2 M0 8 L8 0 M6 10 L10 6" stroke="#ffffff" stroke-width="1.5"/>
+    </pattern>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #202b35; }
+      .title { font-size: 44px; font-weight: 700; }
+      .subtitle { font-size: 24px; fill: #52616d; }
+      .panel-label { font-size: 20px; font-weight: 700; letter-spacing: 1.3px; }
+      .dimension { font-size: 23px; }
+      .measure { stroke: #586875; stroke-width: 2; fill: none; }
+      .reference { stroke: #364957; stroke-width: 3; stroke-dasharray: 10 8; fill: none; }
+      .inside-big { font-size: 34px; font-weight: 700; }
+      .inside-small { font-size: 24px; }
+      .caption { font-size: 23px; }
+      .section-title { font-size: 26px; font-weight: 700; }
+      .explanation { font-size: 23px; }
+      .formula { font-size: 28px; font-weight: 700; }
+      .note { font-size: 21px; fill: #52616d; }
+    </style>
+  </defs>
+  <rect width="1400" height="1180" fill="#ffffff"/>
+  <text x="74" y="81" class="title">Two side reductions, one area change</text>
+  <text x="74" y="125" class="subtitle">Illustrative geometry · both rectangles use the same scale</text>
+  <text x="160" y="189" class="panel-label">ORIGINAL RECTANGLE</text>
+  <text x="830" y="189" class="panel-label">AFTER BOTH SIDE REDUCTIONS</text>
+
+  <!-- One unit equals four SVG units in both panels. -->
+  <path d="M160 249 V230 H560 V249 M160 230 V222 M560 230 V222" class="measure"/>
+  <text x="360" y="219" text-anchor="middle" class="dimension">100 units</text>
+  <path d="M139 270 H120 V670 H139 M120 270 H112 M120 670 H112" class="measure"/>
+  <text x="97" y="470" text-anchor="middle" transform="rotate(-90 97 470)" class="dimension">100 units</text>
+  <rect id="original-rectangle" x="160" y="270" width="400" height="400" fill="#eef2f5" stroke="#364957" stroke-width="3"/>
+  <text x="360" y="453" text-anchor="middle" class="inside-big">100 × 100</text>
+  <text x="360" y="496" text-anchor="middle" class="inside-small">10,000 square units</text>
+  <text x="360" y="718" text-anchor="middle" class="caption">Original area = 10,000</text>
+
+  <path d="M830 249 V230 H1190 V249 M830 230 V222 M1190 230 V222" class="measure"/>
+  <text x="1010" y="219" text-anchor="middle" class="dimension">90 units (10% reduction)</text>
+  <path d="M809 270 H790 V650 H809 M790 270 H782 M790 650 H782" class="measure"/>
+  <text x="767" y="460" text-anchor="middle" transform="rotate(-90 767 460)" class="dimension">95 units (5% reduction)</text>
+  <rect x="830" y="270" width="400" height="400" fill="#ffffff"/>
+  <rect id="remaining-rectangle" x="830" y="270" width="360" height="380" fill="#dce9f2" stroke="#345a75" stroke-width="3"/>
+  <rect id="width-strip" x="1190" y="270" width="40" height="400" fill="#efd6ce"/>
+  <rect id="height-strip" x="830" y="650" width="400" height="20" fill="#efd6ce"/>
+  <rect id="shared-corner" x="1190" y="650" width="40" height="20" fill="url(#corner-hatch)" stroke="#9b4034" stroke-width="2"/>
+  <rect id="original-boundary" x="830" y="270" width="400" height="400" class="reference"/>
+  <text x="1010" y="445" text-anchor="middle" class="inside-big">90 × 95</text>
+  <text x="1010" y="488" text-anchor="middle" class="inside-small">8,550 square units</text>
+  <text x="1010" y="718" text-anchor="middle" class="caption">Remaining area = 8,550</text>
+  <path d="M1210 660 L1272 705 V764 H1195" fill="none" stroke="#9b4034" stroke-width="2.5"/>
+  <circle cx="1210" cy="660" r="4" fill="#9b4034"/>
+
+  <rect x="74" y="773" width="600" height="235" rx="14" fill="#f4f7f9"/>
+  <text x="100" y="815" class="section-title">Calculate from the remaining area</text>
+  <text x="100" y="861" class="explanation">Removed area = 10,000 − 8,550 = 1,450</text>
+  <text x="100" y="907" class="formula">1,450 ÷ 10,000 × 100 = 14.5%</text>
+  <text x="100" y="955" class="note">The side percentages act together as a product:</text>
+  <text x="100" y="986" class="explanation">0.90 × 0.95 = 0.855 of the original area</text>
+
+  <rect x="710" y="773" width="616" height="235" rx="14" fill="#fcf6f3"/>
+  <text x="736" y="815" class="section-title">The shared corner is counted twice</text>
+  <rect x="736" y="839" width="22" height="22" fill="#efd6ce" stroke="#9b4034" stroke-width="1"/>
+  <text x="774" y="860" class="explanation">Width strip: 10 × 100 = 1,000</text>
+  <rect x="736" y="883" width="22" height="22" fill="#efd6ce" stroke="#9b4034" stroke-width="1"/>
+  <text x="774" y="904" class="explanation">Height strip: 5 × 100 = 500</text>
+  <rect x="736" y="927" width="22" height="22" fill="url(#corner-hatch)" stroke="#9b4034" stroke-width="1"/>
+  <text x="774" y="948" class="explanation">Shared corner: 10 × 5 = 50</text>
+  <text x="736" y="986" class="note">50 ÷ 10,000 = 0.5% of the original area</text>
+
+  <text x="700" y="1062" text-anchor="middle" class="formula">10% + 5% − 0.5 percentage points = 14.5%</text>
+  <text x="700" y="1104" text-anchor="middle" class="note">Subtract the overlap once; adding 10% and 5% alone gives 15%.</text>
+  <text x="700" y="1144" text-anchor="middle" class="note">Abstract rectangle dimensions are in arbitrary units, not physical sample measurements.</text>
+</svg>
