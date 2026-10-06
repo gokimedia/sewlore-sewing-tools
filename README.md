@@ -20,18 +20,20 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 ## Published resources and examples
 
-[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, original posts on Substack, Tumblr and LinkedIn, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
+[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, published posts on Substack, Tumblr, LinkedIn and Medium, the Product Hunt overview, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
 
 **Tools and guides**
 
 - [Fabric Stretch Calculator](https://sewlore.com/pages/fabric-stretch-calculator)
 - [PDF Pattern Print Scale Checker](https://sewlore.com/pages/pdf-pattern-print-scale-checker)
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
+- [Measure Fabric Stretch and Record What Happens After Release](https://medium.com/@sewlore/measure-fabric-stretch-and-record-what-happens-after-release-27d0a3482ed1)
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
 - [Before You Print the Whole PDF, Check Width and Height](https://www.tumblr.com/sewlore/829670998191243264/check-width-and-height-before-the-full-pdf-pattern)
 - [A Sewing Calculator Should Show Where Certainty Ends](https://www.linkedin.com/pulse/sewing-calculator-should-show-where-certainty-ends-sewlore-nmgqf/)
 - [Fabric Measurement Log for Sewing Projects — Sewlore](https://www.behance.net/gallery/256709097/Fabric-Measurement-Log-for-Sewing-Projects-Sewlore)
 - [Check PDF Pattern Print Scale in Both Directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions)
+- [Check Both Directions Before Printing a PDF Sewing Pattern](https://medium.com/@sewlore/check-both-directions-before-printing-a-pdf-sewing-pattern-8bec169e22e8)
 - [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
 - [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
 
@@ -47,6 +49,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [CodePen: One Scale Factor, Two Directions](https://codepen.io/editor/gokimedia/pen/01a10db1-763f-70b5-a88e-cd0427f982fc)
 - [StackBlitz: Sewlore Tool Embed Starter — GitHub Import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 - [Sewlore Sewing Tools Source Code](https://github.com/gokimedia/sewlore-sewing-tools)
+- [Sewlore Sewing Tools on Product Hunt](https://www.producthunt.com/products/sewlore-sewing-tools)
 - [Sewlore on Hugging Face](https://huggingface.co/sewlore)
 - [Sewlore on Substack](https://substack.com/@sewlore)
 - [Sewlore on Tumblr](https://www.tumblr.com/sewlore)
