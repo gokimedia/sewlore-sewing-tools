@@ -55,6 +55,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Fabric Shrinkage Geometry: Two Axes, One Area — Observable](https://observablehq.com/@selami-bay-rd-z/fabric-shrinkage-geometry-two-axes-one-area-sewlore) — Explore hypothetical side changes at one drawing scale and see why the two percentages do not simply add.
 - [Fabric-Care CSV Validator — Streamlit](https://sewlore-fabric-care-validator.streamlit.app/) — Check anonymous fabric-care CSV records and download accepted records and correction notes separately; demo records are hypothetical.
 - [Fabric-Care CSV Validator Source Code](https://github.com/gokimedia/sewlore-fabric-care-validator) — Read the Python validation rules and run the Streamlit tool locally with its blank template and software tests.
+- [Fabric-Care CSV Validator 1.0.0 — GitHub Release](https://github.com/gokimedia/sewlore-fabric-care-validator/releases/tag/v1.0.0) — Download the versioned MIT source, blank CSV template, hypothetical fixtures and tests.
+- [Fabric-Care CSV Validator 1.0.0 — Zenodo Software Archive](https://zenodo.org/records/23193335) — Read the Software record and citation metadata, and download the archived source snapshot; fixtures are hypothetical.
+- [Fabric-Care CSV Validator — Software Heritage Source Snapshot](https://archive.softwareheritage.org/swh:1:dir:b795a703838b14c1d4b6e49538a303c07f3e27b3) — Inspect the archived source tree identified by SWHID, including code, tests and local-use instructions.
 - [StackBlitz: Sewlore Tool Embed Starter — GitHub Import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 - [Sewlore Sewing Tools Source Code](https://github.com/gokimedia/sewlore-sewing-tools)
 - [Sewlore Sewing Tools on Product Hunt](https://www.producthunt.com/products/sewlore-sewing-tools)
