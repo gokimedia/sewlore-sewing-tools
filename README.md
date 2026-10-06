@@ -30,6 +30,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Measure Fabric Stretch and Record Recovery](https://sewlore.com/blogs/sewing-journal/measure-fabric-stretch-and-record-recovery)
 - [Measure Fabric Stretch and Record What Happens After Release](https://medium.com/@sewlore/measure-fabric-stretch-and-record-what-happens-after-release-27d0a3482ed1)
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
+- [What to Record Before Cutting Your Fabric — Blogger](https://sewlore-preparation-notes.blogspot.com/2026/10/what-to-record-before-cutting-fabric.html)
 - [Before You Print the Whole PDF, Check Width and Height](https://www.tumblr.com/sewlore/829670998191243264/check-width-and-height-before-the-full-pdf-pattern)
 - [A Sewing Calculator Should Show Where Certainty Ends](https://www.linkedin.com/pulse/sewing-calculator-should-show-where-certainty-ends-sewlore-nmgqf/)
 - [Fabric Measurement Log for Sewing Projects — Sewlore](https://www.behance.net/gallery/256709097/Fabric-Measurement-Log-for-Sewing-Projects-Sewlore)
