@@ -30,6 +30,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Fabric Stretch Notes: Write the Method Beside the Measurement](https://sewlore.substack.com/p/fabric-stretch-notes-write-the-method)
 - [Before You Print the Whole PDF, Check Width and Height](https://www.tumblr.com/sewlore/829670998191243264/check-width-and-height-before-the-full-pdf-pattern)
 - [A Sewing Calculator Should Show Where Certainty Ends](https://www.linkedin.com/pulse/sewing-calculator-should-show-where-certainty-ends-sewlore-nmgqf/)
+- [Fabric Measurement Log for Sewing Projects — Sewlore](https://www.behance.net/gallery/256709097/Fabric-Measurement-Log-for-Sewing-Projects-Sewlore)
 - [Check PDF Pattern Print Scale in Both Directions](https://sewlore.com/blogs/sewing-journal/check-pdf-pattern-print-scale-both-directions)
 - [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
 - [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
