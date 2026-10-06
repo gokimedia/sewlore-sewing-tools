@@ -53,6 +53,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Direct Sewing Tools App](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html)
 - [CodePen: One Scale Factor, Two Directions](https://codepen.io/editor/gokimedia/pen/01a10db1-763f-70b5-a88e-cd0427f982fc)
 - [Fabric Shrinkage Geometry: Two Axes, One Area — Observable](https://observablehq.com/@selami-bay-rd-z/fabric-shrinkage-geometry-two-axes-one-area-sewlore) — Explore hypothetical side changes at one drawing scale and see why the two percentages do not simply add.
+- [Fabric-Care CSV Validator — Streamlit](https://sewlore-fabric-care-validator.streamlit.app/) — Check anonymous fabric-care CSV records and download accepted records and correction notes separately; demo records are hypothetical.
+- [Fabric-Care CSV Validator Source Code](https://github.com/gokimedia/sewlore-fabric-care-validator) — Read the Python validation rules and run the Streamlit tool locally with its blank template and software tests.
 - [StackBlitz: Sewlore Tool Embed Starter — GitHub Import](https://stackblitz.com/github/gokimedia/sewlore-sewing-tools/tree/main/examples/stackblitz-embed?file=index.html)
 - [Sewlore Sewing Tools Source Code](https://github.com/gokimedia/sewlore-sewing-tools)
 - [Sewlore Sewing Tools on Product Hunt](https://www.producthunt.com/products/sewlore-sewing-tools)
