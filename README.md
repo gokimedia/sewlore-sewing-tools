@@ -41,6 +41,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
 - [Sewing Project Planner — Markdown Template](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewing-project-planner.md)
+- [Sewing Project Planner — Notion template](https://tarotcards.notion.site/Sewing-Project-Planner-Sewlore-3f188465ddcc80a28e97ccd65b9249b6)
 
 **Interactive tools, code and project profiles**
 
