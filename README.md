@@ -53,6 +53,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore on Medium](https://medium.com/@sewlore)
 - [Sewlore on Minerva — Public Profile](https://www.minerva.com/profile/301436/Sewlore)
 - [Sewlore on Threadloop — Designer Page](https://threadloop.app/designers/sewlore)
+- [Sewlore on Behance — Team Profile](https://www.behance.net/sewlore)
 
 **Visual sewing notes on Pinterest**
 
