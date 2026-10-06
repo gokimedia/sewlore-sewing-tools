@@ -59,6 +59,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore on Minerva — Public Profile](https://www.minerva.com/profile/301436/Sewlore)
 - [Sewlore on Threadloop — Designer Page](https://threadloop.app/designers/sewlore)
 - [Sewlore on Behance — Team Profile](https://www.behance.net/sewlore)
+- [Gumroad — Sewlore profile](https://selami3.gumroad.com/) — Public brand profile; free downloadable pack awaiting publication.
 
 **Visual sewing notes on Pinterest**
 
