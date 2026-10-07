@@ -84,6 +84,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Sewing Math — npm Package](https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math) — Import four DOM-free JavaScript helpers for stretch, print-scale comparison, cm/in conversion and one-cell CSV quoting; examples are hypothetical.
 - [Sewlore Fabric Care — Python Package on PyPI](https://pypi.org/project/sewlore-fabric-care/) — Install the dependency-free local fabric-care CSV validator with signed calculations, accepted records and separate correction notes.
+- [Fabric Measurement Log — Editable Figma Template](https://www.figma.com/community/file/1689660708361417453/sewlore-fabric-measurement-log-a4-and-letter) — Duplicate A4 and US Letter blank measurement-log frames to adapt their fields and labels before recording your own fabric observations.
+- [Sewing Measurement Maths — Numbas Exercises](https://numbas.mathcentre.ac.uk/exam/50353/sewing-measurement-maths-units-print-axes-and-area/embed/) — Practice three hypothetical exercises in unit conversion, signed print-scale error and rectangular area reduction, with worked feedback.
+- [Sewlore Sewing Math — Typed JavaScript Package on JSR](https://jsr.io/@sewlore/sewing-math) — Import typed DOM-free helpers for stretch, print-scale comparison, cm/in conversion and single-cell CSV quoting; the source arithmetic is unchanged.
 
 **Visual sewing notes on Pinterest**
 
@@ -160,12 +163,14 @@ The browser app above needs no package installation. For your own code, use the 
 ```sh
 npm install @sewingselami/sewlore-sewing-math@0.1.0
 python -m pip install sewlore-fabric-care==0.1.0
+deno add jsr:@sewlore/sewing-math@0.1.0
 ```
 
 | Task | Choose |
 |---|---|
 | JavaScript stretch/recovery or two-axis print-scale comparison | [Sewlore Sewing Math 0.1.0](https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math), with the [API reference](docs/api.md) and [hypothetical example](examples/measurements.mjs). |
 | Local paired fabric-care CSV validation with separate accepted/correction exports | [Sewlore Fabric Care 0.1.0](https://pypi.org/project/sewlore-fabric-care/0.1.0/), with its [CLI quickstart](https://sewlore-fabric-care.readthedocs.io/en/latest/quickstart.html) and [Python source](https://github.com/gokimedia/sewlore-fabric-care). |
+| Deno projects using the same four JavaScript calculation helpers with explicit TypeScript types | [Sewlore Sewing Math 0.1.0 on JSR](https://jsr.io/@sewlore/sewing-math). The original JavaScript implementation and declarations are retained. |
 
 Python's `convert_length` supports `cm`, `mm` and `in` and requires positive finite lengths. JavaScript's `convertLength` supports only `cm`/`in` and allows signed finite inputs, including zero; stretch and print functions still require positive lengths in one consistent unit. The JavaScript package does not validate whole CSV files or calculate fabric-care area change. The Python package does not calculate stretch/recovery or PDF print errors.
 
