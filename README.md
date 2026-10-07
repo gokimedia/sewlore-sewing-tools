@@ -81,6 +81,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore Fabric Care — Reusable Python Source](https://github.com/gokimedia/sewlore-fabric-care) — Inspect the dependency-free Python validation library and its documentation source; this repository is distinct from the Streamlit application.
 - [Sewing Selami on DEV — Public Profile](https://dev.to/sewing_selami_bad1585511e) — Read the maker profile, its AI-assisted source-provenance note and Sewlore website link; no public article is included.
 
+- [Sewlore Sewing Math — npm Package](https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math) — Import four DOM-free JavaScript helpers for stretch, print-scale comparison, cm/in conversion and one-cell CSV quoting; examples are hypothetical.
+- [Sewlore Fabric Care — Python Package on PyPI](https://pypi.org/project/sewlore-fabric-care/) — Install the dependency-free local fabric-care CSV validator with signed calculations, accepted records and separate correction notes.
+
 **Visual sewing notes on Pinterest**
 
 - [How to Calculate Fabric Stretch Percentage](https://www.pinterest.com/pin/1125970344374469388/)
