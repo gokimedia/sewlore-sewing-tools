@@ -56,6 +56,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Rectangular Area Change After Two Side Reductions — Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rectangular_area_change_after_two_side_reductions.svg) — Reuse an openly licensed educational SVG explaining the shared-corner correction; dimensions are illustrative, with AI-assisted programmatic provenance disclosed.
 - [Combined Fractional Area Reduction — Wikifunctions](https://www.wikifunctions.org/view/en/Z44543) — Combine two rectangular side-reduction fractions as a + b − a × b; the exact rational result is a fraction, not a percentage.
 - [Recording and Validating Fabric Dimensions — Educational PDF](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-methods-guide.pdf) — Read a seven-page methods guide to stretch, recovery, signed dimensional change and CSV validation; worked examples are hypothetical, with software sources and AI-assisted provenance disclosed.
+- [Fabric Measurement Methods — Internet Archive Reading Edition](https://archive.org/details/sewlore-fabric-measurement-methods-reading-edition-1) — Read or download the unchanged educational PDF, Markdown/plain-text companions and blank preparation worksheets; examples are hypothetical.
 - [Fabric Measurement Guide: Stretch, Recovery and Care](https://sewlore.com/pages/fabric-measurement-methods-guide) — Read the full methods lesson on Sewlore, with section links, formulas, a geometry illustration, CSV input checks and the PDF and software sources.
 - [Fabric-Care CSV Validation Lesson — Colab/GitHub](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/examples/fabric-care-validator.md) — Read a self-contained Python notebook lesson with blank CSV input, hypothetical software checks and a Colab launcher; the source preserves the saved notebook export.
 - [Fabric-Care CSV Validator — Streamlit](https://sewlore-fabric-care-validator.streamlit.app/) — Check anonymous fabric-care CSV records and download accepted records and correction notes separately; demo records are hypothetical.
@@ -151,6 +152,24 @@ For an embedded view, use the direct app with query selection:
 - [Embedded PDF Print Scale Checker](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html?embed=1&tool=print-scale): `?embed=1&tool=print-scale`
 
 The embedded view keeps the tool tabs, input labels, privacy note, results and measurement methods while hiding the standalone header, introduction and footer. A valid `#stretch` or `#print-scale` fragment takes precedence over `tool`; omit the fragment in an iframe to avoid native anchor scrolling. An attribution parameter can be combined with the embed options, for example `?embed=1&tool=stretch&source=sewlore`.
+
+## Use the published calculation packages
+
+The browser app above needs no package installation. For your own code, use the published versions:
+
+```sh
+npm install @sewingselami/sewlore-sewing-math@0.1.0
+python -m pip install sewlore-fabric-care==0.1.0
+```
+
+| Task | Choose |
+|---|---|
+| JavaScript stretch/recovery or two-axis print-scale comparison | [Sewlore Sewing Math 0.1.0](https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math), with the [API reference](docs/api.md) and [hypothetical example](examples/measurements.mjs). |
+| Local paired fabric-care CSV validation with separate accepted/correction exports | [Sewlore Fabric Care 0.1.0](https://pypi.org/project/sewlore-fabric-care/0.1.0/), with its [CLI quickstart](https://sewlore-fabric-care.readthedocs.io/en/latest/quickstart.html) and [Python source](https://github.com/gokimedia/sewlore-fabric-care). |
+
+Python's `convert_length` supports `cm`, `mm` and `in` and requires positive finite lengths. JavaScript's `convertLength` supports only `cm`/`in` and allows signed finite inputs, including zero; stretch and print functions still require positive lengths in one consistent unit. The JavaScript package does not validate whole CSV files or calculate fabric-care area change. The Python package does not calculate stretch/recovery or PDF print errors.
+
+These instructions refer to actual published 0.1.0 versions. Source documentation can receive later corrections; the registry files for those versions remain unchanged. Examples are hypothetical, with no physical measurement claim.
 
 ## Reuse
 

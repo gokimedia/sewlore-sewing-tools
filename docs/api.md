@@ -2,6 +2,20 @@
 
 Import the four named exports from the package root. CommonJS `require` and internal file subpath imports are not part of the documented API.
 
+Install the published JavaScript module with:
+
+```sh
+npm install @sewingselami/sewlore-sewing-math@0.1.0
+```
+
+```js
+import { calculatePrintScale } from '@sewingselami/sewlore-sewing-math';
+// Hypothetical software inputs; no physical printout was measured.
+const result = calculatePrintScale({ target: 10, measuredX: 9.8, measuredY: 10.1 });
+```
+
+For local paired fabric-care CSV validation and rectangular-area contraction, use the separate [Python package](https://pypi.org/project/sewlore-fabric-care/0.1.0/) and its [documentation](https://sewlore-fabric-care.readthedocs.io/en/latest/). Its positive-length `convert_length` supports `cm`/`mm`/`in`. The JavaScript conversion helper supports only `cm`/`in` and allows signed finite inputs, including zero; JavaScript stretch and print readings must still be positive. The two packages do not expose interchangeable calculation or CSV-validation APIs.
+
 ## calculateStretch({ original, stretched, released })
 
 Use three positive finite readings in one unit. The result includes:
