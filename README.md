@@ -91,6 +91,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Validate Measurement CSVs Before Calculating Percentage Change — Hashnode](https://sewlore.hashnode.dev/validate-measurement-csvs-before-calculating-percentage-change) — Work through a local Python CSV validation tutorial: inspect units and anonymous-input rules, then keep accepted records and correction exports separate.
 - [Fabric-Care CLI Container — Source Recipe and Smoke Checks](https://github.com/gokimedia/sewlore-fabric-care-container) — Inspect the pinned Linux container recipe and successful version, template and correction-export smoke checks for the published Python CLI.
 - [PDF Pattern Assembly Trainer — itch.io](https://sewlore.itch.io/pdf-pattern-assembly-trainer) — Practice aligning four hypothetical PDF pattern sheets and check both axes of a 50 mm calibration square; download the MIT HTML trainer and source.
+- [Sliding Button Marking Rail - Printables](https://www.printables.com/model/1869374-sliding-button-marking-rail-unprinted-cad-prototyp) — Download original rail, carriage and editable CAD source files; this unprinted prototype requires physical printing and fit testing before use.
 
 **Visual sewing notes on Pinterest**
 
