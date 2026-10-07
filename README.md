@@ -20,7 +20,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 ## Published resources and examples
 
-[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, published posts on Substack, Tumblr, LinkedIn and Medium, the Product Hunt overview, verified StackBlitz GitHub import and six visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
+[Explore the Sewlore learning resource directory](https://gokimedia.github.io/sewlore-sewing-tools/resources.html) for the tools, guides, blank templates, public Hugging Face projects, CodePen lesson, published posts on Substack, Tumblr, LinkedIn and Medium, the Product Hunt overview, verified StackBlitz GitHub import and eight visual sewing notes on Pinterest. The directory groups ordinary descriptive links by their learning purpose and can be read without JavaScript.
 
 **Tools and guides**
 
@@ -75,7 +75,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore on Minerva — Public Profile](https://www.minerva.com/profile/301436/Sewlore)
 - [Sewlore on Threadloop — Designer Page](https://threadloop.app/designers/sewlore)
 - [Sewlore on Behance — Team Profile](https://www.behance.net/sewlore)
-- [Gumroad — Sewlore profile](https://selami3.gumroad.com/) — Public brand profile; free downloadable pack awaiting publication.
+- [Gumroad — Sewlore profile](https://selami3.gumroad.com/) — Public brand profile with a Sewlore website reference.
 
 - [Sewlore Sewing Lessons — Google Sites](https://sites.google.com/view/sewlore-sewing-lessons) — Work through three short lessons with blank records for stretch, print scale and fabric care; examples are hypothetical.
 - [Sewlore Fabric Care — Read the Docs](https://sewlore-fabric-care.readthedocs.io/en/latest/) — Read the local CSV validator documentation, field rules, signed calculations and correction-export examples.
@@ -88,6 +88,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewing Measurement Maths — Numbas Exercises](https://numbas.mathcentre.ac.uk/exam/50353/sewing-measurement-maths-units-print-axes-and-area/embed/) — Practice three hypothetical exercises in unit conversion, signed print-scale error and rectangular area reduction, with worked feedback.
 - [Sewlore Sewing Math — Typed JavaScript Package on JSR](https://jsr.io/@sewlore/sewing-math) — Import typed DOM-free helpers for stretch, print-scale comparison, cm/in conversion and single-cell CSV quoting; the source arithmetic is unchanged.
 
+- [Validate Measurement CSVs Before Calculating Percentage Change — Hashnode](https://sewlore.hashnode.dev/validate-measurement-csvs-before-calculating-percentage-change) — Work through a local Python CSV validation tutorial: inspect units and anonymous-input rules, then keep accepted records and correction exports separate.
+- [Fabric-Care CLI Container — Source Recipe and Smoke Checks](https://github.com/gokimedia/sewlore-fabric-care-container) — Inspect the pinned Linux container recipe and successful version, template and correction-export smoke checks for the published Python CLI.
+
 **Visual sewing notes on Pinterest**
 
 - [How to Calculate Fabric Stretch Percentage](https://www.pinterest.com/pin/1125970344374469388/)
@@ -96,6 +99,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Print the Test Page Before the Full Sewing Pattern](https://www.pinterest.com/pin/1125970344374469713/)
 - [Keep Your Measurements with Your Sewing Project Notes](https://www.pinterest.com/pin/1125970344374469787/)
 - [Free Leaf Appliqué Bookmark Pattern with a 50 mm Print Check](https://www.pinterest.com/pin/1125970344374469859/)
+- [Editable Fabric Measurement Log — Pinterest](https://www.pinterest.com/pin/1125970344374614037/) — A visual introduction to the editable A4 and US Letter blank measurement-log template.
+- [Measurement Maths Practice: Units, Print Axes and Rectangle Area — Pinterest](https://www.pinterest.com/pin/1125970344374614482/) — A visual introduction to the three hypothetical Numbas measurement-maths exercises.
 
 ## Fabric Stretch Lab
 
