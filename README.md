@@ -43,6 +43,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 **Blank templates**
 
 - [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
+- [Two-Axis PDF Print Check Card — Cults](https://cults3d.com/tr/3d-model/arac/two-axis-pdf-sewing-pattern-print-check-card-a4-and-letter) — Download the original free A4 and US Letter PDF/SVG print-check card under CC BY. AI assistance is disclosed; digital geometry was checked, with physical printing and sewing untested.
 - [Sewing Project Planner — Markdown Template](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewing-project-planner.md)
 - [Sewing Project Planner — Notion template](https://tarotcards.notion.site/Sewing-Project-Planner-Sewlore-3f188465ddcc80a28e97ccd65b9249b6)
 - [Printable Sewing Preparation Library — AWS CloudFront](https://d2yc073h25je5b.cloudfront.net/) — Find blank preparation worksheets and project-planning templates in printable and editable formats.
@@ -53,6 +54,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Direct Sewing Tools App](https://sewlore-sewlore-sewing-tools.static.hf.space/index.html)
 - [CodePen: One Scale Factor, Two Directions](https://codepen.io/editor/gokimedia/pen/01a10db1-763f-70b5-a88e-cd0427f982fc)
 - [Fabric Shrinkage Geometry: Two Axes, One Area — Observable](https://observablehq.com/@selami-bay-rd-z/fabric-shrinkage-geometry-two-axes-one-area-sewlore) — Explore hypothetical side changes at one drawing scale and see why the two percentages do not simply add.
+- [Fabric Dimensional Change Calculator — Flourish](https://public.flourish.studio/visualisation/30504575/) — Interactive calculator for signed length, width and rectangular area changes, with a Sewlore methods source link. The public page uses noindex.
 - [Rectangular Area Change After Two Side Reductions — Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rectangular_area_change_after_two_side_reductions.svg) — Reuse an openly licensed educational SVG explaining the shared-corner correction; dimensions are illustrative, with AI-assisted programmatic provenance disclosed.
 - [Combined Fractional Area Reduction — Wikifunctions](https://www.wikifunctions.org/view/en/Z44543) — Combine two rectangular side-reduction fractions as a + b − a × b; the exact rational result is a fraction, not a percentage.
 - [Recording and Validating Fabric Dimensions — Educational PDF](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-methods-guide.pdf) — Read a seven-page methods guide to stretch, recovery, signed dimensional change and CSV validation; worked examples are hypothetical, with software sources and AI-assisted provenance disclosed.
@@ -78,8 +80,12 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Gumroad — Sewlore profile](https://selami3.gumroad.com/) — Public brand profile with a Sewlore website reference.
 
 - [Sewlore Sewing Lessons — Google Sites](https://sites.google.com/view/sewlore-sewing-lessons) — Work through three short lessons with blank records for stretch, print scale and fabric care; examples are hypothetical.
+- [PDF Sewing Pattern Print Scale Check — Genially](https://view.genially.com/6ac7e012af50978e650aa96b) — Try a two-page print-scale exercise with feedback for correct and incorrect choices, a worked example and a Sewlore measurement-method link. The separate text Transcript still contains template placeholders.
 - [Sewlore Fabric Care — Read the Docs](https://sewlore-fabric-care.readthedocs.io/en/latest/) — Read the local CSV validator documentation, field rules, signed calculations and correction-export examples.
 - [Sewlore Fabric Care — Reusable Python Source](https://github.com/gokimedia/sewlore-fabric-care) — Inspect the dependency-free Python validation library and its documentation source; this repository is distinct from the Streamlit application.
+- [Sewlore Fabric Dimension Math — MATLAB Source](https://github.com/gokimedia/sewlore-fabric-dimension-math) — Read three MIT numerical functions for signed dimension and rectangular-area changes, with invented fixtures and 41 checks passed in MATLAB Online R2026b.
+- [Sewlore Fabric Dimension Math 0.1.0 — GitHub Release](https://github.com/gokimedia/sewlore-fabric-dimension-math/releases/tag/v0.1.0) — Download the reviewed MIT MATLAB package with 12 source and documentation files, an example and a test runner. Fixture values are invented; physical fabric tests are not claimed.
+- [Sewlore Fabric Dimension Math — MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/184891-sewlore-fabric-dimension-math) — Find the MIT MATLAB functions connected to the reviewed GitHub 0.1.0 release, with 41 checks passed in MATLAB Online R2026b and invented example inputs.
 - [Sewing Selami on DEV — Public Profile](https://dev.to/sewing_selami_bad1585511e) — Read the maker profile, its AI-assisted source-provenance note and Sewlore website link; no public article is included.
 
 - [Sewlore Sewing Math — npm Package](https://www.npmjs.com/package/@sewingselami/sewlore-sewing-math) — Import four DOM-free JavaScript helpers for stretch, print-scale comparison, cm/in conversion and one-cell CSV quoting; examples are hypothetical.
