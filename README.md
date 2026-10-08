@@ -117,6 +117,12 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Editable Fabric Measurement Log — Pinterest](https://www.pinterest.com/pin/1125970344374614037/) — A visual introduction to the editable A4 and US Letter blank measurement-log template.
 - [Measurement Maths Practice: Units, Print Axes and Rectangle Area — Pinterest](https://www.pinterest.com/pin/1125970344374614482/) — A visual introduction to the three hypothetical Numbas measurement-maths exercises.
 
+
+**Further measurement lessons**
+
+- [Before Printing a Sewing Pattern: A Short Learning Path — Wakelet](https://wakelet.com/wake/r58mNEZH-6awNJdVzt8su) — Follow a five-card reading sequence on PDF sizing, two-axis checks, unit practice, area change and measurement records. Links use nofollow/ugc in the native view; anonymous collection-body access was not verified.
+- [Uniform Two-Axis Print Correction — GitHub Notebook Source](https://github.com/gokimedia/sewlore-print-correction-analysis) — Explore exact two-axis calculations and a synthetic +/-5% input grid in an original Python notebook with five saved calculation outputs. All examples are hypothetical; no open reuse licence is granted.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
