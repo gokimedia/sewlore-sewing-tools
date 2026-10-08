@@ -122,6 +122,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Before Printing a Sewing Pattern: A Short Learning Path — Wakelet](https://wakelet.com/wake/r58mNEZH-6awNJdVzt8su) — Follow a five-card reading sequence on PDF sizing, two-axis checks, unit practice, area change and measurement records. Links use nofollow/ugc in the native view; anonymous collection-body access was not verified.
 - [Uniform Two-Axis Print Correction — GitHub Notebook Source](https://github.com/gokimedia/sewlore-print-correction-analysis) — Explore exact two-axis calculations and a synthetic +/-5% input grid in an original Python notebook with five saved calculation outputs. All examples are hypothetical; no open reuse licence is granted.
+- [Fabric Measurement Guide: Stretch, Recovery and Care — MERLOT](https://www.merlot.org/merlot/viewMaterial.htm?id=824240485) — Read a standalone English lesson on stretch and recovery denominators, signed dimensional change, rectangular area and CSV input checks. Worked measurements are hypothetical; the MERLOT record links to the full educational guide.
 
 ## Fabric Stretch Lab
 
