@@ -96,6 +96,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Synthetic Fabric CSV Validation Cases — Hugging Face Dataset](https://huggingface.co/datasets/sewlore/synthetic-fabric-csv-validation-cases) — Download 72 synthetic software-test cases, a 26-column string table and parser-specific expected results for Sewlore Fabric Care 0.1.0. MIT licensed; these fixtures are not physical fabric observations or scientific validation.
 - [Sewlore Creator Profile — Thangs](https://thangs.com/designer/sewingselami) — Creator profile with Sewlore's sewing-resource description and website link; no public CAD model is included.
 - [Sewing Selami on Cut Out + Keep — Profile](https://www.cutoutandkeep.net/users/820582) — Maker profile with Sewlore website links. The profile uses noindex and its Sewlore links are nofollow; the SVG tutorial is still an unpublished draft.
+- [Sewlore on SourceForge — Profile](https://sourceforge.net/u/sewingselami/profile) — Brand profile with a Sewlore website link. The profile uses noindex and the link is nofollow; the software project awaits phone verification.
 
 **Visual sewing notes on Pinterest**
 
