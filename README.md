@@ -94,6 +94,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sliding Button Marking Rail - Printables](https://www.printables.com/model/1869374-sliding-button-marking-rail-unprinted-cad-prototyp) — Download original rail, carriage and editable CAD source files; this unprinted prototype requires physical printing and fit testing before use.
 - [Sewlore Measurement Learning Resources — Hugging Face Collection](https://huggingface.co/collections/sewlore/sewlore-measurement-learning-resources) — Find the fabric-stretch and PDF print-scale Space, 72 synthetic CSV validation cases, and their method notes in the public learning collection.
 - [Synthetic Fabric CSV Validation Cases — Hugging Face Dataset](https://huggingface.co/datasets/sewlore/synthetic-fabric-csv-validation-cases) — Download 72 synthetic software-test cases, a 26-column string table and parser-specific expected results for Sewlore Fabric Care 0.1.0. MIT licensed; these fixtures are not physical fabric observations or scientific validation.
+- [Sewlore Creator Profile — Thangs](https://thangs.com/designer/sewingselami) — Creator profile with Sewlore's sewing-resource description and website link; no public CAD model is included.
 
 **Visual sewing notes on Pinterest**
 
