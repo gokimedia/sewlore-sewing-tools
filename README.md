@@ -92,6 +92,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Fabric-Care CLI Container — Source Recipe and Smoke Checks](https://github.com/gokimedia/sewlore-fabric-care-container) — Inspect the pinned Linux container recipe and successful version, template and correction-export smoke checks for the published Python CLI.
 - [PDF Pattern Assembly Trainer — itch.io](https://sewlore.itch.io/pdf-pattern-assembly-trainer) — Practice aligning four hypothetical PDF pattern sheets and check both axes of a 50 mm calibration square; download the MIT HTML trainer and source.
 - [Sliding Button Marking Rail - Printables](https://www.printables.com/model/1869374-sliding-button-marking-rail-unprinted-cad-prototyp) — Download original rail, carriage and editable CAD source files; this unprinted prototype requires physical printing and fit testing before use.
+- [Sewlore Measurement Learning Resources — Hugging Face Collection](https://huggingface.co/collections/sewlore/sewlore-measurement-learning-resources) — Use the public learning collection to find the fabric-stretch and PDF print-scale Space and its measurement-method and printing/assembly notes.
 
 **Visual sewing notes on Pinterest**
 
