@@ -40,6 +40,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Printing and Assembly Guide](https://sewlore.com/pages/printing-assembly)
 - [Free Leaf Appliqué Bookmark Pattern](https://sewlore.com/pages/free-leaf-applique-bookmark-sewing-pattern)
 
+- [Width, Length and Rectangular Area Change — Quora](https://sewloresewingmeasurementnotes.quora.com/Width-Length-and-Area-Change-Describe-Different-Comparisons-When-a-rectangular-piece-becomes-smaller-in-both-directio) — Read an original worked lesson on side reductions and rectangular area, with hypothetical inputs and a Sewlore methods link. The post uses noindex and its source link is nofollow; anonymous HTTP access returned 403.
+
 **Blank templates**
 
 - [Printable Fabric Measurement Log](https://gokimedia.github.io/sewlore-sewing-tools/resources/fabric-measurement-log.html)
