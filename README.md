@@ -147,6 +147,19 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Measurement Reference — GitBook](https://sewlore.gitbook.io/sewlore-docs) — Read three original reference lessons on signed print errors, unit conversion and numeric domains, and choosing a working calculator. Hypothetical examples and tables link to API documentation and Sewlore measurement tools; no physical testing is claimed.
 
+**Podcast notes and syndication**
+
+- [Sewlore Sewing Notes — RSS.com](https://rss.com/podcasts/sewlore-sewing-notes/) — Read the Sewlore show introduction and find its first episode on PDF sewing pattern preparation, measurement records and planning a project before cutting.
+- [Check Both Sides of a PDF Test Square — RSS.com Episode](https://rss.com/podcasts/sewlore-sewing-notes/3219175/) — Read the first episode notes on checking both sides of a PDF pattern test square, with hypothetical 98 mm and 101 mm readings against a 100 mm reference and links to the printing guides.
+- [Sewlore Sewing Notes — Apple Podcasts](https://podcasts.apple.com/us/podcast/sewlore-sewing-notes/id6820799172) — Find Sewlore show information and its first episode notes on measuring both directions of a PDF pattern print test before printing the complete pattern.
+- [Sewlore Sewing Notes — Castamatic](https://castamatic.com/itunes/6820799172) — Read the Sewlore show introduction, find the first episode listing and follow the website reference to sewing preparation guides.
+- [Sewlore Sewing Notes — PodLP](https://link.podlp.app/e1706761-a19e-5500-9058-af8f8caf525d) — Read the Sewlore podcast show introduction and follow its website reference for PDF pattern preparation, fabric planning and measurement guides.
+- [Sewlore Sewing Notes — Podverse](https://podverse.fm/podcast/MJhVivw8z4) — Read the Sewlore show introduction and first episode notes on two-axis print checks, with hypothetical examples and references to the pattern printing guides.
+
+**Measurement extension source**
+
+- [Sewlore Measurement Extensions — GitHub Source](https://github.com/gokimedia/sewlore-measurement-extensions) — Inspect the original Firefox calculator and editor CSV validator source, synthetic examples, tests, privacy notes and installation instructions. Marketplace publication remains pending.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
