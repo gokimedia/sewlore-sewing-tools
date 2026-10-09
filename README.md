@@ -174,6 +174,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore Fabric Care Comparison Log](https://docs.google.com/spreadsheets/d/1IdjDQs4gsjNsq3jaElK9ti41LD2iJESby416HjDsRwU/edit?gid=1101370107#gid=1101370107) — Read-only two-tab comparison log with 20 blank rows and 8 hypothetical examples. Anonymous response is noindex; Google SEO impact is unverified.
 - [A Measurement Table Needs a Definition](https://sway.cloud.microsoft/CZF72fEz4niba8qc?ref=Link) — Six-section lesson on measurement states, units, percentage denominators and paired rectangle comparisons. Anonymous response is noindex; Google SEO impact is unverified.
 
+**Reader resources and publications**
+
+- [Which Measurement Can Answer This Sewing Question?](https://infograph.venngage.com/ps/wjTBevjKgQ) — Original five-card image reference in a read-only public reader with a native nofollow source link. Anonymous HTML is a noindex JavaScript shell; Google SEO impact is unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
