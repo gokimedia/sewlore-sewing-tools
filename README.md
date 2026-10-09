@@ -181,6 +181,14 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Pattern Revision and Assembly Record | Sewlore](https://www.flipsnack.com/CAD6E5B569B/pattern-revision-and-assembly-record-sewlore) — Six-page read-only PDF flipbook with pattern revision, printing and assembly records, plus a native nofollow guide link. Anonymous HTML verifies metadata only; Google SEO impact is unverified.
 - [Sewlore](https://www.flipsnack.com/CAD6E5B569B/) — Flipsnack brand profile with the original six-page publication, retained-rights about text and a nofollow Website link to Sewlore. Indexing and Google SEO impact are unverified.
 
+- [PDF Pattern Print Check — Practice Worksheet | Sewlore](https://tally.so/r/yPK2j6) — Hypothetical PDF print-check practice for recording viewer settings and comparing width and height references; no personal measurements.
+- [Fabric Prewash Test Planner | Sewlore](https://ofdncoi6.paperform.co/) — Three practice decisions about matching measurement directions and units, documenting care settings, and handling an inconsistent before/after pair.
+- [Seam Finish Decision Practice | Sewlore](https://form.typeform.com/to/ZZ0iKR6q) — Three introductory choices about seam allowance, usable fabric width and clarifying unclear instructions, with a Sewlore methods reference.
+- [Usable Width and Layout — Practice Worksheet | Sewlore | forms.app](https://share.forms.app/form/6ac9325f67fb325c09bddbf9) — A fictional cutting-layout exercise: exclude both selvedges, fit fixed-orientation panels across usable width, and calculate two rows of fabric length.
+- [Fabric Stretch and Recovery Practice | Sewlore | Cognito Forms](https://www.cognitoforms.com/Sewlore1/FabricStretchAndRecoveryPracticeSewlore) — Interpret a hypothetical 10 cm swatch stretched to 13 cm and released to 10.4 cm; compare 30% stretch with 4% residual growth.
+- [Seam Allowance Reference Practice | Sewlore](https://selami.aidaform.com/seam-allowance-reference-worksheet) — A fictional 1 cm seam-allowance exercise with a worked answer and Sewlore guide. Public content is accessible; a vendor draft warning remains unresolved.
+- [Button Interval Planning Practice | Sewlore](https://woorise.com/sewlore/button-interval-planning-practice-sewlore) — Count four gaps between five fictional button centres across a 24 cm span, calculate 6 cm spacing, and check three optional practice choices.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
