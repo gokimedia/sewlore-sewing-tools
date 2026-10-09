@@ -143,6 +143,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Three Checks Before Interpreting a Sewing Percentage — Adobe Express](https://new.express.adobe.com/webpage/rIyWtc21aiZsU) — Check equal inputs, compatible units and reverse percentage comparisons through seven original lesson sections and hypothetical examples. The public reader links to the measurement guide and uses noindex/nofollow settings; referral use only.
 - [Count the Gaps: Plan Button Centres Before Marking — Canva](https://deckaura-777-meaning.my.canva.site/count-the-gaps-plan-button-centres-sewlore) — Compare four and five button centres across a hypothetical 120 mm span, count the intervals and retain centre offsets. Six original lesson sections with an integrated diagram link to the calculator and measurement guide; rendered links use nofollow.
 
+**Measurement reference documentation**
+
+- [Sewlore Measurement Reference — GitBook](https://sewlore.gitbook.io/sewlore-docs) — Read three original reference lessons on signed print errors, unit conversion and numeric domains, and choosing a working calculator. Hypothetical examples and tables link to API documentation and Sewlore measurement tools; no physical testing is claimed.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
