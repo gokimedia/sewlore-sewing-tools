@@ -178,6 +178,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Which Measurement Can Answer This Sewing Question?](https://infograph.venngage.com/ps/wjTBevjKgQ) — Original five-card image reference in a read-only public reader with a native nofollow source link. Anonymous HTML is a noindex JavaScript shell; Google SEO impact is unverified.
 
+- [Pattern Revision and Assembly Record | Sewlore](https://www.flipsnack.com/CAD6E5B569B/pattern-revision-and-assembly-record-sewlore) — Six-page read-only PDF flipbook with pattern revision, printing and assembly records, plus a native nofollow guide link. Anonymous HTML verifies metadata only; Google SEO impact is unverified.
+- [Sewlore](https://www.flipsnack.com/CAD6E5B569B/) — Flipsnack brand profile with the original six-page publication, retained-rights about text and a nofollow Website link to Sewlore. Indexing and Google SEO impact are unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
