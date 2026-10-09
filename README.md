@@ -138,6 +138,11 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Keep the Unit and the Precision — Wix](https://sewingselami.wixsite.com/sewlore-measurement/g-nderi/sewing-measurement-records-units-rounding) — Learn how to retain original mm, cm and inch inputs, postpone working-value rounding and distinguish display precision from measurement accuracy. Includes hypothetical conversions and a reusable record checklist.
 - [Readings, Calculations and Interpretations — Milanote](https://app.milanote.com/1Xf0h51oCI023Q?p=C2a5NGirUEc) — Use seven original lesson cards to separate hypothetical calculations, blank observation records and unsupported interpretations. The read-only board uses noindex metadata and nofollow source links.
 
+**Reader lessons and paper comparisons**
+
+- [Three Checks Before Interpreting a Sewing Percentage — Adobe Express](https://new.express.adobe.com/webpage/rIyWtc21aiZsU) — Check equal inputs, compatible units and reverse percentage comparisons through seven original lesson sections and hypothetical examples. The public reader links to the measurement guide and uses noindex/nofollow settings; referral use only.
+- [Count the Gaps: Plan Button Centres Before Marking — Canva](https://deckaura-777-meaning.my.canva.site/count-the-gaps-plan-button-centres-sewlore) — Compare four and five button centres across a hypothetical 120 mm span, count the intervals and retain centre offsets. Six original lesson sections with an integrated diagram link to the calculator and measurement guide; rendered links use nofollow.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
