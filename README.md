@@ -169,6 +169,11 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Can One Printer Scale Factor Correct Two Different Axes? — Posit Connect Cloud](https://01a1204b-6d5f-fa02-902b-d0bc7aab792b.share.connect.posit.cloud/) — Read a computational notebook using exact fractions, worked examples and a synthetic grid to examine when one multiplier can match both target dimensions. Includes code, saved outputs and a reference to the print-scale checker.
 - [Two-Axis Print Check | Sewlore — Carrd](https://sewlore-print-decision-guide.carrd.co/) — Follow seven sequential decision points to review reference dimensions, clipped marks, proportional scale and the next test. Worked hypothetical examples lead to the complete printing and assembly workflow.
 
+**Records and measurement definitions**
+
+- [Sewlore Fabric Care Comparison Log](https://docs.google.com/spreadsheets/d/1IdjDQs4gsjNsq3jaElK9ti41LD2iJESby416HjDsRwU/edit?gid=1101370107#gid=1101370107) — Read-only two-tab comparison log with 20 blank rows and 8 hypothetical examples. Anonymous response is noindex; Google SEO impact is unverified.
+- [A Measurement Table Needs a Definition](https://sway.cloud.microsoft/CZF72fEz4niba8qc?ref=Link) — Six-section lesson on measurement states, units, percentage denominators and paired rectangle comparisons. Anonymous response is noindex; Google SEO impact is unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
