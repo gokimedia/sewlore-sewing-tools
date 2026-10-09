@@ -158,7 +158,16 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 **Measurement extension source**
 
-- [Sewlore Measurement Extensions — GitHub Source](https://github.com/gokimedia/sewlore-measurement-extensions) — Inspect the original Firefox calculator and editor CSV validator source, synthetic examples, tests, privacy notes and installation instructions. Marketplace publication remains pending.
+- [Sewlore Measurement Extensions — GitHub Source](https://github.com/gokimedia/sewlore-measurement-extensions) — Inspect the original Firefox calculator and editor CSV validator source, synthetic examples, tests, privacy notes and installation instructions. The editor extension is published on Visual Studio Marketplace; the Firefox submission is awaiting publication and review.
+
+**Further tools, examples and reading**
+
+- [Sewlore Measurement Record Checker — Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=gokimedia.sewlore-measurement-record-checker) — Validate local sewing-measurement CSV records inside VS Code, review row diagnostics and fix malformed tokens before importing data. Includes synthetic examples and links to the measurement guide.
+- [Synthetic Fabric CSV Validation Cases — Kaggle](https://www.kaggle.com/datasets/sewingselami/synthetic-fabric-csv-validation-cases) — Explore 72 clearly synthetic CSV validation cases with a deterministic generator, a data dictionary and labels from the frozen fabric-care software. The eleven-file educational bundle uses MIT and contains no physical fabric measurements.
+- [Sewlore Measurement Reference — MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.gokimedia%2Fsewlore-measurement-reference/versions/1.0.0) — Find the registered Sewlore documentation service so compatible AI tools can search and read its measurement lessons and software references.
+- [Width Is Not a Cutting Plan | Sewlore — Calaméo](https://www.calameo.com/books/008316354b2f442f033be) — Read an eight-page guide with hypothetical rectangular layouts, six decision cards and a blank project record. Separate finished size, allowances, usable width and row length before checking a real cutting plan.
+- [Can One Printer Scale Factor Correct Two Different Axes? — Posit Connect Cloud](https://01a1204b-6d5f-fa02-902b-d0bc7aab792b.share.connect.posit.cloud/) — Read a computational notebook using exact fractions, worked examples and a synthetic grid to examine when one multiplier can match both target dimensions. Includes code, saved outputs and a reference to the print-scale checker.
+- [Two-Axis Print Check | Sewlore — Carrd](https://sewlore-print-decision-guide.carrd.co/) — Follow seven sequential decision points to review reference dimensions, clipped marks, proportional scale and the next test. Worked hypothetical examples lead to the complete printing and assembly workflow.
 
 ## Fabric Stretch Lab
 
