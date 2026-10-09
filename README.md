@@ -189,6 +189,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Seam Allowance Reference Practice | Sewlore](https://selami.aidaform.com/seam-allowance-reference-worksheet) — A fictional 1 cm seam-allowance exercise with a worked answer and Sewlore guide. Public content is accessible; a vendor draft warning remains unresolved.
 - [Button Interval Planning Practice | Sewlore](https://woorise.com/sewlore/button-interval-planning-practice-sewlore) — Count four gaps between five fictional button centres across a 24 cm span, calculate 6 cm spacing, and check three optional practice choices.
 
+- [Sewlore Sewing Practice Resources](https://woorise.com/sewlore/) — Find five sewing resources for checking PDF print scale, recording fabric measurements, calculating stretch, practising button intervals and exploring open-source tools.
+- [Fabric Direction Record Practice | Sewlore](https://sewing-selami.involve.me/fabric-direction-record-practice-sewlore) — Work through four optional questions with visible explanations about keeping width, length and units consistent in a fabric sample comparison.
+- [Directional Measurement Change Calculator | Sewlore](https://forms.fillout.com/t/fsxvfKLztNus) — Calculate width and length percentage changes separately as you type, with matching-unit guidance and fictional examples; no form submission is needed.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
