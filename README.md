@@ -131,6 +131,13 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Rectangular Fabric Grid Comparison](https://gokimedia.github.io/sewlore-sewing-tools/resources/rectangular-fabric-layout.html) — Compare two uniform rectangular grids with margins and gaps. Optional rotation does not provide mixed nesting or shaped garment yardage.
 - [Fabric Measurement Practice Workbook — PDF](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewlore-measurement-practice-workbook.pdf) — Download six pages of hypothetical measurement exercises, a blank record and an answer key. Copyright reserved; this workbook is excluded from the repository MIT licence.
 
+**Further measurement working notes**
+
+- [Sewing Measurement Records — Slides.com](https://slides.com/sewingselami/sewing-measurement-records) — Read a seven-slide lesson on reference states, units, percentage denominators, independent axes and rectangular area, with hypothetical worked examples and a contextual measurement-guide link.
+- [Measurement Practice Workbook — Heyzine](https://heyzine.com/flip-book/311f05fc32.html) — Six-page practice workbook; page6 reader interaction links to the measurement guide. Reader metadata is index,nofollow; the source is a JavaScript action, not a verified crawlable HTML anchor.
+- [Keep the Unit and the Precision — Wix](https://sewingselami.wixsite.com/sewlore-measurement/g-nderi/sewing-measurement-records-units-rounding) — Learn how to retain original mm, cm and inch inputs, postpone working-value rounding and distinguish display precision from measurement accuracy. Includes hypothetical conversions and a reusable record checklist.
+- [Readings, Calculations and Interpretations — Milanote](https://app.milanote.com/1Xf0h51oCI023Q?p=C2a5NGirUEc) — Use seven original lesson cards to separate hypothetical calculations, blank observation records and unsupported interpretations. The read-only board uses noindex metadata and nofollow source links.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
