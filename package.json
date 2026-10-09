@@ -5,7 +5,9 @@
   "description": "Offline-capable fabric stretch and PDF print measurement tools.",
   "type": "module",
   "scripts": {
-    "test": "node --test tests/calculations.test.mjs"
+    "test": "node --test tests/calculations.test.mjs tests/planning-math.test.mjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

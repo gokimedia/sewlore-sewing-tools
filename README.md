@@ -124,6 +124,13 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Uniform Two-Axis Print Correction — GitHub Notebook Source](https://github.com/gokimedia/sewlore-print-correction-analysis) — Explore exact two-axis calculations and a synthetic +/-5% input grid in an original Python notebook with five saved calculation outputs. All examples are hypothetical; no open reuse licence is granted.
 - [Fabric Measurement Guide: Stretch, Recovery and Care — MERLOT](https://www.merlot.org/merlot/viewMaterial.htm?id=824240485) — Read a standalone English lesson on stretch and recovery denominators, signed dimensional change, rectangular area and CSV input checks. Worked measurements are hypothetical; the MERLOT record links to the full educational guide.
 
+**Additional planning and measurement practice**
+
+- [Why One Printer Percentage Cannot Correct Two Unequal Axes — Telegra.ph](https://telegra.ph/Why-One-Printer-Percentage-Cannot-Correct-Two-Unequal-Axes-10-09) — Read an original ratio-based print correction lesson, with hypothetical examples and a contextual Sewlore print-scale checker link.
+- [Button Centre Spacing Calculator](https://gokimedia.github.io/sewlore-sewing-tools/resources/button-spacing-calculator.html) — Calculate evenly spaced button centres between two end offsets. Read the formula, download the original SVG example or optionally embed the tool.
+- [Rectangular Fabric Grid Comparison](https://gokimedia.github.io/sewlore-sewing-tools/resources/rectangular-fabric-layout.html) — Compare two uniform rectangular grids with margins and gaps. Optional rotation does not provide mixed nesting or shaped garment yardage.
+- [Fabric Measurement Practice Workbook — PDF](https://gokimedia.github.io/sewlore-sewing-tools/resources/sewlore-measurement-practice-workbook.pdf) — Download six pages of hypothetical measurement exercises, a blank record and an answer key. Copyright reserved; this workbook is excluded from the repository MIT licence.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
@@ -207,4 +214,4 @@ These instructions refer to actual published 0.1.0 versions. Source documentatio
 
 Embedded views without an explicit source keep Sewlore links free of campaign parameters. When embedding on Sewlore, omit the source parameter so navigation within the site is not relabelled as a referral. A partner embedding the tool can choose its own source value to opt into attribution.
 
-The original application code and educational templates are available under the MIT licence. Sewlore names and branding remain trademarks of their respective owner; the licence does not imply endorsement. Contributions should improve measurement transparency or usability. Please do not add fabricated results, advertising repositories or unrelated link placements.
+The original application code, planning diagrams and educational templates are available under the MIT licence, except for `resources/sewlore-measurement-practice-workbook.pdf`. The workbook retains its own copyright-reserved notice; publishing it for download does not grant an open reuse licence. Sewlore names and branding remain trademarks of their respective owner; the licence does not imply endorsement. Contributions should improve measurement transparency or usability. Please do not add fabricated results, advertising repositories or unrelated link placements.
