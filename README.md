@@ -193,6 +193,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Fabric Direction Record Practice | Sewlore](https://sewing-selami.involve.me/fabric-direction-record-practice-sewlore) — Work through four optional questions with visible explanations about keeping width, length and units consistent in a fabric sample comparison.
 - [Directional Measurement Change Calculator | Sewlore](https://forms.fillout.com/t/fsxvfKLztNus) — Calculate width and length percentage changes separately as you type, with matching-unit guidance and fictional examples; no form submission is needed.
 
+- [Sewlore Measurement Reference - MCP Connector | Glama](https://glama.ai/mcp/connectors/io.github.gokimedia/sewlore-measurement-reference) — Browse Sewlore’s imported documentation connector, its search and page-reading tools, and the healthy GitBook MCP endpoint. Find worked sewing measurement examples through the connector; the directory listing remains unclaimed.
+- [Sewlore Measurement Reference - MCP | Smithery](https://smithery.ai/servers/gokimedia/sewlore-measurement-reference) — Connect AI tools to Sewlore’s documentation search and page-reading service. Includes connection details and a Homepage link to the fabric measurement methods guide, with examples for keeping measurements and assumptions consistent.
+- [Synthetic Fabric CSV Validation Cases | Sewlore](https://sewlore.com/pages/synthetic-fabric-csv-validation-cases) — Explore the 26-column dictionary, six literal previews and reproduction checks for 72 invented software-test inputs. Includes thirteen revision-pinned MIT source downloads and Dataset metadata for the frozen sewlore-fabric-care 0.1.0 parser; no physical fabric observations are included.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.

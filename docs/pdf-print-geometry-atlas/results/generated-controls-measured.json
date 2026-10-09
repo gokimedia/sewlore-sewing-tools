@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "scope": "Generated digital references and detector controls; no browser or printer experiment results.",
+  "native_cases_completed": 0,
+  "results": [
+    {
+      "case_id": "reference-a4",
+      "origin": "programmatic-reference",
+      "path": "fixtures/sewlore-print-geometry-a4.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "dc8db72f0fd1f2a1854f7a651314f3fd06593c4d5912627be3c7956753fbe11f",
+      "page_count": 1,
+      "mediabox_mm": [
+        210.00000333333332,
+        297.0000127777778
+      ],
+      "cropbox_mm": [
+        210.00000333333332,
+        297.0000127777778
+      ],
+      "rotation_degrees": 0,
+      "producer": "ReportLab PDF Library - (opensource)",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 100.00001166666667,
+          "height_mm": 100.00001166666664,
+          "scale_x": 1.0000001166666665,
+          "scale_y": 1.0000001166666663,
+          "error_x_percent": 1.1666666654974733e-05,
+          "error_y_percent": 1.1666666632770273e-05,
+          "bbox_pdf_points": [
+            85.03937,
+            311.811,
+            368.50397000000004,
+            595.2755999999999
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 50.8,
+          "height_mm": 25.4,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "error_x_percent": 0.0,
+          "error_y_percent": 0.0,
+          "bbox_pdf_points": [
+            85.03937,
+            195.5906,
+            229.03937000000002,
+            267.5906
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 179.99999630555556,
+          "height_mm": 0.0,
+          "scale_x": 0.9999999794753086,
+          "scale_y": null,
+          "error_x_percent": -2.052469139091073e-06,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            42.51969,
+            136.063,
+            552.7559,
+            136.063
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "reference-letter",
+      "origin": "programmatic-reference",
+      "path": "fixtures/sewlore-print-geometry-letter.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "38e1a7ac12e2ca69396fc416287a432ae1e82841f9feafd6d8d16976c00bc273",
+      "page_count": 1,
+      "mediabox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "cropbox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "rotation_degrees": 0,
+      "producer": "ReportLab PDF Library - (opensource)",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 100.00001166666667,
+          "height_mm": 100.00001166666664,
+          "scale_x": 1.0000001166666665,
+          "scale_y": 1.0000001166666663,
+          "error_x_percent": 1.1666666654974733e-05,
+          "error_y_percent": 1.1666666632770273e-05,
+          "bbox_pdf_points": [
+            85.03937,
+            311.811,
+            368.50397000000004,
+            595.2755999999999
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 50.8,
+          "height_mm": 25.4,
+          "scale_x": 1.0,
+          "scale_y": 1.0,
+          "error_x_percent": 0.0,
+          "error_y_percent": 0.0,
+          "bbox_pdf_points": [
+            85.03937,
+            195.5906,
+            229.03937000000002,
+            267.5906
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 179.99999630555556,
+          "height_mm": 0.0,
+          "scale_x": 0.9999999794753086,
+          "scale_y": null,
+          "error_x_percent": -2.052469139091073e-06,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            42.51969,
+            136.063,
+            552.7559,
+            136.063
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "a4-uniform-95-percent",
+      "origin": "programmatic-detector-control",
+      "path": "controls-programmatic/a4-uniform-95-percent.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "40ae8b40390eec74c4c1ef5dd4bc25c157d4c357a0bffe5eb95c7a40e9035dd7",
+      "page_count": 1,
+      "mediabox_mm": [
+        210.0000001583333,
+        297.00000007777777
+      ],
+      "cropbox_mm": [
+        210.0000001583333,
+        297.00000007777777
+      ],
+      "rotation_degrees": 0,
+      "producer": "Sewlore pypdf control generator",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 95.00001108333333,
+          "height_mm": 95.00001108333329,
+          "scale_x": 0.9500001108333334,
+          "scale_y": 0.9500001108333329,
+          "error_x_percent": -4.9999889166666645,
+          "error_y_percent": -4.999988916666709,
+          "bbox_pdf_points": [
+            95.66928680000001,
+            317.26767689999997,
+            364.96065680000004,
+            586.5590468999999
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 48.25999999999999,
+          "height_mm": 24.13000000000001,
+          "scale_x": 0.9499999999999998,
+          "scale_y": 0.9500000000000004,
+          "error_x_percent": -5.000000000000016,
+          "error_y_percent": -4.99999999999996,
+          "bbox_pdf_points": [
+            95.66928680000001,
+            206.85829689999997,
+            232.4692868,
+            275.2582969
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 170.9999964902778,
+          "height_mm": 0.0,
+          "scale_x": 0.9499999805015433,
+          "scale_y": null,
+          "error_x_percent": -5.000001949845667,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            55.275590799999996,
+            150.30707689999997,
+            539.9999903,
+            150.30707689999997
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "letter-uniform-95-percent",
+      "origin": "programmatic-detector-control",
+      "path": "controls-programmatic/letter-uniform-95-percent.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "1ff1aad1ee7ff1e9e2876e1d2a837f624d70467e5696f0aaa04c14cb7aaf675d",
+      "page_count": 1,
+      "mediabox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "cropbox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "rotation_degrees": 0,
+      "producer": "Sewlore pypdf control generator",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 95.00001108333333,
+          "height_mm": 95.00001108333329,
+          "scale_x": 0.9500001108333334,
+          "scale_y": 0.9500001108333329,
+          "error_x_percent": -4.9999889166666645,
+          "error_y_percent": -4.999988916666709,
+          "bbox_pdf_points": [
+            96.0874015,
+            316.02045,
+            365.3787715,
+            585.3118199999999
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 48.26,
+          "height_mm": 24.12999999999999,
+          "scale_x": 0.9500000000000001,
+          "scale_y": 0.9499999999999996,
+          "error_x_percent": -4.999999999999993,
+          "error_y_percent": -5.000000000000037,
+          "bbox_pdf_points": [
+            96.0874015,
+            205.61106999999998,
+            232.8874015,
+            274.01106999999996
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 170.99999649027777,
+          "height_mm": 0.0,
+          "scale_x": 0.9499999805015431,
+          "scale_y": null,
+          "error_x_percent": -5.000001949845689,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            55.69370549999999,
+            149.05984999999998,
+            540.418105,
+            149.05984999999998
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "a4-anisotropic-96x104-percent",
+      "origin": "programmatic-detector-control",
+      "path": "controls-programmatic/a4-anisotropic-96x104-percent.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "c1ad1f34caf25868ae198b8ca951308e2938993473a261a32186602ef74fdc15",
+      "page_count": 1,
+      "mediabox_mm": [
+        210.0000001583333,
+        297.00000007777777
+      ],
+      "cropbox_mm": [
+        210.0000001583333,
+        297.00000007777777
+      ],
+      "rotation_degrees": 0,
+      "producer": "Sewlore pypdf control generator",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 96.0000112,
+          "height_mm": 104.00001213333331,
+          "scale_x": 0.960000112,
+          "scale_y": 1.0400001213333332,
+          "error_x_percent": -3.9999887999999983,
+          "error_y_percent": 4.000012133333319,
+          "bbox_pdf_points": [
+            93.5433025,
+            307.4456259,
+            365.66931850000003,
+            602.2488099
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 48.768,
+          "height_mm": 26.415999999999997,
+          "scale_x": 0.9600000000000001,
+          "scale_y": 1.04,
+          "error_x_percent": -3.9999999999999925,
+          "error_y_percent": 4.0000000000000036,
+          "bbox_pdf_points": [
+            93.5433025,
+            186.5764099,
+            231.78330250000002,
+            261.4564099
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 172.7999964533333,
+          "height_mm": 0.0,
+          "scale_x": 0.9599999802962962,
+          "scale_y": null,
+          "error_x_percent": -4.0000019703703815,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            52.724409699999995,
+            124.66770589999999,
+            542.5511713,
+            124.66770589999999
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "a4-to-letter-whole-paper-fit-model",
+      "origin": "programmatic-detector-control",
+      "path": "controls-programmatic/a4-to-letter-whole-paper-fit-model.pdf",
+      "validation": "passed-known-geometry-control",
+      "file_sha256": "bf6da28b7f49a787e2b0b8874ed2fb0552c19f457db12e73353e3a65ec173872",
+      "page_count": 1,
+      "mediabox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "cropbox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "rotation_degrees": 0,
+      "producer": "Sewlore pypdf control generator",
+      "measurement_definition": "PDF vector path extents, excluding line thickness; displayed visible clipping is not inferred from raw path extents.",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 94.07408497530864,
+          "height_mm": 94.07408497530865,
+          "scale_x": 0.9407408497530864,
+          "scale_y": 0.9407408497530865,
+          "error_x_percent": -5.925915024691363,
+          "error_y_percent": -5.925915024691353,
+          "bbox_pdf_points": [
+            105.99999546293381,
+            293.3332938431029,
+            372.6666930307378,
+            559.999991410907
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 47.78962959199999,
+          "height_mm": 23.894814796000002,
+          "scale_x": 0.9407407399999999,
+          "scale_y": 0.9407407400000002,
+          "error_x_percent": -5.925926000000015,
+          "error_y_percent": -5.925925999999981,
+          "bbox_pdf_points": [
+            105.99999546293381,
+            184.00002874400698,
+            241.4666620229338,
+            251.733362024007
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 169.3333297244856,
+          "height_mm": 0.0,
+          "scale_x": 0.9407407206915867,
+          "scale_y": null,
+          "error_x_percent": -5.925927930841334,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            66.0000002351706,
+            127.99999026958298,
+            545.999990005366,
+            127.99999026958298
+          ]
+        }
+      ]
+    }
+  ]
+}

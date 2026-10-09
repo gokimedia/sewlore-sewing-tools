@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "reportlab": "4.4.9",
+  "pypdf": "6.10.0",
+  "pdfplumber": "0.11.9",
+  "scope": "programmatic-reference-and-detector-control-preparation",
+  "native_browser_version": "not measured in this preparation step",
+  "operating_system": "Windows",
+  "prepared_date": "2026-10-10"
+}

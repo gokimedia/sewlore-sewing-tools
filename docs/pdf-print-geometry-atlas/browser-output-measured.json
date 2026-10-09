@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "browser_engine_cases_completed": 4,
+  "native_pdf_viewer_cases_completed": 0,
+  "physical_print_cases_completed": 0,
+  "results": [
+    {
+      "case_id": "browser-html-a4-css-size-scale-100",
+      "origin": "browser-engine-html-to-pdf",
+      "captured_on": "2026-10-09T21:31:46.950Z",
+      "application_name": "Google Chrome",
+      "browser_version_observed": "not-exposed-by-tab-scoped-CDP; see returned PDF producer metadata",
+      "command": "Page.printToPDF",
+      "command_parameters_observed": {
+        "landscape": false,
+        "displayHeaderFooter": false,
+        "printBackground": true,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "pageRanges": "",
+        "transferMode": "ReturnAsBase64",
+        "scale": 1,
+        "paperWidth": 8.267716535433072,
+        "paperHeight": 11.692913385826772,
+        "preferCSSPageSize": true
+      },
+      "source_fixture": "fixtures/print-geometry-a4.html",
+      "source_sha256": "b4a1a867b7295dabb6af75b31a82fc53e3c45d8840e87d15ac0d2cf23fd8c2f3",
+      "output_pdf": "browser-output/browser-html-a4-css-size-scale-100.pdf",
+      "output_sha256": "43510966e3e59d0ad0682b28f20b9fe97060369fe7d4f988231a708371e4bc4a",
+      "page_count": 1,
+      "mediabox_mm": [
+        209.88865255555555,
+        297.01065961111107
+      ],
+      "producer": "Skia/PDF m154",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 99.99831670673662,
+          "height_mm": 99.99831670673659,
+          "scale_x": 0.9999831670673661,
+          "scale_y": 0.9999831670673659,
+          "error_x_percent": -0.0016832932633881192,
+          "error_y_percent": -0.0016832932634103237,
+          "bbox_pdf_points": [
+            85.03793861675241,
+            311.8446380689536,
+            368.4977340059271,
+            595.3044334581282
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 50.799147886971696,
+          "height_mm": 25.399566443612063,
+          "scale_x": 0.9999832261214902,
+          "scale_y": 0.9999829308508686,
+          "error_x_percent": -0.0016773878509845908,
+          "error_y_percent": -0.00170691491313546,
+          "bbox_pdf_points": [
+            85.03793861675241,
+            195.62611062100018,
+            229.03552317824702,
+            267.6248816422627
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 179.99697007212595,
+          "height_mm": 0.0,
+          "scale_x": 0.9999831670673663,
+          "scale_y": null,
+          "error_x_percent": -0.0016832932633659148,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            42.51896930837621,
+            136.09956492766526,
+            552.7466010088907,
+            136.09956492766526
+          ]
+        }
+      ],
+      "scope": "Actual controlled Chrome HTML-to-PDF developer output. Not PDF-viewer Actual size/Fit, OS print driver or physical printer results."
+    },
+    {
+      "case_id": "browser-html-a4-css-size-scale-95",
+      "origin": "browser-engine-html-to-pdf",
+      "captured_on": "2026-10-09T21:33:51.034Z",
+      "application_name": "Google Chrome",
+      "browser_version_observed": "not-exposed-by-tab-scoped-CDP; see returned PDF producer metadata",
+      "command": "Page.printToPDF",
+      "command_parameters_observed": {
+        "landscape": false,
+        "displayHeaderFooter": false,
+        "printBackground": true,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "pageRanges": "",
+        "transferMode": "ReturnAsBase64",
+        "scale": 0.95,
+        "paperWidth": 8.267716535433072,
+        "paperHeight": 11.692913385826772,
+        "preferCSSPageSize": true
+      },
+      "source_fixture": "fixtures/print-geometry-a4.html",
+      "source_sha256": "b4a1a867b7295dabb6af75b31a82fc53e3c45d8840e87d15ac0d2cf23fd8c2f3",
+      "output_pdf": "browser-output/browser-html-a4-css-size-scale-95.pdf",
+      "output_sha256": "bd2b789777931e1ca8c92121f9cb6b5487e4e954f6f5993d6994e86bc1dbd8bf",
+      "page_count": 1,
+      "mediabox_mm": [
+        209.88865255555555,
+        297.01065961111107
+      ],
+      "producer": "Skia/PDF m154",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 94.9984124283993,
+          "height_mm": 94.9984124283993,
+          "scale_x": 0.949984124283993,
+          "scale_y": 0.949984124283993,
+          "error_x_percent": -5.001587571600696,
+          "error_y_percent": -5.001587571600696,
+          "bbox_pdf_points": [
+            80.78605151391437,
+            338.34834390439244,
+            350.07288989362894,
+            607.635182284107
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 48.25919636357922,
+          "height_mm": 24.12959105690866,
+          "scale_x": 0.9499841803854178,
+          "scale_y": 0.9499838998782937,
+          "error_x_percent": -5.001581961458223,
+          "error_y_percent": -5.001610012170632,
+          "bbox_pdf_points": [
+            80.78605151391437,
+            227.94072939723594,
+            217.58377348941454,
+            296.3395701884731
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 170.99714237111877,
+          "height_mm": 0.0,
+          "scale_x": 0.9499841242839931,
+          "scale_y": null,
+          "error_x_percent": -5.001587571600686,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            40.393025756957186,
+            171.39050410896937,
+            525.1093348404435,
+            171.39050410896937
+          ]
+        }
+      ],
+      "scope": "Actual controlled Chrome HTML-to-PDF developer output. Not PDF-viewer Actual size/Fit, OS print driver or physical printer results."
+    },
+    {
+      "case_id": "browser-html-a4-to-letter-prefercss-false",
+      "origin": "browser-engine-html-to-pdf",
+      "captured_on": "2026-10-09T21:33:50.832Z",
+      "application_name": "Google Chrome",
+      "browser_version_observed": "not-exposed-by-tab-scoped-CDP; see returned PDF producer metadata",
+      "command": "Page.printToPDF",
+      "command_parameters_observed": {
+        "landscape": false,
+        "displayHeaderFooter": false,
+        "printBackground": true,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "pageRanges": "",
+        "transferMode": "ReturnAsBase64",
+        "scale": 1,
+        "paperWidth": 8.5,
+        "paperHeight": 11,
+        "preferCSSPageSize": false
+      },
+      "source_fixture": "fixtures/print-geometry-a4.html",
+      "source_sha256": "b4a1a867b7295dabb6af75b31a82fc53e3c45d8840e87d15ac0d2cf23fd8c2f3",
+      "output_pdf": "browser-output/browser-html-a4-to-letter-prefercss-false.pdf",
+      "output_sha256": "a787b4ced6cdfdfe74789238de5d4a52e338ae1a20563974c19fdf9f17260c7e",
+      "page_count": 1,
+      "mediabox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "producer": "Skia/PDF m154",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 94.07283900696486,
+          "height_mm": 94.07283900696486,
+          "scale_x": 0.9407283900696486,
+          "scale_y": 0.9407283900696486,
+          "error_x_percent": -5.927160993035141,
+          "error_y_percent": -5.927160993035141,
+          "bbox_pdf_points": [
+            106.24894861296028,
+            293.33468297012246,
+            372.9121143019945,
+            559.9978486591567
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 47.78900503772333,
+          "height_mm": 23.894495463398705,
+          "scale_x": 0.940728445624475,
+          "scale_y": 0.9407281678503427,
+          "error_x_percent": -5.9271554375525,
+          "error_y_percent": -5.9271832149657255,
+          "bbox_pdf_points": [
+            106.24894861296028,
+            184.00277437109185,
+            241.71384478288468,
+            251.73520245631653
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 169.33111021253674,
+          "height_mm": 0.0,
+          "scale_x": 0.9407283900696486,
+          "scale_y": null,
+          "error_x_percent": -5.927160993035141,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            66.24947375960514,
+            128.00352024292124,
+            546.2431719998668,
+            128.00352024292124
+          ]
+        }
+      ],
+      "scope": "Actual controlled Chrome HTML-to-PDF developer output. Not PDF-viewer Actual size/Fit, OS print driver or physical printer results."
+    },
+    {
+      "case_id": "browser-html-letter-css-size-scale-100",
+      "origin": "browser-engine-html-to-pdf",
+      "captured_on": "2026-10-09T21:33:41.600Z",
+      "application_name": "Google Chrome",
+      "browser_version_observed": "not-exposed-by-tab-scoped-CDP; see returned PDF producer metadata",
+      "command": "Page.printToPDF",
+      "command_parameters_observed": {
+        "landscape": false,
+        "displayHeaderFooter": false,
+        "printBackground": true,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "pageRanges": "",
+        "transferMode": "ReturnAsBase64",
+        "scale": 1,
+        "paperWidth": 8.5,
+        "paperHeight": 11,
+        "preferCSSPageSize": true
+      },
+      "source_fixture": "fixtures/print-geometry-letter.html",
+      "source_sha256": "fe07c2435f4c920a4a37b094f46898c8bdcd96ec0ff0fa20582e6e30db09235c",
+      "output_pdf": "browser-output/browser-html-letter-css-size-scale-100.pdf",
+      "output_sha256": "b20feb3abec6482103b37a334669a4084eab286d143e1499fa7521221ab5bfac",
+      "page_count": 1,
+      "mediabox_mm": [
+        215.89999999999998,
+        279.4
+      ],
+      "producer": "Skia/PDF m154",
+      "metrics": [
+        {
+          "marker": "metric-square",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 99.9999964933333,
+          "height_mm": 99.99998849333356,
+          "scale_x": 0.999999964933333,
+          "scale_y": 0.9999998849333356,
+          "error_x_percent": -3.506666701458272e-06,
+          "error_y_percent": -1.150666644189613e-05,
+          "bbox_pdf_points": [
+            85.03936906275005,
+            311.8110574685476,
+            368.50392605172635,
+            595.2755917803593
+          ]
+        },
+        {
+          "marker": "inch-rectangle",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 50.800001218613225,
+          "height_mm": 25.39999310930689,
+          "scale_x": 1.0000000239884494,
+          "scale_y": 0.9999997287128698,
+          "error_x_percent": 2.3988449449063864e-06,
+          "error_y_percent": -2.712871302046338e-05,
+          "bbox_pdf_points": [
+            85.03936906275005,
+            195.59058910306726,
+            229.03937251708675,
+            267.5905695703939
+          ]
+        },
+        {
+          "marker": "long-horizontal",
+          "status": "extracted-vector-extents",
+          "matched_objects": 1,
+          "width_mm": 179.99999368799996,
+          "height_mm": 0.0,
+          "scale_x": 0.9999999649333331,
+          "scale_y": null,
+          "error_x_percent": -3.5066666903560417e-06,
+          "error_y_percent": null,
+          "bbox_pdf_points": [
+            42.51968551440361,
+            136.0630434739645,
+            552.755888094561,
+            136.0630434739645
+          ]
+        }
+      ],
+      "scope": "Actual controlled Chrome HTML-to-PDF developer output. Not PDF-viewer Actual size/Fit, OS print driver or physical printer results."
+    }
+  ]
+}

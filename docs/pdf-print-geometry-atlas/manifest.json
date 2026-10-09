@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "atlas_version": "1.0.0",
+  "prepared_date": "2026-10-10",
+  "publisher": "Sewlore",
+  "scope": "Digital PDF path geometry only; no native or physical print outcomes claimed by generated files.",
+  "point_definition": "72 PDF points per inch; 1 inch = 25.4 mm",
+  "paper_mm": {
+    "a4": [
+      210.0,
+      297.0
+    ],
+    "letter": [
+      215.9,
+      279.4
+    ]
+  },
+  "markers": {
+    "metric-square": {
+      "rgb": [
+        0.0,
+        0.45,
+        0.38
+      ],
+      "width_mm": 100.0,
+      "height_mm": 100.0
+    },
+    "inch-rectangle": {
+      "rgb": [
+        0.07,
+        0.31,
+        0.59
+      ],
+      "width_mm": 50.8,
+      "height_mm": 25.4
+    },
+    "long-horizontal": {
+      "rgb": [
+        0.8,
+        0.35,
+        0.02
+      ],
+      "width_mm": 180.0,
+      "height_mm": 0.0
+    }
+  },
+  "geometry_extraction_tolerance_mm": 0.005,
+  "color_matching_tolerance": 0.025,
+  "native_cases_completed": 0,
+  "files": [
+    {
+      "case_id": "reference-a4",
+      "path": "fixtures/sewlore-print-geometry-a4.pdf",
+      "origin": "programmatic-reference",
+      "source_paper": "a4",
+      "output_paper": "a4",
+      "expected_sx": 1.0,
+      "expected_sy": 1.0,
+      "sha256": "dc8db72f0fd1f2a1854f7a651314f3fd06593c4d5912627be3c7956753fbe11f"
+    },
+    {
+      "case_id": "reference-letter",
+      "path": "fixtures/sewlore-print-geometry-letter.pdf",
+      "origin": "programmatic-reference",
+      "source_paper": "letter",
+      "output_paper": "letter",
+      "expected_sx": 1.0,
+      "expected_sy": 1.0,
+      "sha256": "38e1a7ac12e2ca69396fc416287a432ae1e82841f9feafd6d8d16976c00bc273"
+    },
+    {
+      "case_id": "a4-uniform-95-percent",
+      "path": "controls-programmatic/a4-uniform-95-percent.pdf",
+      "origin": "programmatic-detector-control",
+      "source_paper": "a4",
+      "output_paper": "a4",
+      "expected_sx": 0.95,
+      "expected_sy": 0.95,
+      "sha256": "40ae8b40390eec74c4c1ef5dd4bc25c157d4c357a0bffe5eb95c7a40e9035dd7"
+    },
+    {
+      "case_id": "letter-uniform-95-percent",
+      "path": "controls-programmatic/letter-uniform-95-percent.pdf",
+      "origin": "programmatic-detector-control",
+      "source_paper": "letter",
+      "output_paper": "letter",
+      "expected_sx": 0.95,
+      "expected_sy": 0.95,
+      "sha256": "1ff1aad1ee7ff1e9e2876e1d2a837f624d70467e5696f0aaa04c14cb7aaf675d"
+    },
+    {
+      "case_id": "a4-anisotropic-96x104-percent",
+      "path": "controls-programmatic/a4-anisotropic-96x104-percent.pdf",
+      "origin": "programmatic-detector-control",
+      "source_paper": "a4",
+      "output_paper": "a4",
+      "expected_sx": 0.96,
+      "expected_sy": 1.04,
+      "sha256": "c1ad1f34caf25868ae198b8ca951308e2938993473a261a32186602ef74fdc15"
+    },
+    {
+      "case_id": "a4-to-letter-whole-paper-fit-model",
+      "path": "controls-programmatic/a4-to-letter-whole-paper-fit-model.pdf",
+      "origin": "programmatic-detector-control",
+      "source_paper": "a4",
+      "output_paper": "letter",
+      "expected_sx": 0.9407407407407407,
+      "expected_sy": 0.9407407407407407,
+      "sha256": "bf6da28b7f49a787e2b0b8874ed2fb0552c19f457db12e73353e3a65ec173872"
+    }
+  ]
+}
