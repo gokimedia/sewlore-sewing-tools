@@ -1,0 +1,2761 @@
+{
+  "version": "1.0.0",
+  "creator": "Sewlore",
+  "source": "https://sewlore.com/pages/fabric-measurement-methods-guide",
+  "language": "en",
+  "license": "CC BY 4.0",
+  "sheets": [
+    {
+      "name": "Stretch and recovery",
+      "headers": [
+        "Record ID",
+        "Unit",
+        "Original",
+        "Stretched",
+        "Released",
+        "Extension (mm)",
+        "Stretch",
+        "Residual growth",
+        "Recovered extension",
+        "Record status",
+        "Method and timing notes"
+      ],
+      "widths": [
+        16,
+        7,
+        11,
+        11,
+        11,
+        14,
+        12,
+        14,
+        16,
+        35,
+        28
+      ],
+      "cells": {
+        "A2": {
+          "value": "Sewlore stretch and recovery log",
+          "role": "text"
+        },
+        "A4": {
+          "value": "Enter original, stretched and released readings in one unit. Keep each reading greater than zero.",
+          "role": "text"
+        },
+        "A5": {
+          "value": "Stretch and residual use original length. Recovered extension uses stretched minus original.",
+          "role": "text"
+        },
+        "A6": {
+          "value": "Sewlore measurement methods guide",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "A7": {
+          "value": "Amber cells are editable. Formula and worked-example cells are protected without a password.",
+          "role": "text"
+        },
+        "A8": {
+          "value": "Record the same marked span, unit, direction and method. Displayed decimals do not add measurement accuracy.",
+          "role": "text"
+        },
+        "A9": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B9": {
+          "value": "Unit",
+          "role": "text"
+        },
+        "C9": {
+          "value": "Original",
+          "role": "text"
+        },
+        "D9": {
+          "value": "Stretched",
+          "role": "text"
+        },
+        "E9": {
+          "value": "Released",
+          "role": "text"
+        },
+        "F9": {
+          "value": "Extension (mm)",
+          "role": "text"
+        },
+        "G9": {
+          "value": "Stretch",
+          "role": "text"
+        },
+        "H9": {
+          "value": "Residual growth",
+          "role": "text"
+        },
+        "I9": {
+          "value": "Recovered extension",
+          "role": "text"
+        },
+        "J9": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "K9": {
+          "value": "Method and timing notes",
+          "role": "text"
+        },
+        "A24": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B24": {
+          "value": "Unit",
+          "role": "text"
+        },
+        "C24": {
+          "value": "Original",
+          "role": "text"
+        },
+        "D24": {
+          "value": "Stretched",
+          "role": "text"
+        },
+        "E24": {
+          "value": "Released",
+          "role": "text"
+        },
+        "F24": {
+          "value": "Extension (mm)",
+          "role": "text"
+        },
+        "G24": {
+          "value": "Stretch",
+          "role": "text"
+        },
+        "H24": {
+          "value": "Residual growth",
+          "role": "text"
+        },
+        "I24": {
+          "value": "Recovered extension",
+          "role": "text"
+        },
+        "J24": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "K24": {
+          "value": "Method and timing notes",
+          "role": "text"
+        },
+        "A23": {
+          "value": "Worked examples: synthetic inputs for learning. No physical specimen or care process was tested.",
+          "role": "text"
+        },
+        "A32": {
+          "value": "How to record",
+          "role": "text"
+        },
+        "A37": {
+          "value": "Sewlore Fabric Measurement Workbook 1.0.0",
+          "role": "text"
+        },
+        "A38": {
+          "value": "Original educational workbook by Sewlore. AI-assisted preparation. CC BY 4.0 for any applicable rights.",
+          "role": "text"
+        },
+        "A39": {
+          "value": "Attribution: Sewlore, Fabric Measurement Workbook 1.0.0.",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "F10": {
+          "formula": "=IF(AND(COUNT(C10:E10)=3,C10>0,D10>0,E10>0,D10>=C10,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),(D10-C10)*IF(B10=\"cm\",10,IF(B10=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G10": {
+          "formula": "=IF(AND(COUNT(C10:E10)=3,C10>0,D10>0,E10>0,D10>=C10,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),(D10-C10)/C10,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H10": {
+          "formula": "=IF(AND(COUNT(C10:E10)=3,C10>0,D10>0,E10>0,D10>=C10,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),(E10-C10)/C10,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I10": {
+          "formula": "=IF(AND(COUNT(C10:E10)=3,C10>0,D10>0,E10>0,D10>=C10,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),IF(D10=C10,\"n.a.\",(D10-E10)/(D10-C10)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J10": {
+          "formula": "=IF(COUNTA(A10:E10)=0,\"\",IF(NOT(OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C10:E10)<>3,\"Enter three numeric readings\",IF(MIN(C10:E10)<=0,\"Readings must be positive\",IF(D10<C10,\"Stretched < original\",IF(D10=C10,\"Recovery undefined: zero extension\",IF(OR(E10<C10,E10>D10),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F11": {
+          "formula": "=IF(AND(COUNT(C11:E11)=3,C11>0,D11>0,E11>0,D11>=C11,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),(D11-C11)*IF(B11=\"cm\",10,IF(B11=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G11": {
+          "formula": "=IF(AND(COUNT(C11:E11)=3,C11>0,D11>0,E11>0,D11>=C11,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),(D11-C11)/C11,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H11": {
+          "formula": "=IF(AND(COUNT(C11:E11)=3,C11>0,D11>0,E11>0,D11>=C11,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),(E11-C11)/C11,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I11": {
+          "formula": "=IF(AND(COUNT(C11:E11)=3,C11>0,D11>0,E11>0,D11>=C11,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),IF(D11=C11,\"n.a.\",(D11-E11)/(D11-C11)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J11": {
+          "formula": "=IF(COUNTA(A11:E11)=0,\"\",IF(NOT(OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C11:E11)<>3,\"Enter three numeric readings\",IF(MIN(C11:E11)<=0,\"Readings must be positive\",IF(D11<C11,\"Stretched < original\",IF(D11=C11,\"Recovery undefined: zero extension\",IF(OR(E11<C11,E11>D11),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F12": {
+          "formula": "=IF(AND(COUNT(C12:E12)=3,C12>0,D12>0,E12>0,D12>=C12,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),(D12-C12)*IF(B12=\"cm\",10,IF(B12=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G12": {
+          "formula": "=IF(AND(COUNT(C12:E12)=3,C12>0,D12>0,E12>0,D12>=C12,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),(D12-C12)/C12,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H12": {
+          "formula": "=IF(AND(COUNT(C12:E12)=3,C12>0,D12>0,E12>0,D12>=C12,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),(E12-C12)/C12,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I12": {
+          "formula": "=IF(AND(COUNT(C12:E12)=3,C12>0,D12>0,E12>0,D12>=C12,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),IF(D12=C12,\"n.a.\",(D12-E12)/(D12-C12)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J12": {
+          "formula": "=IF(COUNTA(A12:E12)=0,\"\",IF(NOT(OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C12:E12)<>3,\"Enter three numeric readings\",IF(MIN(C12:E12)<=0,\"Readings must be positive\",IF(D12<C12,\"Stretched < original\",IF(D12=C12,\"Recovery undefined: zero extension\",IF(OR(E12<C12,E12>D12),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F13": {
+          "formula": "=IF(AND(COUNT(C13:E13)=3,C13>0,D13>0,E13>0,D13>=C13,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),(D13-C13)*IF(B13=\"cm\",10,IF(B13=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G13": {
+          "formula": "=IF(AND(COUNT(C13:E13)=3,C13>0,D13>0,E13>0,D13>=C13,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),(D13-C13)/C13,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H13": {
+          "formula": "=IF(AND(COUNT(C13:E13)=3,C13>0,D13>0,E13>0,D13>=C13,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),(E13-C13)/C13,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I13": {
+          "formula": "=IF(AND(COUNT(C13:E13)=3,C13>0,D13>0,E13>0,D13>=C13,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),IF(D13=C13,\"n.a.\",(D13-E13)/(D13-C13)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J13": {
+          "formula": "=IF(COUNTA(A13:E13)=0,\"\",IF(NOT(OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C13:E13)<>3,\"Enter three numeric readings\",IF(MIN(C13:E13)<=0,\"Readings must be positive\",IF(D13<C13,\"Stretched < original\",IF(D13=C13,\"Recovery undefined: zero extension\",IF(OR(E13<C13,E13>D13),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F14": {
+          "formula": "=IF(AND(COUNT(C14:E14)=3,C14>0,D14>0,E14>0,D14>=C14,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),(D14-C14)*IF(B14=\"cm\",10,IF(B14=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G14": {
+          "formula": "=IF(AND(COUNT(C14:E14)=3,C14>0,D14>0,E14>0,D14>=C14,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),(D14-C14)/C14,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H14": {
+          "formula": "=IF(AND(COUNT(C14:E14)=3,C14>0,D14>0,E14>0,D14>=C14,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),(E14-C14)/C14,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I14": {
+          "formula": "=IF(AND(COUNT(C14:E14)=3,C14>0,D14>0,E14>0,D14>=C14,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),IF(D14=C14,\"n.a.\",(D14-E14)/(D14-C14)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J14": {
+          "formula": "=IF(COUNTA(A14:E14)=0,\"\",IF(NOT(OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C14:E14)<>3,\"Enter three numeric readings\",IF(MIN(C14:E14)<=0,\"Readings must be positive\",IF(D14<C14,\"Stretched < original\",IF(D14=C14,\"Recovery undefined: zero extension\",IF(OR(E14<C14,E14>D14),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F15": {
+          "formula": "=IF(AND(COUNT(C15:E15)=3,C15>0,D15>0,E15>0,D15>=C15,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),(D15-C15)*IF(B15=\"cm\",10,IF(B15=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G15": {
+          "formula": "=IF(AND(COUNT(C15:E15)=3,C15>0,D15>0,E15>0,D15>=C15,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),(D15-C15)/C15,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H15": {
+          "formula": "=IF(AND(COUNT(C15:E15)=3,C15>0,D15>0,E15>0,D15>=C15,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),(E15-C15)/C15,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I15": {
+          "formula": "=IF(AND(COUNT(C15:E15)=3,C15>0,D15>0,E15>0,D15>=C15,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),IF(D15=C15,\"n.a.\",(D15-E15)/(D15-C15)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J15": {
+          "formula": "=IF(COUNTA(A15:E15)=0,\"\",IF(NOT(OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C15:E15)<>3,\"Enter three numeric readings\",IF(MIN(C15:E15)<=0,\"Readings must be positive\",IF(D15<C15,\"Stretched < original\",IF(D15=C15,\"Recovery undefined: zero extension\",IF(OR(E15<C15,E15>D15),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F16": {
+          "formula": "=IF(AND(COUNT(C16:E16)=3,C16>0,D16>0,E16>0,D16>=C16,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),(D16-C16)*IF(B16=\"cm\",10,IF(B16=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G16": {
+          "formula": "=IF(AND(COUNT(C16:E16)=3,C16>0,D16>0,E16>0,D16>=C16,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),(D16-C16)/C16,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H16": {
+          "formula": "=IF(AND(COUNT(C16:E16)=3,C16>0,D16>0,E16>0,D16>=C16,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),(E16-C16)/C16,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I16": {
+          "formula": "=IF(AND(COUNT(C16:E16)=3,C16>0,D16>0,E16>0,D16>=C16,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),IF(D16=C16,\"n.a.\",(D16-E16)/(D16-C16)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J16": {
+          "formula": "=IF(COUNTA(A16:E16)=0,\"\",IF(NOT(OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C16:E16)<>3,\"Enter three numeric readings\",IF(MIN(C16:E16)<=0,\"Readings must be positive\",IF(D16<C16,\"Stretched < original\",IF(D16=C16,\"Recovery undefined: zero extension\",IF(OR(E16<C16,E16>D16),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F17": {
+          "formula": "=IF(AND(COUNT(C17:E17)=3,C17>0,D17>0,E17>0,D17>=C17,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),(D17-C17)*IF(B17=\"cm\",10,IF(B17=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G17": {
+          "formula": "=IF(AND(COUNT(C17:E17)=3,C17>0,D17>0,E17>0,D17>=C17,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),(D17-C17)/C17,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H17": {
+          "formula": "=IF(AND(COUNT(C17:E17)=3,C17>0,D17>0,E17>0,D17>=C17,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),(E17-C17)/C17,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I17": {
+          "formula": "=IF(AND(COUNT(C17:E17)=3,C17>0,D17>0,E17>0,D17>=C17,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),IF(D17=C17,\"n.a.\",(D17-E17)/(D17-C17)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J17": {
+          "formula": "=IF(COUNTA(A17:E17)=0,\"\",IF(NOT(OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C17:E17)<>3,\"Enter three numeric readings\",IF(MIN(C17:E17)<=0,\"Readings must be positive\",IF(D17<C17,\"Stretched < original\",IF(D17=C17,\"Recovery undefined: zero extension\",IF(OR(E17<C17,E17>D17),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F18": {
+          "formula": "=IF(AND(COUNT(C18:E18)=3,C18>0,D18>0,E18>0,D18>=C18,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),(D18-C18)*IF(B18=\"cm\",10,IF(B18=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G18": {
+          "formula": "=IF(AND(COUNT(C18:E18)=3,C18>0,D18>0,E18>0,D18>=C18,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),(D18-C18)/C18,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H18": {
+          "formula": "=IF(AND(COUNT(C18:E18)=3,C18>0,D18>0,E18>0,D18>=C18,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),(E18-C18)/C18,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I18": {
+          "formula": "=IF(AND(COUNT(C18:E18)=3,C18>0,D18>0,E18>0,D18>=C18,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),IF(D18=C18,\"n.a.\",(D18-E18)/(D18-C18)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J18": {
+          "formula": "=IF(COUNTA(A18:E18)=0,\"\",IF(NOT(OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C18:E18)<>3,\"Enter three numeric readings\",IF(MIN(C18:E18)<=0,\"Readings must be positive\",IF(D18<C18,\"Stretched < original\",IF(D18=C18,\"Recovery undefined: zero extension\",IF(OR(E18<C18,E18>D18),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F19": {
+          "formula": "=IF(AND(COUNT(C19:E19)=3,C19>0,D19>0,E19>0,D19>=C19,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),(D19-C19)*IF(B19=\"cm\",10,IF(B19=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G19": {
+          "formula": "=IF(AND(COUNT(C19:E19)=3,C19>0,D19>0,E19>0,D19>=C19,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),(D19-C19)/C19,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H19": {
+          "formula": "=IF(AND(COUNT(C19:E19)=3,C19>0,D19>0,E19>0,D19>=C19,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),(E19-C19)/C19,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I19": {
+          "formula": "=IF(AND(COUNT(C19:E19)=3,C19>0,D19>0,E19>0,D19>=C19,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),IF(D19=C19,\"n.a.\",(D19-E19)/(D19-C19)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J19": {
+          "formula": "=IF(COUNTA(A19:E19)=0,\"\",IF(NOT(OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C19:E19)<>3,\"Enter three numeric readings\",IF(MIN(C19:E19)<=0,\"Readings must be positive\",IF(D19<C19,\"Stretched < original\",IF(D19=C19,\"Recovery undefined: zero extension\",IF(OR(E19<C19,E19>D19),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F20": {
+          "formula": "=IF(AND(COUNT(C20:E20)=3,C20>0,D20>0,E20>0,D20>=C20,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),(D20-C20)*IF(B20=\"cm\",10,IF(B20=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G20": {
+          "formula": "=IF(AND(COUNT(C20:E20)=3,C20>0,D20>0,E20>0,D20>=C20,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),(D20-C20)/C20,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H20": {
+          "formula": "=IF(AND(COUNT(C20:E20)=3,C20>0,D20>0,E20>0,D20>=C20,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),(E20-C20)/C20,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I20": {
+          "formula": "=IF(AND(COUNT(C20:E20)=3,C20>0,D20>0,E20>0,D20>=C20,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),IF(D20=C20,\"n.a.\",(D20-E20)/(D20-C20)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J20": {
+          "formula": "=IF(COUNTA(A20:E20)=0,\"\",IF(NOT(OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C20:E20)<>3,\"Enter three numeric readings\",IF(MIN(C20:E20)<=0,\"Readings must be positive\",IF(D20<C20,\"Stretched < original\",IF(D20=C20,\"Recovery undefined: zero extension\",IF(OR(E20<C20,E20>D20),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "F21": {
+          "formula": "=IF(AND(COUNT(C21:E21)=3,C21>0,D21>0,E21>0,D21>=C21,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),(D21-C21)*IF(B21=\"cm\",10,IF(B21=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "G21": {
+          "formula": "=IF(AND(COUNT(C21:E21)=3,C21>0,D21>0,E21>0,D21>=C21,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),(D21-C21)/C21,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "H21": {
+          "formula": "=IF(AND(COUNT(C21:E21)=3,C21>0,D21>0,E21>0,D21>=C21,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),(E21-C21)/C21,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I21": {
+          "formula": "=IF(AND(COUNT(C21:E21)=3,C21>0,D21>0,E21>0,D21>=C21,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),IF(D21=C21,\"n.a.\",(D21-E21)/(D21-C21)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J21": {
+          "formula": "=IF(COUNTA(A21:E21)=0,\"\",IF(NOT(OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C21:E21)<>3,\"Enter three numeric readings\",IF(MIN(C21:E21)<=0,\"Readings must be positive\",IF(D21<C21,\"Stretched < original\",IF(D21=C21,\"Recovery undefined: zero extension\",IF(OR(E21<C21,E21>D21),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "A10": {
+          "value": null,
+          "role": "input"
+        },
+        "B10": {
+          "value": null,
+          "role": "input"
+        },
+        "C10": {
+          "value": null,
+          "role": "input"
+        },
+        "D10": {
+          "value": null,
+          "role": "input"
+        },
+        "E10": {
+          "value": null,
+          "role": "input"
+        },
+        "A11": {
+          "value": null,
+          "role": "input"
+        },
+        "B11": {
+          "value": null,
+          "role": "input"
+        },
+        "C11": {
+          "value": null,
+          "role": "input"
+        },
+        "D11": {
+          "value": null,
+          "role": "input"
+        },
+        "E11": {
+          "value": null,
+          "role": "input"
+        },
+        "A12": {
+          "value": null,
+          "role": "input"
+        },
+        "B12": {
+          "value": null,
+          "role": "input"
+        },
+        "C12": {
+          "value": null,
+          "role": "input"
+        },
+        "D12": {
+          "value": null,
+          "role": "input"
+        },
+        "E12": {
+          "value": null,
+          "role": "input"
+        },
+        "A13": {
+          "value": null,
+          "role": "input"
+        },
+        "B13": {
+          "value": null,
+          "role": "input"
+        },
+        "C13": {
+          "value": null,
+          "role": "input"
+        },
+        "D13": {
+          "value": null,
+          "role": "input"
+        },
+        "E13": {
+          "value": null,
+          "role": "input"
+        },
+        "A14": {
+          "value": null,
+          "role": "input"
+        },
+        "B14": {
+          "value": null,
+          "role": "input"
+        },
+        "C14": {
+          "value": null,
+          "role": "input"
+        },
+        "D14": {
+          "value": null,
+          "role": "input"
+        },
+        "E14": {
+          "value": null,
+          "role": "input"
+        },
+        "A15": {
+          "value": null,
+          "role": "input"
+        },
+        "B15": {
+          "value": null,
+          "role": "input"
+        },
+        "C15": {
+          "value": null,
+          "role": "input"
+        },
+        "D15": {
+          "value": null,
+          "role": "input"
+        },
+        "E15": {
+          "value": null,
+          "role": "input"
+        },
+        "A16": {
+          "value": null,
+          "role": "input"
+        },
+        "B16": {
+          "value": null,
+          "role": "input"
+        },
+        "C16": {
+          "value": null,
+          "role": "input"
+        },
+        "D16": {
+          "value": null,
+          "role": "input"
+        },
+        "E16": {
+          "value": null,
+          "role": "input"
+        },
+        "A17": {
+          "value": null,
+          "role": "input"
+        },
+        "B17": {
+          "value": null,
+          "role": "input"
+        },
+        "C17": {
+          "value": null,
+          "role": "input"
+        },
+        "D17": {
+          "value": null,
+          "role": "input"
+        },
+        "E17": {
+          "value": null,
+          "role": "input"
+        },
+        "A18": {
+          "value": null,
+          "role": "input"
+        },
+        "B18": {
+          "value": null,
+          "role": "input"
+        },
+        "C18": {
+          "value": null,
+          "role": "input"
+        },
+        "D18": {
+          "value": null,
+          "role": "input"
+        },
+        "E18": {
+          "value": null,
+          "role": "input"
+        },
+        "A19": {
+          "value": null,
+          "role": "input"
+        },
+        "B19": {
+          "value": null,
+          "role": "input"
+        },
+        "C19": {
+          "value": null,
+          "role": "input"
+        },
+        "D19": {
+          "value": null,
+          "role": "input"
+        },
+        "E19": {
+          "value": null,
+          "role": "input"
+        },
+        "A20": {
+          "value": null,
+          "role": "input"
+        },
+        "B20": {
+          "value": null,
+          "role": "input"
+        },
+        "C20": {
+          "value": null,
+          "role": "input"
+        },
+        "D20": {
+          "value": null,
+          "role": "input"
+        },
+        "E20": {
+          "value": null,
+          "role": "input"
+        },
+        "A21": {
+          "value": null,
+          "role": "input"
+        },
+        "B21": {
+          "value": null,
+          "role": "input"
+        },
+        "C21": {
+          "value": null,
+          "role": "input"
+        },
+        "D21": {
+          "value": null,
+          "role": "input"
+        },
+        "E21": {
+          "value": null,
+          "role": "input"
+        },
+        "K10": {
+          "value": null,
+          "role": "input"
+        },
+        "K11": {
+          "value": null,
+          "role": "input"
+        },
+        "K12": {
+          "value": null,
+          "role": "input"
+        },
+        "K13": {
+          "value": null,
+          "role": "input"
+        },
+        "K14": {
+          "value": null,
+          "role": "input"
+        },
+        "K15": {
+          "value": null,
+          "role": "input"
+        },
+        "K16": {
+          "value": null,
+          "role": "input"
+        },
+        "K17": {
+          "value": null,
+          "role": "input"
+        },
+        "K18": {
+          "value": null,
+          "role": "input"
+        },
+        "K19": {
+          "value": null,
+          "role": "input"
+        },
+        "K20": {
+          "value": null,
+          "role": "input"
+        },
+        "K21": {
+          "value": null,
+          "role": "input"
+        },
+        "A25": {
+          "value": "EX-S1",
+          "role": "text"
+        },
+        "B25": {
+          "value": "mm",
+          "role": "text"
+        },
+        "C25": {
+          "value": 100,
+          "role": "text"
+        },
+        "D25": {
+          "value": 125,
+          "role": "text"
+        },
+        "E25": {
+          "value": 103,
+          "role": "text"
+        },
+        "F25": {
+          "formula": "=IF(AND(COUNT(C25:E25)=3,C25>0,D25>0,E25>0,D25>=C25,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),(D25-C25)*IF(B25=\"cm\",10,IF(B25=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 25
+        },
+        "G25": {
+          "formula": "=IF(AND(COUNT(C25:E25)=3,C25>0,D25>0,E25>0,D25>=C25,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),(D25-C25)/C25,\"\")",
+          "role": "formula",
+          "cached": 0.25
+        },
+        "H25": {
+          "formula": "=IF(AND(COUNT(C25:E25)=3,C25>0,D25>0,E25>0,D25>=C25,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),(E25-C25)/C25,\"\")",
+          "role": "formula",
+          "cached": 0.03
+        },
+        "I25": {
+          "formula": "=IF(AND(COUNT(C25:E25)=3,C25>0,D25>0,E25>0,D25>=C25,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),IF(D25=C25,\"n.a.\",(D25-E25)/(D25-C25)),\"\")",
+          "role": "formula",
+          "cached": 0.88
+        },
+        "J25": {
+          "formula": "=IF(COUNTA(A25:E25)=0,\"\",IF(NOT(OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C25:E25)<>3,\"Enter three numeric readings\",IF(MIN(C25:E25)<=0,\"Readings must be positive\",IF(D25<C25,\"Stretched < original\",IF(D25=C25,\"Recovery undefined: zero extension\",IF(OR(E25<C25,E25>D25),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "K25": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A26": {
+          "value": "EX-S2",
+          "role": "text"
+        },
+        "B26": {
+          "value": "cm",
+          "role": "text"
+        },
+        "C26": {
+          "value": 10,
+          "role": "text"
+        },
+        "D26": {
+          "value": 10,
+          "role": "text"
+        },
+        "E26": {
+          "value": 10,
+          "role": "text"
+        },
+        "F26": {
+          "formula": "=IF(AND(COUNT(C26:E26)=3,C26>0,D26>0,E26>0,D26>=C26,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),(D26-C26)*IF(B26=\"cm\",10,IF(B26=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "G26": {
+          "formula": "=IF(AND(COUNT(C26:E26)=3,C26>0,D26>0,E26>0,D26>=C26,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),(D26-C26)/C26,\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "H26": {
+          "formula": "=IF(AND(COUNT(C26:E26)=3,C26>0,D26>0,E26>0,D26>=C26,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),(E26-C26)/C26,\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "I26": {
+          "formula": "=IF(AND(COUNT(C26:E26)=3,C26>0,D26>0,E26>0,D26>=C26,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),IF(D26=C26,\"n.a.\",(D26-E26)/(D26-C26)),\"\")",
+          "role": "formula",
+          "cached": "n.a."
+        },
+        "J26": {
+          "formula": "=IF(COUNTA(A26:E26)=0,\"\",IF(NOT(OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C26:E26)<>3,\"Enter three numeric readings\",IF(MIN(C26:E26)<=0,\"Readings must be positive\",IF(D26<C26,\"Stretched < original\",IF(D26=C26,\"Recovery undefined: zero extension\",IF(OR(E26<C26,E26>D26),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": "Recovery undefined: zero extension"
+        },
+        "K26": {
+          "value": "No entered extension",
+          "role": "text"
+        },
+        "A27": {
+          "value": "EX-S3",
+          "role": "text"
+        },
+        "B27": {
+          "value": "in",
+          "role": "text"
+        },
+        "C27": {
+          "value": 4,
+          "role": "text"
+        },
+        "D27": {
+          "value": 5,
+          "role": "text"
+        },
+        "E27": {
+          "value": 3.9,
+          "role": "text"
+        },
+        "F27": {
+          "formula": "=IF(AND(COUNT(C27:E27)=3,C27>0,D27>0,E27>0,D27>=C27,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),(D27-C27)*IF(B27=\"cm\",10,IF(B27=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 25.4
+        },
+        "G27": {
+          "formula": "=IF(AND(COUNT(C27:E27)=3,C27>0,D27>0,E27>0,D27>=C27,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),(D27-C27)/C27,\"\")",
+          "role": "formula",
+          "cached": 0.25
+        },
+        "H27": {
+          "formula": "=IF(AND(COUNT(C27:E27)=3,C27>0,D27>0,E27>0,D27>=C27,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),(E27-C27)/C27,\"\")",
+          "role": "formula",
+          "cached": -0.025000000000000022
+        },
+        "I27": {
+          "formula": "=IF(AND(COUNT(C27:E27)=3,C27>0,D27>0,E27>0,D27>=C27,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),IF(D27=C27,\"n.a.\",(D27-E27)/(D27-C27)),\"\")",
+          "role": "formula",
+          "cached": 1.1
+        },
+        "J27": {
+          "formula": "=IF(COUNTA(A27:E27)=0,\"\",IF(NOT(OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C27:E27)<>3,\"Enter three numeric readings\",IF(MIN(C27:E27)<=0,\"Readings must be positive\",IF(D27<C27,\"Stretched < original\",IF(D27=C27,\"Recovery undefined: zero extension\",IF(OR(E27<C27,E27>D27),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": "Review released reading"
+        },
+        "K27": {
+          "value": "Signed result preserved",
+          "role": "text"
+        },
+        "A28": {
+          "value": "EX-S4",
+          "role": "text"
+        },
+        "B28": {
+          "value": "mm",
+          "role": "text"
+        },
+        "C28": {
+          "value": 100,
+          "role": "text"
+        },
+        "D28": {
+          "value": 125,
+          "role": "text"
+        },
+        "E28": {
+          "value": 130,
+          "role": "text"
+        },
+        "F28": {
+          "formula": "=IF(AND(COUNT(C28:E28)=3,C28>0,D28>0,E28>0,D28>=C28,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),(D28-C28)*IF(B28=\"cm\",10,IF(B28=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 25
+        },
+        "G28": {
+          "formula": "=IF(AND(COUNT(C28:E28)=3,C28>0,D28>0,E28>0,D28>=C28,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),(D28-C28)/C28,\"\")",
+          "role": "formula",
+          "cached": 0.25
+        },
+        "H28": {
+          "formula": "=IF(AND(COUNT(C28:E28)=3,C28>0,D28>0,E28>0,D28>=C28,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),(E28-C28)/C28,\"\")",
+          "role": "formula",
+          "cached": 0.3
+        },
+        "I28": {
+          "formula": "=IF(AND(COUNT(C28:E28)=3,C28>0,D28>0,E28>0,D28>=C28,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),IF(D28=C28,\"n.a.\",(D28-E28)/(D28-C28)),\"\")",
+          "role": "formula",
+          "cached": -0.2
+        },
+        "J28": {
+          "formula": "=IF(COUNTA(A28:E28)=0,\"\",IF(NOT(OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C28:E28)<>3,\"Enter three numeric readings\",IF(MIN(C28:E28)<=0,\"Readings must be positive\",IF(D28<C28,\"Stretched < original\",IF(D28=C28,\"Recovery undefined: zero extension\",IF(OR(E28<C28,E28>D28),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": "Review released reading"
+        },
+        "K28": {
+          "value": "Released exceeds stretched",
+          "role": "text"
+        },
+        "A29": {
+          "value": "EX-S5",
+          "role": "text"
+        },
+        "B29": {
+          "value": "cm",
+          "role": "text"
+        },
+        "C29": {
+          "value": 10,
+          "role": "text"
+        },
+        "D29": {
+          "value": 14,
+          "role": "text"
+        },
+        "E29": {
+          "value": 10.5,
+          "role": "text"
+        },
+        "F29": {
+          "formula": "=IF(AND(COUNT(C29:E29)=3,C29>0,D29>0,E29>0,D29>=C29,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),(D29-C29)*IF(B29=\"cm\",10,IF(B29=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 40
+        },
+        "G29": {
+          "formula": "=IF(AND(COUNT(C29:E29)=3,C29>0,D29>0,E29>0,D29>=C29,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),(D29-C29)/C29,\"\")",
+          "role": "formula",
+          "cached": 0.4
+        },
+        "H29": {
+          "formula": "=IF(AND(COUNT(C29:E29)=3,C29>0,D29>0,E29>0,D29>=C29,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),(E29-C29)/C29,\"\")",
+          "role": "formula",
+          "cached": 0.05
+        },
+        "I29": {
+          "formula": "=IF(AND(COUNT(C29:E29)=3,C29>0,D29>0,E29>0,D29>=C29,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),IF(D29=C29,\"n.a.\",(D29-E29)/(D29-C29)),\"\")",
+          "role": "formula",
+          "cached": 0.875
+        },
+        "J29": {
+          "formula": "=IF(COUNTA(A29:E29)=0,\"\",IF(NOT(OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C29:E29)<>3,\"Enter three numeric readings\",IF(MIN(C29:E29)<=0,\"Readings must be positive\",IF(D29<C29,\"Stretched < original\",IF(D29=C29,\"Recovery undefined: zero extension\",IF(OR(E29<C29,E29>D29),\"Review released reading\",\"Recorded\")))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "K29": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A33": {
+          "value": "Record the actual extension method, endpoints, direction and interval between release and the released reading.",
+          "role": "text"
+        },
+        "A34": {
+          "value": "Recovery is n.a. when original equals stretched. Released outside the original–stretched span is flagged and remains signed.",
+          "role": "text"
+        },
+        "A35": {
+          "value": "Formulas: stretch=(S−O)/O. Residual=(R−O)/O. Recovered extension=(S−R)/(S−O).",
+          "role": "text"
+        }
+      },
+      "blankRows": [
+        10,
+        21
+      ],
+      "syntheticRows": [
+        25,
+        29
+      ]
+    },
+    {
+      "name": "Paired care readings",
+      "headers": [
+        "Record ID",
+        "Unit",
+        "Before length",
+        "Before width",
+        "After length",
+        "After width",
+        "Rectangle?",
+        "Length contraction",
+        "Width contraction",
+        "Area contraction",
+        "Record status",
+        "Care and method notes"
+      ],
+      "widths": [
+        16,
+        7,
+        12,
+        12,
+        12,
+        12,
+        11,
+        16,
+        16,
+        16,
+        36,
+        29
+      ],
+      "cells": {
+        "A2": {
+          "value": "Sewlore paired care measurement log",
+          "role": "text"
+        },
+        "A4": {
+          "value": "Enter paired dimensions from the same marked sample. These readings describe change after the recorded process.",
+          "role": "text"
+        },
+        "A5": {
+          "value": "Signed contraction: positive = contraction, negative = expansion. Area requires flat rectangular geometry.",
+          "role": "text"
+        },
+        "A6": {
+          "value": "Sewlore measurement methods guide",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "A7": {
+          "value": "Amber cells are editable. Formula and worked-example cells are protected without a password.",
+          "role": "text"
+        },
+        "A8": {
+          "value": "Record the same marked span, unit, direction and method. Displayed decimals do not add measurement accuracy.",
+          "role": "text"
+        },
+        "A9": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B9": {
+          "value": "Unit",
+          "role": "text"
+        },
+        "C9": {
+          "value": "Before length",
+          "role": "text"
+        },
+        "D9": {
+          "value": "Before width",
+          "role": "text"
+        },
+        "E9": {
+          "value": "After length",
+          "role": "text"
+        },
+        "F9": {
+          "value": "After width",
+          "role": "text"
+        },
+        "G9": {
+          "value": "Rectangle?",
+          "role": "text"
+        },
+        "H9": {
+          "value": "Length contraction",
+          "role": "text"
+        },
+        "I9": {
+          "value": "Width contraction",
+          "role": "text"
+        },
+        "J9": {
+          "value": "Area contraction",
+          "role": "text"
+        },
+        "K9": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "L9": {
+          "value": "Care and method notes",
+          "role": "text"
+        },
+        "A24": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B24": {
+          "value": "Unit",
+          "role": "text"
+        },
+        "C24": {
+          "value": "Before length",
+          "role": "text"
+        },
+        "D24": {
+          "value": "Before width",
+          "role": "text"
+        },
+        "E24": {
+          "value": "After length",
+          "role": "text"
+        },
+        "F24": {
+          "value": "After width",
+          "role": "text"
+        },
+        "G24": {
+          "value": "Rectangle?",
+          "role": "text"
+        },
+        "H24": {
+          "value": "Length contraction",
+          "role": "text"
+        },
+        "I24": {
+          "value": "Width contraction",
+          "role": "text"
+        },
+        "J24": {
+          "value": "Area contraction",
+          "role": "text"
+        },
+        "K24": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "L24": {
+          "value": "Care and method notes",
+          "role": "text"
+        },
+        "A23": {
+          "value": "Worked examples: synthetic inputs for learning. No physical specimen or care process was tested.",
+          "role": "text"
+        },
+        "A32": {
+          "value": "How to record",
+          "role": "text"
+        },
+        "A37": {
+          "value": "Sewlore Fabric Measurement Workbook 1.0.0",
+          "role": "text"
+        },
+        "A38": {
+          "value": "Original educational workbook by Sewlore. AI-assisted preparation. CC BY 4.0 for any applicable rights.",
+          "role": "text"
+        },
+        "A39": {
+          "value": "Attribution: Sewlore, Fabric Measurement Workbook 1.0.0.",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "H10": {
+          "formula": "=IF(AND(COUNT(C10:F10)=4,MIN(C10:F10)>0,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),(C10-E10)/C10,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I10": {
+          "formula": "=IF(AND(COUNT(C10:F10)=4,MIN(C10:F10)>0,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),(D10-F10)/D10,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J10": {
+          "formula": "=IF(AND(COUNT(C10:F10)=4,MIN(C10:F10)>0,OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),IF(G10=\"Yes\",1-(E10/C10)*(F10/D10),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K10": {
+          "formula": "=IF(COUNTA(A10:G10)=0,\"\",IF(NOT(OR(B10=\"cm\",B10=\"mm\",B10=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C10:F10)<>4,\"Enter four numeric readings\",IF(MIN(C10:F10)<=0,\"Readings must be positive\",IF(NOT(OR(G10=\"Yes\",G10=\"No\")),\"Choose rectangle Yes or No\",IF(G10=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H11": {
+          "formula": "=IF(AND(COUNT(C11:F11)=4,MIN(C11:F11)>0,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),(C11-E11)/C11,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I11": {
+          "formula": "=IF(AND(COUNT(C11:F11)=4,MIN(C11:F11)>0,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),(D11-F11)/D11,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J11": {
+          "formula": "=IF(AND(COUNT(C11:F11)=4,MIN(C11:F11)>0,OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),IF(G11=\"Yes\",1-(E11/C11)*(F11/D11),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K11": {
+          "formula": "=IF(COUNTA(A11:G11)=0,\"\",IF(NOT(OR(B11=\"cm\",B11=\"mm\",B11=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C11:F11)<>4,\"Enter four numeric readings\",IF(MIN(C11:F11)<=0,\"Readings must be positive\",IF(NOT(OR(G11=\"Yes\",G11=\"No\")),\"Choose rectangle Yes or No\",IF(G11=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H12": {
+          "formula": "=IF(AND(COUNT(C12:F12)=4,MIN(C12:F12)>0,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),(C12-E12)/C12,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I12": {
+          "formula": "=IF(AND(COUNT(C12:F12)=4,MIN(C12:F12)>0,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),(D12-F12)/D12,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J12": {
+          "formula": "=IF(AND(COUNT(C12:F12)=4,MIN(C12:F12)>0,OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),IF(G12=\"Yes\",1-(E12/C12)*(F12/D12),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K12": {
+          "formula": "=IF(COUNTA(A12:G12)=0,\"\",IF(NOT(OR(B12=\"cm\",B12=\"mm\",B12=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C12:F12)<>4,\"Enter four numeric readings\",IF(MIN(C12:F12)<=0,\"Readings must be positive\",IF(NOT(OR(G12=\"Yes\",G12=\"No\")),\"Choose rectangle Yes or No\",IF(G12=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H13": {
+          "formula": "=IF(AND(COUNT(C13:F13)=4,MIN(C13:F13)>0,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),(C13-E13)/C13,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I13": {
+          "formula": "=IF(AND(COUNT(C13:F13)=4,MIN(C13:F13)>0,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),(D13-F13)/D13,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J13": {
+          "formula": "=IF(AND(COUNT(C13:F13)=4,MIN(C13:F13)>0,OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),IF(G13=\"Yes\",1-(E13/C13)*(F13/D13),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K13": {
+          "formula": "=IF(COUNTA(A13:G13)=0,\"\",IF(NOT(OR(B13=\"cm\",B13=\"mm\",B13=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C13:F13)<>4,\"Enter four numeric readings\",IF(MIN(C13:F13)<=0,\"Readings must be positive\",IF(NOT(OR(G13=\"Yes\",G13=\"No\")),\"Choose rectangle Yes or No\",IF(G13=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H14": {
+          "formula": "=IF(AND(COUNT(C14:F14)=4,MIN(C14:F14)>0,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),(C14-E14)/C14,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I14": {
+          "formula": "=IF(AND(COUNT(C14:F14)=4,MIN(C14:F14)>0,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),(D14-F14)/D14,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J14": {
+          "formula": "=IF(AND(COUNT(C14:F14)=4,MIN(C14:F14)>0,OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),IF(G14=\"Yes\",1-(E14/C14)*(F14/D14),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K14": {
+          "formula": "=IF(COUNTA(A14:G14)=0,\"\",IF(NOT(OR(B14=\"cm\",B14=\"mm\",B14=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C14:F14)<>4,\"Enter four numeric readings\",IF(MIN(C14:F14)<=0,\"Readings must be positive\",IF(NOT(OR(G14=\"Yes\",G14=\"No\")),\"Choose rectangle Yes or No\",IF(G14=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H15": {
+          "formula": "=IF(AND(COUNT(C15:F15)=4,MIN(C15:F15)>0,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),(C15-E15)/C15,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I15": {
+          "formula": "=IF(AND(COUNT(C15:F15)=4,MIN(C15:F15)>0,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),(D15-F15)/D15,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J15": {
+          "formula": "=IF(AND(COUNT(C15:F15)=4,MIN(C15:F15)>0,OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),IF(G15=\"Yes\",1-(E15/C15)*(F15/D15),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K15": {
+          "formula": "=IF(COUNTA(A15:G15)=0,\"\",IF(NOT(OR(B15=\"cm\",B15=\"mm\",B15=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C15:F15)<>4,\"Enter four numeric readings\",IF(MIN(C15:F15)<=0,\"Readings must be positive\",IF(NOT(OR(G15=\"Yes\",G15=\"No\")),\"Choose rectangle Yes or No\",IF(G15=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H16": {
+          "formula": "=IF(AND(COUNT(C16:F16)=4,MIN(C16:F16)>0,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),(C16-E16)/C16,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I16": {
+          "formula": "=IF(AND(COUNT(C16:F16)=4,MIN(C16:F16)>0,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),(D16-F16)/D16,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J16": {
+          "formula": "=IF(AND(COUNT(C16:F16)=4,MIN(C16:F16)>0,OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),IF(G16=\"Yes\",1-(E16/C16)*(F16/D16),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K16": {
+          "formula": "=IF(COUNTA(A16:G16)=0,\"\",IF(NOT(OR(B16=\"cm\",B16=\"mm\",B16=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C16:F16)<>4,\"Enter four numeric readings\",IF(MIN(C16:F16)<=0,\"Readings must be positive\",IF(NOT(OR(G16=\"Yes\",G16=\"No\")),\"Choose rectangle Yes or No\",IF(G16=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H17": {
+          "formula": "=IF(AND(COUNT(C17:F17)=4,MIN(C17:F17)>0,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),(C17-E17)/C17,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I17": {
+          "formula": "=IF(AND(COUNT(C17:F17)=4,MIN(C17:F17)>0,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),(D17-F17)/D17,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J17": {
+          "formula": "=IF(AND(COUNT(C17:F17)=4,MIN(C17:F17)>0,OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),IF(G17=\"Yes\",1-(E17/C17)*(F17/D17),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K17": {
+          "formula": "=IF(COUNTA(A17:G17)=0,\"\",IF(NOT(OR(B17=\"cm\",B17=\"mm\",B17=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C17:F17)<>4,\"Enter four numeric readings\",IF(MIN(C17:F17)<=0,\"Readings must be positive\",IF(NOT(OR(G17=\"Yes\",G17=\"No\")),\"Choose rectangle Yes or No\",IF(G17=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H18": {
+          "formula": "=IF(AND(COUNT(C18:F18)=4,MIN(C18:F18)>0,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),(C18-E18)/C18,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I18": {
+          "formula": "=IF(AND(COUNT(C18:F18)=4,MIN(C18:F18)>0,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),(D18-F18)/D18,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J18": {
+          "formula": "=IF(AND(COUNT(C18:F18)=4,MIN(C18:F18)>0,OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),IF(G18=\"Yes\",1-(E18/C18)*(F18/D18),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K18": {
+          "formula": "=IF(COUNTA(A18:G18)=0,\"\",IF(NOT(OR(B18=\"cm\",B18=\"mm\",B18=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C18:F18)<>4,\"Enter four numeric readings\",IF(MIN(C18:F18)<=0,\"Readings must be positive\",IF(NOT(OR(G18=\"Yes\",G18=\"No\")),\"Choose rectangle Yes or No\",IF(G18=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H19": {
+          "formula": "=IF(AND(COUNT(C19:F19)=4,MIN(C19:F19)>0,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),(C19-E19)/C19,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I19": {
+          "formula": "=IF(AND(COUNT(C19:F19)=4,MIN(C19:F19)>0,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),(D19-F19)/D19,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J19": {
+          "formula": "=IF(AND(COUNT(C19:F19)=4,MIN(C19:F19)>0,OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),IF(G19=\"Yes\",1-(E19/C19)*(F19/D19),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K19": {
+          "formula": "=IF(COUNTA(A19:G19)=0,\"\",IF(NOT(OR(B19=\"cm\",B19=\"mm\",B19=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C19:F19)<>4,\"Enter four numeric readings\",IF(MIN(C19:F19)<=0,\"Readings must be positive\",IF(NOT(OR(G19=\"Yes\",G19=\"No\")),\"Choose rectangle Yes or No\",IF(G19=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H20": {
+          "formula": "=IF(AND(COUNT(C20:F20)=4,MIN(C20:F20)>0,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),(C20-E20)/C20,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I20": {
+          "formula": "=IF(AND(COUNT(C20:F20)=4,MIN(C20:F20)>0,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),(D20-F20)/D20,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J20": {
+          "formula": "=IF(AND(COUNT(C20:F20)=4,MIN(C20:F20)>0,OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),IF(G20=\"Yes\",1-(E20/C20)*(F20/D20),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K20": {
+          "formula": "=IF(COUNTA(A20:G20)=0,\"\",IF(NOT(OR(B20=\"cm\",B20=\"mm\",B20=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C20:F20)<>4,\"Enter four numeric readings\",IF(MIN(C20:F20)<=0,\"Readings must be positive\",IF(NOT(OR(G20=\"Yes\",G20=\"No\")),\"Choose rectangle Yes or No\",IF(G20=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "H21": {
+          "formula": "=IF(AND(COUNT(C21:F21)=4,MIN(C21:F21)>0,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),(C21-E21)/C21,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "I21": {
+          "formula": "=IF(AND(COUNT(C21:F21)=4,MIN(C21:F21)>0,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),(D21-F21)/D21,\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "J21": {
+          "formula": "=IF(AND(COUNT(C21:F21)=4,MIN(C21:F21)>0,OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),IF(G21=\"Yes\",1-(E21/C21)*(F21/D21),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "K21": {
+          "formula": "=IF(COUNTA(A21:G21)=0,\"\",IF(NOT(OR(B21=\"cm\",B21=\"mm\",B21=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C21:F21)<>4,\"Enter four numeric readings\",IF(MIN(C21:F21)<=0,\"Readings must be positive\",IF(NOT(OR(G21=\"Yes\",G21=\"No\")),\"Choose rectangle Yes or No\",IF(G21=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "A10": {
+          "value": null,
+          "role": "input"
+        },
+        "B10": {
+          "value": null,
+          "role": "input"
+        },
+        "C10": {
+          "value": null,
+          "role": "input"
+        },
+        "D10": {
+          "value": null,
+          "role": "input"
+        },
+        "E10": {
+          "value": null,
+          "role": "input"
+        },
+        "F10": {
+          "value": null,
+          "role": "input"
+        },
+        "G10": {
+          "value": null,
+          "role": "input"
+        },
+        "A11": {
+          "value": null,
+          "role": "input"
+        },
+        "B11": {
+          "value": null,
+          "role": "input"
+        },
+        "C11": {
+          "value": null,
+          "role": "input"
+        },
+        "D11": {
+          "value": null,
+          "role": "input"
+        },
+        "E11": {
+          "value": null,
+          "role": "input"
+        },
+        "F11": {
+          "value": null,
+          "role": "input"
+        },
+        "G11": {
+          "value": null,
+          "role": "input"
+        },
+        "A12": {
+          "value": null,
+          "role": "input"
+        },
+        "B12": {
+          "value": null,
+          "role": "input"
+        },
+        "C12": {
+          "value": null,
+          "role": "input"
+        },
+        "D12": {
+          "value": null,
+          "role": "input"
+        },
+        "E12": {
+          "value": null,
+          "role": "input"
+        },
+        "F12": {
+          "value": null,
+          "role": "input"
+        },
+        "G12": {
+          "value": null,
+          "role": "input"
+        },
+        "A13": {
+          "value": null,
+          "role": "input"
+        },
+        "B13": {
+          "value": null,
+          "role": "input"
+        },
+        "C13": {
+          "value": null,
+          "role": "input"
+        },
+        "D13": {
+          "value": null,
+          "role": "input"
+        },
+        "E13": {
+          "value": null,
+          "role": "input"
+        },
+        "F13": {
+          "value": null,
+          "role": "input"
+        },
+        "G13": {
+          "value": null,
+          "role": "input"
+        },
+        "A14": {
+          "value": null,
+          "role": "input"
+        },
+        "B14": {
+          "value": null,
+          "role": "input"
+        },
+        "C14": {
+          "value": null,
+          "role": "input"
+        },
+        "D14": {
+          "value": null,
+          "role": "input"
+        },
+        "E14": {
+          "value": null,
+          "role": "input"
+        },
+        "F14": {
+          "value": null,
+          "role": "input"
+        },
+        "G14": {
+          "value": null,
+          "role": "input"
+        },
+        "A15": {
+          "value": null,
+          "role": "input"
+        },
+        "B15": {
+          "value": null,
+          "role": "input"
+        },
+        "C15": {
+          "value": null,
+          "role": "input"
+        },
+        "D15": {
+          "value": null,
+          "role": "input"
+        },
+        "E15": {
+          "value": null,
+          "role": "input"
+        },
+        "F15": {
+          "value": null,
+          "role": "input"
+        },
+        "G15": {
+          "value": null,
+          "role": "input"
+        },
+        "A16": {
+          "value": null,
+          "role": "input"
+        },
+        "B16": {
+          "value": null,
+          "role": "input"
+        },
+        "C16": {
+          "value": null,
+          "role": "input"
+        },
+        "D16": {
+          "value": null,
+          "role": "input"
+        },
+        "E16": {
+          "value": null,
+          "role": "input"
+        },
+        "F16": {
+          "value": null,
+          "role": "input"
+        },
+        "G16": {
+          "value": null,
+          "role": "input"
+        },
+        "A17": {
+          "value": null,
+          "role": "input"
+        },
+        "B17": {
+          "value": null,
+          "role": "input"
+        },
+        "C17": {
+          "value": null,
+          "role": "input"
+        },
+        "D17": {
+          "value": null,
+          "role": "input"
+        },
+        "E17": {
+          "value": null,
+          "role": "input"
+        },
+        "F17": {
+          "value": null,
+          "role": "input"
+        },
+        "G17": {
+          "value": null,
+          "role": "input"
+        },
+        "A18": {
+          "value": null,
+          "role": "input"
+        },
+        "B18": {
+          "value": null,
+          "role": "input"
+        },
+        "C18": {
+          "value": null,
+          "role": "input"
+        },
+        "D18": {
+          "value": null,
+          "role": "input"
+        },
+        "E18": {
+          "value": null,
+          "role": "input"
+        },
+        "F18": {
+          "value": null,
+          "role": "input"
+        },
+        "G18": {
+          "value": null,
+          "role": "input"
+        },
+        "A19": {
+          "value": null,
+          "role": "input"
+        },
+        "B19": {
+          "value": null,
+          "role": "input"
+        },
+        "C19": {
+          "value": null,
+          "role": "input"
+        },
+        "D19": {
+          "value": null,
+          "role": "input"
+        },
+        "E19": {
+          "value": null,
+          "role": "input"
+        },
+        "F19": {
+          "value": null,
+          "role": "input"
+        },
+        "G19": {
+          "value": null,
+          "role": "input"
+        },
+        "A20": {
+          "value": null,
+          "role": "input"
+        },
+        "B20": {
+          "value": null,
+          "role": "input"
+        },
+        "C20": {
+          "value": null,
+          "role": "input"
+        },
+        "D20": {
+          "value": null,
+          "role": "input"
+        },
+        "E20": {
+          "value": null,
+          "role": "input"
+        },
+        "F20": {
+          "value": null,
+          "role": "input"
+        },
+        "G20": {
+          "value": null,
+          "role": "input"
+        },
+        "A21": {
+          "value": null,
+          "role": "input"
+        },
+        "B21": {
+          "value": null,
+          "role": "input"
+        },
+        "C21": {
+          "value": null,
+          "role": "input"
+        },
+        "D21": {
+          "value": null,
+          "role": "input"
+        },
+        "E21": {
+          "value": null,
+          "role": "input"
+        },
+        "F21": {
+          "value": null,
+          "role": "input"
+        },
+        "G21": {
+          "value": null,
+          "role": "input"
+        },
+        "L10": {
+          "value": null,
+          "role": "input"
+        },
+        "L11": {
+          "value": null,
+          "role": "input"
+        },
+        "L12": {
+          "value": null,
+          "role": "input"
+        },
+        "L13": {
+          "value": null,
+          "role": "input"
+        },
+        "L14": {
+          "value": null,
+          "role": "input"
+        },
+        "L15": {
+          "value": null,
+          "role": "input"
+        },
+        "L16": {
+          "value": null,
+          "role": "input"
+        },
+        "L17": {
+          "value": null,
+          "role": "input"
+        },
+        "L18": {
+          "value": null,
+          "role": "input"
+        },
+        "L19": {
+          "value": null,
+          "role": "input"
+        },
+        "L20": {
+          "value": null,
+          "role": "input"
+        },
+        "L21": {
+          "value": null,
+          "role": "input"
+        },
+        "A25": {
+          "value": "EX-C1",
+          "role": "text"
+        },
+        "B25": {
+          "value": "cm",
+          "role": "text"
+        },
+        "C25": {
+          "value": 20,
+          "role": "text"
+        },
+        "D25": {
+          "value": 40,
+          "role": "text"
+        },
+        "E25": {
+          "value": 19,
+          "role": "text"
+        },
+        "F25": {
+          "value": 39,
+          "role": "text"
+        },
+        "G25": {
+          "value": "Yes",
+          "role": "text"
+        },
+        "H25": {
+          "formula": "=IF(AND(COUNT(C25:F25)=4,MIN(C25:F25)>0,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),(C25-E25)/C25,\"\")",
+          "role": "formula",
+          "cached": 0.05
+        },
+        "I25": {
+          "formula": "=IF(AND(COUNT(C25:F25)=4,MIN(C25:F25)>0,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),(D25-F25)/D25,\"\")",
+          "role": "formula",
+          "cached": 0.025
+        },
+        "J25": {
+          "formula": "=IF(AND(COUNT(C25:F25)=4,MIN(C25:F25)>0,OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),IF(G25=\"Yes\",1-(E25/C25)*(F25/D25),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": 0.0737500000000001
+        },
+        "K25": {
+          "formula": "=IF(COUNTA(A25:G25)=0,\"\",IF(NOT(OR(B25=\"cm\",B25=\"mm\",B25=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C25:F25)<>4,\"Enter four numeric readings\",IF(MIN(C25:F25)<=0,\"Readings must be positive\",IF(NOT(OR(G25=\"Yes\",G25=\"No\")),\"Choose rectangle Yes or No\",IF(G25=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "L25": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A26": {
+          "value": "EX-C2",
+          "role": "text"
+        },
+        "B26": {
+          "value": "cm",
+          "role": "text"
+        },
+        "C26": {
+          "value": 20,
+          "role": "text"
+        },
+        "D26": {
+          "value": 40,
+          "role": "text"
+        },
+        "E26": {
+          "value": 22,
+          "role": "text"
+        },
+        "F26": {
+          "value": 38,
+          "role": "text"
+        },
+        "G26": {
+          "value": "Yes",
+          "role": "text"
+        },
+        "H26": {
+          "formula": "=IF(AND(COUNT(C26:F26)=4,MIN(C26:F26)>0,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),(C26-E26)/C26,\"\")",
+          "role": "formula",
+          "cached": -0.1
+        },
+        "I26": {
+          "formula": "=IF(AND(COUNT(C26:F26)=4,MIN(C26:F26)>0,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),(D26-F26)/D26,\"\")",
+          "role": "formula",
+          "cached": 0.05
+        },
+        "J26": {
+          "formula": "=IF(AND(COUNT(C26:F26)=4,MIN(C26:F26)>0,OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),IF(G26=\"Yes\",1-(E26/C26)*(F26/D26),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": -0.04499999999999993
+        },
+        "K26": {
+          "formula": "=IF(COUNTA(A26:G26)=0,\"\",IF(NOT(OR(B26=\"cm\",B26=\"mm\",B26=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C26:F26)<>4,\"Enter four numeric readings\",IF(MIN(C26:F26)<=0,\"Readings must be positive\",IF(NOT(OR(G26=\"Yes\",G26=\"No\")),\"Choose rectangle Yes or No\",IF(G26=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "L26": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A27": {
+          "value": "EX-C3",
+          "role": "text"
+        },
+        "B27": {
+          "value": "mm",
+          "role": "text"
+        },
+        "C27": {
+          "value": 100,
+          "role": "text"
+        },
+        "D27": {
+          "value": 100,
+          "role": "text"
+        },
+        "E27": {
+          "value": 90,
+          "role": "text"
+        },
+        "F27": {
+          "value": 95,
+          "role": "text"
+        },
+        "G27": {
+          "value": "Yes",
+          "role": "text"
+        },
+        "H27": {
+          "formula": "=IF(AND(COUNT(C27:F27)=4,MIN(C27:F27)>0,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),(C27-E27)/C27,\"\")",
+          "role": "formula",
+          "cached": 0.1
+        },
+        "I27": {
+          "formula": "=IF(AND(COUNT(C27:F27)=4,MIN(C27:F27)>0,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),(D27-F27)/D27,\"\")",
+          "role": "formula",
+          "cached": 0.05
+        },
+        "J27": {
+          "formula": "=IF(AND(COUNT(C27:F27)=4,MIN(C27:F27)>0,OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),IF(G27=\"Yes\",1-(E27/C27)*(F27/D27),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": 0.14500000000000002
+        },
+        "K27": {
+          "formula": "=IF(COUNTA(A27:G27)=0,\"\",IF(NOT(OR(B27=\"cm\",B27=\"mm\",B27=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C27:F27)<>4,\"Enter four numeric readings\",IF(MIN(C27:F27)<=0,\"Readings must be positive\",IF(NOT(OR(G27=\"Yes\",G27=\"No\")),\"Choose rectangle Yes or No\",IF(G27=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "L27": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A28": {
+          "value": "EX-C4",
+          "role": "text"
+        },
+        "B28": {
+          "value": "in",
+          "role": "text"
+        },
+        "C28": {
+          "value": 8,
+          "role": "text"
+        },
+        "D28": {
+          "value": 12,
+          "role": "text"
+        },
+        "E28": {
+          "value": 7.8,
+          "role": "text"
+        },
+        "F28": {
+          "value": 12.2,
+          "role": "text"
+        },
+        "G28": {
+          "value": "No",
+          "role": "text"
+        },
+        "H28": {
+          "formula": "=IF(AND(COUNT(C28:F28)=4,MIN(C28:F28)>0,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),(C28-E28)/C28,\"\")",
+          "role": "formula",
+          "cached": 0.025000000000000022
+        },
+        "I28": {
+          "formula": "=IF(AND(COUNT(C28:F28)=4,MIN(C28:F28)>0,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),(D28-F28)/D28,\"\")",
+          "role": "formula",
+          "cached": -0.016666666666666607
+        },
+        "J28": {
+          "formula": "=IF(AND(COUNT(C28:F28)=4,MIN(C28:F28)>0,OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),IF(G28=\"Yes\",1-(E28/C28)*(F28/D28),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": "n.a."
+        },
+        "K28": {
+          "formula": "=IF(COUNTA(A28:G28)=0,\"\",IF(NOT(OR(B28=\"cm\",B28=\"mm\",B28=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C28:F28)<>4,\"Enter four numeric readings\",IF(MIN(C28:F28)<=0,\"Readings must be positive\",IF(NOT(OR(G28=\"Yes\",G28=\"No\")),\"Choose rectangle Yes or No\",IF(G28=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": "Sides recorded; area not calculated"
+        },
+        "L28": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A29": {
+          "value": "EX-C5",
+          "role": "text"
+        },
+        "B29": {
+          "value": "cm",
+          "role": "text"
+        },
+        "C29": {
+          "value": 20,
+          "role": "text"
+        },
+        "D29": {
+          "value": 40,
+          "role": "text"
+        },
+        "E29": {
+          "value": 20,
+          "role": "text"
+        },
+        "F29": {
+          "value": 40,
+          "role": "text"
+        },
+        "G29": {
+          "value": "Yes",
+          "role": "text"
+        },
+        "H29": {
+          "formula": "=IF(AND(COUNT(C29:F29)=4,MIN(C29:F29)>0,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),(C29-E29)/C29,\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "I29": {
+          "formula": "=IF(AND(COUNT(C29:F29)=4,MIN(C29:F29)>0,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),(D29-F29)/D29,\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "J29": {
+          "formula": "=IF(AND(COUNT(C29:F29)=4,MIN(C29:F29)>0,OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),IF(G29=\"Yes\",1-(E29/C29)*(F29/D29),\"n.a.\"),\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "K29": {
+          "formula": "=IF(COUNTA(A29:G29)=0,\"\",IF(NOT(OR(B29=\"cm\",B29=\"mm\",B29=\"in\")),\"Choose cm, mm or in\",IF(COUNT(C29:F29)<>4,\"Enter four numeric readings\",IF(MIN(C29:F29)<=0,\"Readings must be positive\",IF(NOT(OR(G29=\"Yes\",G29=\"No\")),\"Choose rectangle Yes or No\",IF(G29=\"No\",\"Sides recorded; area not calculated\",\"Recorded\"))))))",
+          "role": "formula",
+          "cached": "Recorded"
+        },
+        "L29": {
+          "value": "Synthetic software example",
+          "role": "text"
+        },
+        "A33": {
+          "value": "Record the care process actually used, settings, cycle count, marked endpoints and measurement conditions.",
+          "role": "text"
+        },
+        "A34": {
+          "value": "These arithmetic comparisons cannot predict shrinkage, prescribe care instructions or establish garment fit.",
+          "role": "text"
+        },
+        "A35": {
+          "value": "Formulas: side contraction=(before−after)/before. Area contraction=1−(after length/before length)×(after width/before width).",
+          "role": "text"
+        }
+      },
+      "blankRows": [
+        10,
+        21
+      ],
+      "syntheticRows": [
+        25,
+        29
+      ]
+    },
+    {
+      "name": "Unit conversion",
+      "headers": [
+        "Record ID",
+        "Input value",
+        "From unit",
+        "To unit",
+        "Converted value",
+        "Record status",
+        "Reading notes"
+      ],
+      "widths": [
+        18,
+        16,
+        12,
+        12,
+        18,
+        36,
+        40
+      ],
+      "cells": {
+        "A2": {
+          "value": "Sewlore length unit conversion",
+          "role": "text"
+        },
+        "A4": {
+          "value": "Enter a value and select both units. Zero is permitted for conversion. Record source resolution in the notes.",
+          "role": "text"
+        },
+        "A5": {
+          "value": "Exact factors: 1 cm = 10 mm. 1 in = 25.4 mm. Calculations preserve the full value before display rounding.",
+          "role": "text"
+        },
+        "A6": {
+          "value": "Sewlore measurement methods guide",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "A7": {
+          "value": "Amber cells are editable. Formula and worked-example cells are protected without a password.",
+          "role": "text"
+        },
+        "A8": {
+          "value": "Record the same marked span, unit, direction and method. Displayed decimals do not add measurement accuracy.",
+          "role": "text"
+        },
+        "A9": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B9": {
+          "value": "Input value",
+          "role": "text"
+        },
+        "C9": {
+          "value": "From unit",
+          "role": "text"
+        },
+        "D9": {
+          "value": "To unit",
+          "role": "text"
+        },
+        "E9": {
+          "value": "Converted value",
+          "role": "text"
+        },
+        "F9": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "G9": {
+          "value": "Reading notes",
+          "role": "text"
+        },
+        "A24": {
+          "value": "Record ID",
+          "role": "text"
+        },
+        "B24": {
+          "value": "Input value",
+          "role": "text"
+        },
+        "C24": {
+          "value": "From unit",
+          "role": "text"
+        },
+        "D24": {
+          "value": "To unit",
+          "role": "text"
+        },
+        "E24": {
+          "value": "Converted value",
+          "role": "text"
+        },
+        "F24": {
+          "value": "Record status",
+          "role": "text"
+        },
+        "G24": {
+          "value": "Reading notes",
+          "role": "text"
+        },
+        "A23": {
+          "value": "Worked examples: synthetic inputs for learning. No physical specimen or care process was tested.",
+          "role": "text"
+        },
+        "A32": {
+          "value": "How to record",
+          "role": "text"
+        },
+        "A37": {
+          "value": "Sewlore Fabric Measurement Workbook 1.0.0",
+          "role": "text"
+        },
+        "A38": {
+          "value": "Original educational workbook by Sewlore. AI-assisted preparation. CC BY 4.0 for any applicable rights.",
+          "role": "text"
+        },
+        "A39": {
+          "value": "Attribution: Sewlore, Fabric Measurement Workbook 1.0.0.",
+          "role": "text",
+          "href": "https://sewlore.com/pages/fabric-measurement-methods-guide"
+        },
+        "E10": {
+          "formula": "=IF(AND(ISNUMBER(B10),B10>=0,OR(C10=\"cm\",C10=\"mm\",C10=\"in\"),OR(D10=\"cm\",D10=\"mm\",D10=\"in\")),B10*IF(C10=\"cm\",10,IF(C10=\"in\",25.4,1))/IF(D10=\"cm\",10,IF(D10=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F10": {
+          "formula": "=IF(COUNTA(A10:D10)=0,\"\",IF(NOT(ISNUMBER(B10)),\"Enter a numeric value\",IF(B10<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C10=\"cm\",C10=\"mm\",C10=\"in\"),OR(D10=\"cm\",D10=\"mm\",D10=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E11": {
+          "formula": "=IF(AND(ISNUMBER(B11),B11>=0,OR(C11=\"cm\",C11=\"mm\",C11=\"in\"),OR(D11=\"cm\",D11=\"mm\",D11=\"in\")),B11*IF(C11=\"cm\",10,IF(C11=\"in\",25.4,1))/IF(D11=\"cm\",10,IF(D11=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F11": {
+          "formula": "=IF(COUNTA(A11:D11)=0,\"\",IF(NOT(ISNUMBER(B11)),\"Enter a numeric value\",IF(B11<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C11=\"cm\",C11=\"mm\",C11=\"in\"),OR(D11=\"cm\",D11=\"mm\",D11=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E12": {
+          "formula": "=IF(AND(ISNUMBER(B12),B12>=0,OR(C12=\"cm\",C12=\"mm\",C12=\"in\"),OR(D12=\"cm\",D12=\"mm\",D12=\"in\")),B12*IF(C12=\"cm\",10,IF(C12=\"in\",25.4,1))/IF(D12=\"cm\",10,IF(D12=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F12": {
+          "formula": "=IF(COUNTA(A12:D12)=0,\"\",IF(NOT(ISNUMBER(B12)),\"Enter a numeric value\",IF(B12<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C12=\"cm\",C12=\"mm\",C12=\"in\"),OR(D12=\"cm\",D12=\"mm\",D12=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E13": {
+          "formula": "=IF(AND(ISNUMBER(B13),B13>=0,OR(C13=\"cm\",C13=\"mm\",C13=\"in\"),OR(D13=\"cm\",D13=\"mm\",D13=\"in\")),B13*IF(C13=\"cm\",10,IF(C13=\"in\",25.4,1))/IF(D13=\"cm\",10,IF(D13=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F13": {
+          "formula": "=IF(COUNTA(A13:D13)=0,\"\",IF(NOT(ISNUMBER(B13)),\"Enter a numeric value\",IF(B13<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C13=\"cm\",C13=\"mm\",C13=\"in\"),OR(D13=\"cm\",D13=\"mm\",D13=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E14": {
+          "formula": "=IF(AND(ISNUMBER(B14),B14>=0,OR(C14=\"cm\",C14=\"mm\",C14=\"in\"),OR(D14=\"cm\",D14=\"mm\",D14=\"in\")),B14*IF(C14=\"cm\",10,IF(C14=\"in\",25.4,1))/IF(D14=\"cm\",10,IF(D14=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F14": {
+          "formula": "=IF(COUNTA(A14:D14)=0,\"\",IF(NOT(ISNUMBER(B14)),\"Enter a numeric value\",IF(B14<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C14=\"cm\",C14=\"mm\",C14=\"in\"),OR(D14=\"cm\",D14=\"mm\",D14=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E15": {
+          "formula": "=IF(AND(ISNUMBER(B15),B15>=0,OR(C15=\"cm\",C15=\"mm\",C15=\"in\"),OR(D15=\"cm\",D15=\"mm\",D15=\"in\")),B15*IF(C15=\"cm\",10,IF(C15=\"in\",25.4,1))/IF(D15=\"cm\",10,IF(D15=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F15": {
+          "formula": "=IF(COUNTA(A15:D15)=0,\"\",IF(NOT(ISNUMBER(B15)),\"Enter a numeric value\",IF(B15<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C15=\"cm\",C15=\"mm\",C15=\"in\"),OR(D15=\"cm\",D15=\"mm\",D15=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E16": {
+          "formula": "=IF(AND(ISNUMBER(B16),B16>=0,OR(C16=\"cm\",C16=\"mm\",C16=\"in\"),OR(D16=\"cm\",D16=\"mm\",D16=\"in\")),B16*IF(C16=\"cm\",10,IF(C16=\"in\",25.4,1))/IF(D16=\"cm\",10,IF(D16=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F16": {
+          "formula": "=IF(COUNTA(A16:D16)=0,\"\",IF(NOT(ISNUMBER(B16)),\"Enter a numeric value\",IF(B16<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C16=\"cm\",C16=\"mm\",C16=\"in\"),OR(D16=\"cm\",D16=\"mm\",D16=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E17": {
+          "formula": "=IF(AND(ISNUMBER(B17),B17>=0,OR(C17=\"cm\",C17=\"mm\",C17=\"in\"),OR(D17=\"cm\",D17=\"mm\",D17=\"in\")),B17*IF(C17=\"cm\",10,IF(C17=\"in\",25.4,1))/IF(D17=\"cm\",10,IF(D17=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F17": {
+          "formula": "=IF(COUNTA(A17:D17)=0,\"\",IF(NOT(ISNUMBER(B17)),\"Enter a numeric value\",IF(B17<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C17=\"cm\",C17=\"mm\",C17=\"in\"),OR(D17=\"cm\",D17=\"mm\",D17=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E18": {
+          "formula": "=IF(AND(ISNUMBER(B18),B18>=0,OR(C18=\"cm\",C18=\"mm\",C18=\"in\"),OR(D18=\"cm\",D18=\"mm\",D18=\"in\")),B18*IF(C18=\"cm\",10,IF(C18=\"in\",25.4,1))/IF(D18=\"cm\",10,IF(D18=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F18": {
+          "formula": "=IF(COUNTA(A18:D18)=0,\"\",IF(NOT(ISNUMBER(B18)),\"Enter a numeric value\",IF(B18<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C18=\"cm\",C18=\"mm\",C18=\"in\"),OR(D18=\"cm\",D18=\"mm\",D18=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E19": {
+          "formula": "=IF(AND(ISNUMBER(B19),B19>=0,OR(C19=\"cm\",C19=\"mm\",C19=\"in\"),OR(D19=\"cm\",D19=\"mm\",D19=\"in\")),B19*IF(C19=\"cm\",10,IF(C19=\"in\",25.4,1))/IF(D19=\"cm\",10,IF(D19=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F19": {
+          "formula": "=IF(COUNTA(A19:D19)=0,\"\",IF(NOT(ISNUMBER(B19)),\"Enter a numeric value\",IF(B19<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C19=\"cm\",C19=\"mm\",C19=\"in\"),OR(D19=\"cm\",D19=\"mm\",D19=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E20": {
+          "formula": "=IF(AND(ISNUMBER(B20),B20>=0,OR(C20=\"cm\",C20=\"mm\",C20=\"in\"),OR(D20=\"cm\",D20=\"mm\",D20=\"in\")),B20*IF(C20=\"cm\",10,IF(C20=\"in\",25.4,1))/IF(D20=\"cm\",10,IF(D20=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F20": {
+          "formula": "=IF(COUNTA(A20:D20)=0,\"\",IF(NOT(ISNUMBER(B20)),\"Enter a numeric value\",IF(B20<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C20=\"cm\",C20=\"mm\",C20=\"in\"),OR(D20=\"cm\",D20=\"mm\",D20=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "E21": {
+          "formula": "=IF(AND(ISNUMBER(B21),B21>=0,OR(C21=\"cm\",C21=\"mm\",C21=\"in\"),OR(D21=\"cm\",D21=\"mm\",D21=\"in\")),B21*IF(C21=\"cm\",10,IF(C21=\"in\",25.4,1))/IF(D21=\"cm\",10,IF(D21=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": ""
+        },
+        "F21": {
+          "formula": "=IF(COUNTA(A21:D21)=0,\"\",IF(NOT(ISNUMBER(B21)),\"Enter a numeric value\",IF(B21<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C21=\"cm\",C21=\"mm\",C21=\"in\"),OR(D21=\"cm\",D21=\"mm\",D21=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": ""
+        },
+        "A10": {
+          "value": null,
+          "role": "input"
+        },
+        "B10": {
+          "value": null,
+          "role": "input"
+        },
+        "C10": {
+          "value": null,
+          "role": "input"
+        },
+        "D10": {
+          "value": null,
+          "role": "input"
+        },
+        "A11": {
+          "value": null,
+          "role": "input"
+        },
+        "B11": {
+          "value": null,
+          "role": "input"
+        },
+        "C11": {
+          "value": null,
+          "role": "input"
+        },
+        "D11": {
+          "value": null,
+          "role": "input"
+        },
+        "A12": {
+          "value": null,
+          "role": "input"
+        },
+        "B12": {
+          "value": null,
+          "role": "input"
+        },
+        "C12": {
+          "value": null,
+          "role": "input"
+        },
+        "D12": {
+          "value": null,
+          "role": "input"
+        },
+        "A13": {
+          "value": null,
+          "role": "input"
+        },
+        "B13": {
+          "value": null,
+          "role": "input"
+        },
+        "C13": {
+          "value": null,
+          "role": "input"
+        },
+        "D13": {
+          "value": null,
+          "role": "input"
+        },
+        "A14": {
+          "value": null,
+          "role": "input"
+        },
+        "B14": {
+          "value": null,
+          "role": "input"
+        },
+        "C14": {
+          "value": null,
+          "role": "input"
+        },
+        "D14": {
+          "value": null,
+          "role": "input"
+        },
+        "A15": {
+          "value": null,
+          "role": "input"
+        },
+        "B15": {
+          "value": null,
+          "role": "input"
+        },
+        "C15": {
+          "value": null,
+          "role": "input"
+        },
+        "D15": {
+          "value": null,
+          "role": "input"
+        },
+        "A16": {
+          "value": null,
+          "role": "input"
+        },
+        "B16": {
+          "value": null,
+          "role": "input"
+        },
+        "C16": {
+          "value": null,
+          "role": "input"
+        },
+        "D16": {
+          "value": null,
+          "role": "input"
+        },
+        "A17": {
+          "value": null,
+          "role": "input"
+        },
+        "B17": {
+          "value": null,
+          "role": "input"
+        },
+        "C17": {
+          "value": null,
+          "role": "input"
+        },
+        "D17": {
+          "value": null,
+          "role": "input"
+        },
+        "A18": {
+          "value": null,
+          "role": "input"
+        },
+        "B18": {
+          "value": null,
+          "role": "input"
+        },
+        "C18": {
+          "value": null,
+          "role": "input"
+        },
+        "D18": {
+          "value": null,
+          "role": "input"
+        },
+        "A19": {
+          "value": null,
+          "role": "input"
+        },
+        "B19": {
+          "value": null,
+          "role": "input"
+        },
+        "C19": {
+          "value": null,
+          "role": "input"
+        },
+        "D19": {
+          "value": null,
+          "role": "input"
+        },
+        "A20": {
+          "value": null,
+          "role": "input"
+        },
+        "B20": {
+          "value": null,
+          "role": "input"
+        },
+        "C20": {
+          "value": null,
+          "role": "input"
+        },
+        "D20": {
+          "value": null,
+          "role": "input"
+        },
+        "A21": {
+          "value": null,
+          "role": "input"
+        },
+        "B21": {
+          "value": null,
+          "role": "input"
+        },
+        "C21": {
+          "value": null,
+          "role": "input"
+        },
+        "D21": {
+          "value": null,
+          "role": "input"
+        },
+        "G10": {
+          "value": null,
+          "role": "input"
+        },
+        "G11": {
+          "value": null,
+          "role": "input"
+        },
+        "G12": {
+          "value": null,
+          "role": "input"
+        },
+        "G13": {
+          "value": null,
+          "role": "input"
+        },
+        "G14": {
+          "value": null,
+          "role": "input"
+        },
+        "G15": {
+          "value": null,
+          "role": "input"
+        },
+        "G16": {
+          "value": null,
+          "role": "input"
+        },
+        "G17": {
+          "value": null,
+          "role": "input"
+        },
+        "G18": {
+          "value": null,
+          "role": "input"
+        },
+        "G19": {
+          "value": null,
+          "role": "input"
+        },
+        "G20": {
+          "value": null,
+          "role": "input"
+        },
+        "G21": {
+          "value": null,
+          "role": "input"
+        },
+        "A25": {
+          "value": "EX-U1",
+          "role": "text"
+        },
+        "B25": {
+          "value": 1,
+          "role": "text"
+        },
+        "C25": {
+          "value": "in",
+          "role": "text"
+        },
+        "D25": {
+          "value": "mm",
+          "role": "text"
+        },
+        "E25": {
+          "formula": "=IF(AND(ISNUMBER(B25),B25>=0,OR(C25=\"cm\",C25=\"mm\",C25=\"in\"),OR(D25=\"cm\",D25=\"mm\",D25=\"in\")),B25*IF(C25=\"cm\",10,IF(C25=\"in\",25.4,1))/IF(D25=\"cm\",10,IF(D25=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 25.4
+        },
+        "F25": {
+          "formula": "=IF(COUNTA(A25:D25)=0,\"\",IF(NOT(ISNUMBER(B25)),\"Enter a numeric value\",IF(B25<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C25=\"cm\",C25=\"mm\",C25=\"in\"),OR(D25=\"cm\",D25=\"mm\",D25=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": "Converted"
+        },
+        "G25": {
+          "value": "Synthetic arithmetic example",
+          "role": "text"
+        },
+        "A26": {
+          "value": "EX-U2",
+          "role": "text"
+        },
+        "B26": {
+          "value": 25.4,
+          "role": "text"
+        },
+        "C26": {
+          "value": "mm",
+          "role": "text"
+        },
+        "D26": {
+          "value": "in",
+          "role": "text"
+        },
+        "E26": {
+          "formula": "=IF(AND(ISNUMBER(B26),B26>=0,OR(C26=\"cm\",C26=\"mm\",C26=\"in\"),OR(D26=\"cm\",D26=\"mm\",D26=\"in\")),B26*IF(C26=\"cm\",10,IF(C26=\"in\",25.4,1))/IF(D26=\"cm\",10,IF(D26=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 1
+        },
+        "F26": {
+          "formula": "=IF(COUNTA(A26:D26)=0,\"\",IF(NOT(ISNUMBER(B26)),\"Enter a numeric value\",IF(B26<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C26=\"cm\",C26=\"mm\",C26=\"in\"),OR(D26=\"cm\",D26=\"mm\",D26=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": "Converted"
+        },
+        "G26": {
+          "value": "Synthetic arithmetic example",
+          "role": "text"
+        },
+        "A27": {
+          "value": "EX-U3",
+          "role": "text"
+        },
+        "B27": {
+          "value": 10,
+          "role": "text"
+        },
+        "C27": {
+          "value": "cm",
+          "role": "text"
+        },
+        "D27": {
+          "value": "in",
+          "role": "text"
+        },
+        "E27": {
+          "formula": "=IF(AND(ISNUMBER(B27),B27>=0,OR(C27=\"cm\",C27=\"mm\",C27=\"in\"),OR(D27=\"cm\",D27=\"mm\",D27=\"in\")),B27*IF(C27=\"cm\",10,IF(C27=\"in\",25.4,1))/IF(D27=\"cm\",10,IF(D27=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 3.937007874015748
+        },
+        "F27": {
+          "formula": "=IF(COUNTA(A27:D27)=0,\"\",IF(NOT(ISNUMBER(B27)),\"Enter a numeric value\",IF(B27<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C27=\"cm\",C27=\"mm\",C27=\"in\"),OR(D27=\"cm\",D27=\"mm\",D27=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": "Converted"
+        },
+        "G27": {
+          "value": "Synthetic arithmetic example",
+          "role": "text"
+        },
+        "A28": {
+          "value": "EX-U4",
+          "role": "text"
+        },
+        "B28": {
+          "value": 0,
+          "role": "text"
+        },
+        "C28": {
+          "value": "cm",
+          "role": "text"
+        },
+        "D28": {
+          "value": "mm",
+          "role": "text"
+        },
+        "E28": {
+          "formula": "=IF(AND(ISNUMBER(B28),B28>=0,OR(C28=\"cm\",C28=\"mm\",C28=\"in\"),OR(D28=\"cm\",D28=\"mm\",D28=\"in\")),B28*IF(C28=\"cm\",10,IF(C28=\"in\",25.4,1))/IF(D28=\"cm\",10,IF(D28=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 0
+        },
+        "F28": {
+          "formula": "=IF(COUNTA(A28:D28)=0,\"\",IF(NOT(ISNUMBER(B28)),\"Enter a numeric value\",IF(B28<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C28=\"cm\",C28=\"mm\",C28=\"in\"),OR(D28=\"cm\",D28=\"mm\",D28=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": "Converted"
+        },
+        "G28": {
+          "value": "Synthetic arithmetic example",
+          "role": "text"
+        },
+        "A29": {
+          "value": "EX-U5",
+          "role": "text"
+        },
+        "B29": {
+          "value": 100,
+          "role": "text"
+        },
+        "C29": {
+          "value": "mm",
+          "role": "text"
+        },
+        "D29": {
+          "value": "cm",
+          "role": "text"
+        },
+        "E29": {
+          "formula": "=IF(AND(ISNUMBER(B29),B29>=0,OR(C29=\"cm\",C29=\"mm\",C29=\"in\"),OR(D29=\"cm\",D29=\"mm\",D29=\"in\")),B29*IF(C29=\"cm\",10,IF(C29=\"in\",25.4,1))/IF(D29=\"cm\",10,IF(D29=\"in\",25.4,1)),\"\")",
+          "role": "formula",
+          "cached": 10
+        },
+        "F29": {
+          "formula": "=IF(COUNTA(A29:D29)=0,\"\",IF(NOT(ISNUMBER(B29)),\"Enter a numeric value\",IF(B29<0,\"Value must be zero or positive\",IF(NOT(AND(OR(C29=\"cm\",C29=\"mm\",C29=\"in\"),OR(D29=\"cm\",D29=\"mm\",D29=\"in\"))),\"Choose cm, mm or in\",\"Converted\"))))",
+          "role": "formula",
+          "cached": "Converted"
+        },
+        "G29": {
+          "value": "Synthetic arithmetic example",
+          "role": "text"
+        },
+        "A33": {
+          "value": "Conversion changes the unit, not the resolution or reliability of the original reading.",
+          "role": "text"
+        },
+        "A34": {
+          "value": "Use converted readings explicitly before entering paired comparisons. Each comparison row uses one common unit.",
+          "role": "text"
+        },
+        "A35": {
+          "value": "To extend the log, remove sheet protection, copy a complete blank row with formulas and validation, then restore protection.",
+          "role": "text"
+        }
+      },
+      "blankRows": [
+        10,
+        21
+      ],
+      "syntheticRows": [
+        25,
+        29
+      ]
+    }
+  ]
+}

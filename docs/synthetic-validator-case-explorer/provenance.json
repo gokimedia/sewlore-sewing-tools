@@ -1,0 +1,35 @@
+{
+  "category_counts": {
+    "edge": 13,
+    "invalid": 41,
+    "normal": 18
+  },
+  "claims": "Synthetic, per-case validation results. Not physical fabric observations or whole-file acceptance.",
+  "core_counts": {
+    "accepted": 30,
+    "rejected": 42
+  },
+  "policy_counts": {
+    "accepted": 27,
+    "rejected": 45
+  },
+  "rows": 72,
+  "sha256": "6a3c36a626044f59725de542848c51fec6ae93e376362a6dc8f9a28d4de5ef3e",
+  "source_files": [
+    {
+      "path": "case_catalog.csv",
+      "sha256": "4c25daa44eacb78c8904bd26159f4e754645fb254adfab51b9b98382006b34b7"
+    },
+    {
+      "path": "expected_labels.csv",
+      "sha256": "11b36ac8d4c067c2ba8bacff4336fc9f2147c1cda9120eb534c5c7f8282b5e6e"
+    },
+    {
+      "path": "synthetic_cases.csv",
+      "sha256": "43de8b8c71bf3181e0b009fd4457265e96bfd0d6697f401fb5dd576236d227f2"
+    }
+  ],
+  "source_revision": "a4d965dc9c561c4c8ceccaadf3e8647f628a25f7",
+  "dataset_source": "https://sewlore.com/pages/synthetic-fabric-csv-validation-cases",
+  "transformation": "Join category/feature and expected diagnostic labels by case ID; one exported row per synthetic case; no physical observations."
+}

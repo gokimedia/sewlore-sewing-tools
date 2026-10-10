@@ -1,0 +1,5 @@
+Copyright (c) 2026 Sewlore, for any applicable copyright in original educational text and original implementation. All rights reserved.
+
+Prepared with AI-assisted drafting, source review, arithmetic checks and programmatic diagrams. No exclusive human visual authorship or copyright protection of purely algorithmic drawings is claimed.
+
+Third-party H5P libraries are not covered by this original-content notice. They retain the licenses and notices provided in their upstream files. The H5P package metadata uses C (Copyright), not an open-content license. Publishing this resource does not claim a new Creative Commons or MIT grant for the original lesson.
