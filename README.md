@@ -209,6 +209,11 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Synthetic Validator Case Explorer Data — Sewlore](https://github.com/gokimedia/sewlore-sewing-tools/tree/main/docs/synthetic-validator-case-explorer) — Explore the public learning dataset and revision-pinned downloads; these 72 cases are synthetic software-validation inputs rather than physical fabric observations.
 - [Synthetic Fabric CSV Validation Explorer — Sewlore](https://public.tableau.com/app/profile/selami.baba/viz/SewloreSyntheticFabricCSVValidation72Cases/SyntheticCaseCategories#1) — Explore three Tableau views of 72 labelled synthetic CSV validation cases, including category counts and diagnostic policy; the linked source includes original inputs and reproducible checks.
 
+- [Sewlore Measurement Calculators — Packagist](https://packagist.org/packages/sewlore/measurement-calculators) — Composer-installable Drupal 11 module for local stretch, recovery, button-centre spacing and length conversion.
+- [Sewlore Sewing Math — Rust Source](https://github.com/gokimedia/sewlore-rust-sewing-math) — Typed measurement arithmetic and an offline JSON CLI, with source code, examples and tests.
+- [Sewlore Sewing Math — crates.io](https://crates.io/crates/sewlore-sewing-math) — Published Rust package 0.1.0 for stretch, recovery, unit conversion and separate print-axis calculations.
+- [Sewlore Sewing Math — API Documentation](https://docs.rs/sewlore-sewing-math/0.1.0/sewlore_sewing_math/) — Compiled Rust API documentation with typed lengths, units, errors and worked measurement examples.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
