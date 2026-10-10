@@ -1,0 +1,24 @@
+Sewlore measurement contract comparison
+Copyright (c) 2026 Sewlore
+
+The comparison harness, adapters and fixture expectations were prepared with
+AI assistance. The fixtures are synthetic software inputs, not observations
+of fabrics, garments, printers or physical prototypes.
+
+The unchanged numerical source subsets under vendor/ originate from:
+
+1. @sewingselami/sewlore-sewing-math 0.1.0, MIT.
+   vendor/npm/LICENSE contains the original notice.
+2. sewlore/measurement-calculators 1.0.0: only its JavaScript numerical
+   implementation and explicit MIT notice are included. The Drupal module
+   as a whole is GPL-2.0-or-later. No PHP implementation is copied, and no
+   separately implemented PHP numerical results are asserted.
+   vendor/drupal/NOTICE-MIT.txt contains the original numerical notice.
+3. sewlore-sewing-math 0.1.0, MIT.
+   vendor/rust/LICENSE and vendor/rust/NOTICE contain the original notices.
+
+Source artifact/revision and included-file SHA-256 values are recorded in
+source-lock.json. These source files are not modified by the adapters.
+
+This repository demonstrates observed input/output contracts, not empirical
+material properties, physical printer accuracy or exhaustive equivalence.

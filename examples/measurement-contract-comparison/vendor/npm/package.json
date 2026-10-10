@@ -1,0 +1,48 @@
+{
+  "name": "@sewingselami/sewlore-sewing-math",
+  "version": "0.1.0",
+  "description": "Unit-consistent fabric stretch, recovery and two-axis PDF print-scale calculations.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src/index.js",
+    "src/index.d.ts",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "docs/api.md",
+    "examples/measurements.mjs"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Sewlore",
+  "homepage": "https://sewlore.com/pages/fabric-measurement-methods-guide",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokimedia/sewlore-sewing-tools.git"
+  },
+  "keywords": [
+    "sewing",
+    "measurement",
+    "fabric-stretch",
+    "print-scale"
+  ],
+  "scripts": {
+    "test": "node --test tests/calculations.test.mjs",
+    "example": "node examples/measurements.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

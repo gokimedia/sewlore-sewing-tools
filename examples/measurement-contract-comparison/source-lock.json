@@ -1,0 +1,104 @@
+{
+  "schema": "sewlore-contract-comparison-source-lock-v1",
+  "snapshot_scope": "Minimal unchanged arithmetic/CLI source subsets, not whole-package mirrors.",
+  "npm": {
+    "name": "@sewingselami/sewlore-sewing-math",
+    "version": "0.1.0",
+    "artifact_url": "https://registry.npmjs.org/@sewingselami/sewlore-sewing-math/-/sewlore-sewing-math-0.1.0.tgz",
+    "artifact_sha256": "bfaa5132dbb3b57edb5220b22d1da83cc1411049b92eb5e7e8ce42d98dc5c41b",
+    "license": "MIT"
+  },
+  "drupal": {
+    "name": "sewlore/measurement-calculators",
+    "version": "1.0.0",
+    "source_commit": "fb3c930aca62cfe263d2eb9f8e1bb912ca3e76d2",
+    "source_url": "https://github.com/gokimedia/sewlore-drupal-measurement-calculators/blob/fb3c930aca62cfe263d2eb9f8e1bb912ca3e76d2/js/math.js",
+    "arithmetic_language": "JavaScript",
+    "module_license": "GPL-2.0-or-later",
+    "included_arithmetic_notice": "MIT",
+    "PHP_wrapper_files_examined": [
+      {
+        "path": "src/Controller/CalculatorDemoController.php",
+        "source_url": "https://github.com/gokimedia/sewlore-drupal-measurement-calculators/blob/fb3c930aca62cfe263d2eb9f8e1bb912ca3e76d2/src/Controller/CalculatorDemoController.php",
+        "sha256": "602fc0dab74779daa34dc8d4057fa0f5c0341f1c8ce58979ddf50a4552d82e2b",
+        "role": "Creates and renders the calculator block; no measurement arithmetic implementation.",
+        "numeric_PHP_execution_claimed": false
+      },
+      {
+        "path": "src/Plugin/Block/MeasurementCalculatorsBlock.php",
+        "source_url": "https://github.com/gokimedia/sewlore-drupal-measurement-calculators/blob/fb3c930aca62cfe263d2eb9f8e1bb912ca3e76d2/src/Plugin/Block/MeasurementCalculatorsBlock.php",
+        "sha256": "131dc95bb3cb8f8aef461c6fa3f0f5a0a0d270be3b8e80b9193cbb161cba505c",
+        "role": "Controls the optional reference link and attached JavaScript library; no measurement arithmetic implementation.",
+        "numeric_PHP_execution_claimed": false
+      }
+    ]
+  },
+  "rust": {
+    "name": "sewlore-sewing-math",
+    "version": "0.1.0",
+    "source_commit": "55df3316dfdf9f0ceec7cfe6e57faea6c57defe5",
+    "artifact_url": "https://crates.io/api/v1/crates/sewlore-sewing-math/0.1.0/download",
+    "artifact_sha256": "41d426c758aa81e2efbc7d1502ccb5012b444d446eaf971b49f18fef90271999",
+    "license": "MIT"
+  },
+  "files": [
+    {
+      "path": "vendor/drupal/NOTICE-MIT.txt",
+      "sha256": "0b3c091e2b330c3040ec1c268e2f50155541f9d8a1a3a6c2cb1dc16c581f074a",
+      "bytes": 1189
+    },
+    {
+      "path": "vendor/drupal/math.js",
+      "sha256": "3964df369170209598551a3b14d0992e6925a7f4afca114e8da812169a669c9d",
+      "bytes": 3143
+    },
+    {
+      "path": "vendor/npm/LICENSE",
+      "sha256": "bb39e481b111b09f9d28374d85fc48f454a5e742bb5f9fa0974d655d355c9959",
+      "bytes": 1064
+    },
+    {
+      "path": "vendor/npm/package.json",
+      "sha256": "64b9155d8e189b227b24082e4efa92cd7553ca427de9eb8891f3d761279afcdd",
+      "bytes": 1167
+    },
+    {
+      "path": "vendor/npm/src/index.js",
+      "sha256": "8b64eb70d683574dda93aa2eb68c268177d60e6f7a3c857ac79ae718cee5044e",
+      "bytes": 3498
+    },
+    {
+      "path": "vendor/rust/Cargo.lock",
+      "sha256": "1e8867d9363cd5fc8866dccb0e28627aa6821402593f9b86b3d1ba7afa10ff87",
+      "bytes": 163
+    },
+    {
+      "path": "vendor/rust/Cargo.toml",
+      "sha256": "4e0a81c25c82d2661640ba72ddabe19f5173dd445a9f52e472693a77a869a429",
+      "bytes": 1773
+    },
+    {
+      "path": "vendor/rust/LICENSE",
+      "sha256": "3611b60c2a5b9d14839440982903eb30ad8b7c6978579ee1657c8f693509ef2b",
+      "bytes": 1065
+    },
+    {
+      "path": "vendor/rust/NOTICE",
+      "sha256": "67ec6418a692adb4aec112d75c0d050670afe89c3a1f2f7982f096744b880574",
+      "bytes": 746
+    },
+    {
+      "path": "vendor/rust/src/bin/sewlore-measure.rs",
+      "sha256": "ba97c4ea7a63ec06a0d2ee23e7ae9d4ce113536b7aaee2369c29de9e96c9e225",
+      "bytes": 4484
+    },
+    {
+      "path": "vendor/rust/src/lib.rs",
+      "sha256": "3641bf70432cd16f43ae064430440e6eb86e468fb5b4a0b369139387c9aa23eb",
+      "bytes": 12898
+    }
+  ],
+  "PHP_arithmetic_implementation_found": false,
+  "physical_measurement_records": 0,
+  "AI_assistance_disclosed": true
+}

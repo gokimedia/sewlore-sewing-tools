@@ -1,0 +1,446 @@
+{
+  "schema": "sewlore-contract-comparison-results-v1",
+  "fixtures": 10,
+  "physical_measurement_records": 0,
+  "result_records": 30,
+  "native_arithmetic_calls": 26,
+  "outcomes": {
+    "accepted": 20,
+    "rejected": 6,
+    "unsupported": 4
+  },
+  "expectation_check": "pass",
+  "unexplained_differences": [],
+  "PHP_numeric_execution_claimed": false,
+  "source_files_SHA256_verified": 11,
+  "numeric_comparison": {
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-12,
+    "zero_expectations": "exact"
+  },
+  "results": [
+    {
+      "case_id": "C01",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "converted_length": 2.54
+      },
+      "native_output": 2.54,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C01",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "converted_length": 2.54
+      },
+      "native_output": 2.54,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C01",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "converted_length": 2.54
+      },
+      "native_output": {
+        "calculation": "convert",
+        "value": 2.54,
+        "unit": "cm"
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C02",
+      "engine": "npm",
+      "status": "unsupported",
+      "reason": "npm convertLength accepts only cm or in; no adapter conversion is inserted.",
+      "native_call_performed": false
+    },
+    {
+      "case_id": "C02",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "converted_length": 0.9999999999999999
+      },
+      "native_output": 0.9999999999999999,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C02",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "converted_length": 0.9999999999999999
+      },
+      "native_output": {
+        "calculation": "convert",
+        "value": 0.9999999999999999,
+        "unit": "in"
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C03",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "converted_length": -0.39370078740157477
+      },
+      "native_output": -0.39370078740157477,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C03",
+      "engine": "drupal_js",
+      "status": "rejected",
+      "error_type": "RangeError",
+      "error_code": "nonnegative",
+      "error": "nonnegative",
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C03",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "rejected",
+      "error": "error: length must be non-negative",
+      "native_exit_code": 2
+    },
+    {
+      "case_id": "C04",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "converted_length": 0
+      },
+      "native_output": 0,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C04",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "converted_length": 0
+      },
+      "native_output": 0,
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C04",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "rejected",
+      "error": "error: numeric range is too large or too small; recheck the readings",
+      "native_exit_code": 2
+    },
+    {
+      "case_id": "C05",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "stretchPercent": 40,
+        "residualGrowthPercent": 5,
+        "recoveredExtensionPercent": 87.5,
+        "extension": 4,
+        "residualExtension": 0.5,
+        "unusualReleasedLength": false
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C05",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "stretchPercent": 40,
+        "residualChangePercent": 5,
+        "recoveredExtensionPercent": 87.5,
+        "unusualReleasedLength": false
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C05",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "calculation": "stretch",
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "extension": 4,
+        "residual_change": 0.5,
+        "length_unit": "cm",
+        "unusual_released_length": false
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C06",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 0,
+        "residual_change_percent": 0,
+        "recovered_extension_percent": null,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "stretchPercent": 0,
+        "residualGrowthPercent": 0,
+        "recoveredExtensionPercent": null,
+        "extension": 0,
+        "residualExtension": 0,
+        "unusualReleasedLength": false
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C06",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 0,
+        "residual_change_percent": 0,
+        "recovered_extension_percent": null,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "stretchPercent": 0,
+        "residualChangePercent": 0,
+        "recoveredExtensionPercent": null,
+        "unusualReleasedLength": false
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C06",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 0,
+        "residual_change_percent": 0,
+        "recovered_extension_percent": null,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "calculation": "stretch",
+        "stretch_percent": 0,
+        "residual_change_percent": 0,
+        "recovered_extension_percent": null,
+        "extension": 0,
+        "residual_change": 0,
+        "length_unit": "cm",
+        "unusual_released_length": false
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C07",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 50,
+        "residual_change_percent": -5,
+        "recovered_extension_percent": 110.00000000000001,
+        "unusual_released_length": true
+      },
+      "native_output": {
+        "stretchPercent": 50,
+        "residualGrowthPercent": -5,
+        "recoveredExtensionPercent": 110.00000000000001,
+        "extension": 5,
+        "residualExtension": -0.5,
+        "unusualReleasedLength": true
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C07",
+      "engine": "drupal_js",
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 50,
+        "residual_change_percent": -5,
+        "recovered_extension_percent": 110.00000000000001,
+        "unusual_released_length": true
+      },
+      "native_output": {
+        "stretchPercent": 50,
+        "residualChangePercent": -5,
+        "recoveredExtensionPercent": 110.00000000000001,
+        "unusualReleasedLength": true
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C07",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 50,
+        "residual_change_percent": -5,
+        "recovered_extension_percent": 110.00000000000001,
+        "unusual_released_length": true
+      },
+      "native_output": {
+        "calculation": "stretch",
+        "stretch_percent": 50,
+        "residual_change_percent": -5,
+        "recovered_extension_percent": 110.00000000000001,
+        "extension": 5,
+        "residual_change": -0.5,
+        "length_unit": "cm",
+        "unusual_released_length": true
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C08",
+      "engine": "npm",
+      "status": "rejected",
+      "error_type": "RangeError",
+      "error_code": null,
+      "error": "Stretched length cannot be less than original length.",
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C08",
+      "engine": "drupal_js",
+      "status": "rejected",
+      "error_type": "RangeError",
+      "error_code": "stretched",
+      "error": "stretched",
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C08",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "rejected",
+      "error": "error: stretched length cannot be less than original length",
+      "native_exit_code": 2
+    },
+    {
+      "case_id": "C09",
+      "engine": "npm",
+      "status": "unsupported",
+      "reason": "This JavaScript API requires a common unit; no adapter normalization is inserted.",
+      "native_call_performed": false
+    },
+    {
+      "case_id": "C09",
+      "engine": "drupal_js",
+      "status": "unsupported",
+      "reason": "This JavaScript API requires a common unit; no adapter normalization is inserted.",
+      "native_call_performed": false
+    },
+    {
+      "case_id": "C09",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "unusual_released_length": false
+      },
+      "native_output": {
+        "calculation": "stretch",
+        "stretch_percent": 40,
+        "residual_change_percent": 5,
+        "recovered_extension_percent": 87.5,
+        "extension": 4,
+        "residual_change": 0.5,
+        "length_unit": "cm",
+        "unusual_released_length": false
+      },
+      "native_exit_code": 0
+    },
+    {
+      "case_id": "C10",
+      "engine": "npm",
+      "status": "accepted",
+      "value": {
+        "x_error_percent": -0.40000000000000563,
+        "y_error_percent": 0.40000000000000563,
+        "difference_percentage_points": 0.8000000000000113,
+        "non_uniform": true,
+        "within_tolerance": true
+      },
+      "native_output": {
+        "xScalePercent": 99.6,
+        "yScalePercent": 100.4,
+        "xErrorPercent": -0.40000000000000563,
+        "yErrorPercent": 0.40000000000000563,
+        "differencePercentagePoints": 0.8000000000000113,
+        "nonUniform": true,
+        "withinTolerance": true,
+        "tolerancePercent": 0.5
+      },
+      "native_call_performed": true
+    },
+    {
+      "case_id": "C10",
+      "engine": "drupal_js",
+      "status": "unsupported",
+      "reason": "The Drupal JavaScript math export has no print-scale function.",
+      "native_call_performed": false
+    },
+    {
+      "case_id": "C10",
+      "engine": "rust",
+      "native_call_performed": true,
+      "status": "accepted",
+      "value": {
+        "x_error_percent": -0.40000000000000563,
+        "y_error_percent": 0.40000000000000563,
+        "difference_percentage_points": 0.8000000000000113,
+        "non_uniform": true,
+        "within_tolerance": true
+      },
+      "native_output": {
+        "calculation": "print_scale",
+        "x_scale_percent": 99.6,
+        "y_scale_percent": 100.4,
+        "x_error_percent": -0.40000000000000563,
+        "y_error_percent": 0.40000000000000563,
+        "difference_percentage_points": 0.8000000000000113,
+        "non_uniform": true,
+        "within_tolerance": true,
+        "tolerance_percent": 0.5
+      },
+      "native_exit_code": 0
+    }
+  ]
+}
