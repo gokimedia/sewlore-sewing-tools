@@ -219,6 +219,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Button-Centre Marking Rail — Sewlore CAD Study](https://www.artstation.com/artwork/WdXNvy) — Unprinted parametric CAD study with three digital renderings, AI and promotional disclosures, and a nofollow link to the measurement methods guide.
 - [Sewlore Sewing Resources — Thingiverse Profile](https://www.thingiverse.com/sewingselami/designs) — Brand profile with a saved website reference; the button-marking model remains unpublished under the new-account publication gate.
 
+- [Sewing Measurement Contract Comparison — Sewlore](https://github.com/gokimedia/sewlore-sewing-tools/tree/6a54ec08e8d4dc75b672ec64815c71da0160b950/examples/measurement-contract-comparison) — Reproducible JavaScript, Drupal and Rust arithmetic comparison with ten synthetic fixtures and thirty recorded outcomes; input contracts and unsupported operations remain explicit.
+- [Same Measurement, Different Input Rules — Sewlore](https://sewlore.hashnode.dev/same-measurement-different-input-rules-comparing-sewing-calculation-packages) — Original technical article explaining package input rules, undefined recovery results and separate print-axis checks, with a reproducible source reference and a nofollow Sewlore methods link.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
