@@ -214,6 +214,11 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore Sewing Math — crates.io](https://crates.io/crates/sewlore-sewing-math) — Published Rust package 0.1.0 for stretch, recovery, unit conversion and separate print-axis calculations.
 - [Sewlore Sewing Math — API Documentation](https://docs.rs/sewlore-sewing-math/0.1.0/sewlore_sewing_math/) — Compiled Rust API documentation with typed lengths, units, errors and worked measurement examples.
 
+- [Sewing Project Budget and Fabric Planner — Sewlore](https://docs.superhuman.com/@sewlore/sewing-project-budget-fabric-planner) — Fabric purchase and budget planner with synthetic examples, public Play mode and copying enabled; source links use nofollow and the page is marked noindex.
+- [Sewlore Button-Centre Marking Rail — GrabCAD](https://grabcad.com/library/sewlore-button-centre-marking-rail-freecad-step-and-stl-1) — Unprinted button-centre marking rail with native and neutral CAD files; the platform currently permits no direct Sewlore link.
+- [Button-Centre Marking Rail — Sewlore CAD Study](https://www.artstation.com/artwork/WdXNvy) — Unprinted parametric CAD study with three digital renderings, AI and promotional disclosures, and a nofollow link to the measurement methods guide.
+- [Sewlore Sewing Resources — Thingiverse Profile](https://www.thingiverse.com/sewingselami/designs) — Brand profile with a saved website reference; the button-marking model remains unpublished under the new-account publication gate.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
