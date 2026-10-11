@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<updates>
+  <update>
+    <name>Sewlore Measurement Lab</name>
+    <description>Local sewing measurement calculations.</description>
+    <element>mod_sewlore_measurement_lab</element>
+    <type>module</type>
+    <version>0.1.0</version>
+    <client>site</client>
+    <downloads>
+      <downloadurl type="full" format="zip">https://gokimedia.github.io/sewlore-sewing-tools/extensions/joomla/sewlore-measurement-lab/mod_sewlore_measurement_lab-0.1.0.zip</downloadurl>
+    </downloads>
+    <infourl>https://gokimedia.github.io/sewlore-sewing-tools/extensions/joomla/sewlore-measurement-lab/</infourl>
+    <targetplatform name="joomla" version="6\.1" />
+    <php_minimum>8.3</php_minimum>
+    <sha512>484f4fe65e0a0f8648755f0c671e20b5370fc4a34075c4ce61361eb6e8fc9b7de0b103c78febd1d497f2c2d0ee8198457ffd23d8e17f6c30d5043a1c3074ec6c</sha512>
+  </update>
+</updates>

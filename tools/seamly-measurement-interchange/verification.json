@@ -1,0 +1,10 @@
+{
+  "tests_run": 30,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "native_SeamlyME_UI_test": false,
+  "schema": "Official Seamly VIT 0.3.3 and SMIS 0.3.4 XSD",
+  "tested_source_sha256": "2f182b3b324b68a071b83ff15539524819575b6cbe6f66b2e0255fdc3a2e200d",
+  "zip_sha256": "303005c1265ee63e3d09a947618e83c0984f2c669a0f4d3edae0914f02798c0b"
+}

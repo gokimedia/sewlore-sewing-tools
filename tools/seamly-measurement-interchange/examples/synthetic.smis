@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<smis>
+  <version>0.3.4</version>
+  <read-only>false</read-only>
+  <notes>Created by Sewlore Measurement Interchange. Verify measurement names and values before drafting.</notes>
+  <unit>cm</unit>
+  <pm_system>998</pm_system>
+  <personal>
+    <family-name />
+    <given-name />
+    <birth-date>1800-01-01</birth-date>
+    <gender>unknown</gender>
+    <email />
+  </personal>
+  <body-measurements>
+    <m name="bust_circ" value="84" full_name="Bust circumference" description="Synthetic example only" />
+    <m name="waist_circ" value="66.04" full_name="Waist circumference" description="Synthetic example only" />
+    <m name="hip_circ" value="96" full_name="Hip circumference" description="Synthetic example only" />
+  </body-measurements>
+</smis>

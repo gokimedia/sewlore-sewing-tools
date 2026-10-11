@@ -1,0 +1,4 @@
+name,value,unit,full_name,description
+bust_circ,840,mm,Bust circumference,Synthetic example only
+waist_circ,26,in,Waist circumference,Synthetic example only
+hip_circ,96,cm,Hip circumference,Synthetic example only
