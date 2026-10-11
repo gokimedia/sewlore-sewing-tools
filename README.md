@@ -279,6 +279,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Explicit Paired Specimen Tables - R-universe Tutorial](https://gokimedia.r-universe.dev/sewloreSpecimenTables/doc/paired-synthetic-specimens.html) - Synthetic worked examples for pairing before and after measurements, retaining incomplete observations and exporting identifiable rows. The verified document has Sewlore homepage and methods-guide links; indexing and search impact remain unverified.
 
+- [Sewlore Paper Pattern Tile Corner Datum Gauge - Pinshape](https://pinshape.com/items/133109-sewlore-paper-pattern-tile-corner-datum-gauge) - Unprinted CC BY 4.0 datum gauge with one STL and two digital gallery previews. An authenticated download matched the original STL; guest download requires sign-in. No ZIP is included and the model has no direct Sewlore link; the author profile carries the existing homepage link. Physical fit and search impact remain unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
