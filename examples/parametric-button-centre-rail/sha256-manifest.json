@@ -1,0 +1,55 @@
+{
+  "schema": "sewlore-file-manifest-v1",
+  "package": "sewlore-parametric-button-centre-rail",
+  "version": "0.1.0",
+  "license": "MIT",
+  "physical_print_tested": false,
+  "physical_sewing_tested": false,
+  "files": [
+    {
+      "path": "digital-qa-summary.json",
+      "bytes": 18949,
+      "sha256": "f46a72ed905549db7c829b9957fcf16dce1b58a90d912c65edadfeb3290f9ee7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "bb39e481b111b09f9d28374d85fc48f454a5e742bb5f9fa0974d655d355c9959"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 879,
+      "sha256": "7ad57b360bdb71ec732d1806f0b0f75184c0cb0d2a5164c0e04d56358c0e9c92"
+    },
+    {
+      "path": "preview-default-isometric.png",
+      "bytes": 13847,
+      "sha256": "318035356ad226f1f25d9b48cae32eb7187a5b77e36f8e688acd45d207b2c2ab"
+    },
+    {
+      "path": "preview-default-top.png",
+      "bytes": 3888,
+      "sha256": "0d651ffa0aa1cbf85fb85d9a637830ff6478c1b87bd88de96ae827eb1f97174e"
+    },
+    {
+      "path": "preview-length-mode.png",
+      "bytes": 13534,
+      "sha256": "c602e3ac97f8de3be51cb0695644f43f76637a39d8da5f53b256d981a6d114b7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4829,
+      "sha256": "4177a4156bdf6cb85900c4299195d0b89cb7e6bd8a5e22471745aec3924817bc"
+    },
+    {
+      "path": "sewlore-parametric-button-centre-rail-default.stl",
+      "bytes": 116884,
+      "sha256": "5fb13b5c58efeceb8212e50adc29da469d3920a379a72263fb10399c2edf0d43"
+    },
+    {
+      "path": "sewlore-parametric-button-centre-rail.scad",
+      "bytes": 4604,
+      "sha256": "16316c779e89b3a203491fb0b8f581f257d76418b03d13d855175e634a6ea473"
+    }
+  ]
+}

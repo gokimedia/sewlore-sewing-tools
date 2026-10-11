@@ -1,0 +1,776 @@
+{
+  "schema": "sewlore-native-openscad-digital-qa-v1",
+  "source_sha256": "16316c779e89b3a203491fb0b8f581f257d76418b03d13d855175e634a6ea473",
+  "engine": "OpenSCAD version 2021.01",
+  "mesh_checker": "trimesh 5.1.1",
+  "valid_cases": 8,
+  "invalid_cases": 17,
+  "passed": 25,
+  "physical_print_tested": false,
+  "physical_sewing_tested": false,
+  "limits": "Digital STL topology, dimensions and guard rejection only. No strength, manufacturing tolerance or printer bed claim.",
+  "cases": [
+    {
+      "case": "default",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "5fb13b5c58efeceb8212e50adc29da469d3920a379a72263fb10399c2edf0d43",
+      "triangles": 2336,
+      "vertices": 1160,
+      "volume_mm3": 6829.899200072453,
+      "analytic_volume_mm3": 6829.86903026203,
+      "extents_mm": [
+        160.0,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        15.0,
+        47.5,
+        80.0,
+        112.5,
+        145.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -8,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "asymmetric_spacing",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 6,
+        "centre_spacing": 27.5,
+        "rail_length": 160,
+        "left_margin": 12,
+        "right_margin": 20,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "364550141879df3ceb736cfb338440980fe77d383cf166e40e3484d50b2dd1b8",
+      "triangles": 2724,
+      "vertices": 1352,
+      "volume_mm3": 7225.531638844954,
+      "analytic_volume_mm3": 7225.490978419543,
+      "extents_mm": [
+        169.5,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        12.0,
+        39.5,
+        67.0,
+        94.5,
+        122.0,
+        149.5
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -10,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "length_mode",
+      "parameters": {
+        "layout_mode": "Length",
+        "button_count": 6,
+        "centre_spacing": 32.5,
+        "rail_length": 200,
+        "left_margin": 12,
+        "right_margin": 18,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "3e89295ac37032ab047130eea89b7982acb9664a1b9087f466225415ef975c74",
+      "triangles": 2724,
+      "vertices": 1352,
+      "volume_mm3": 8543.131445684396,
+      "analytic_volume_mm3": 8543.090978419543,
+      "extents_mm": [
+        200.0,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        12.0,
+        46.0,
+        80.0,
+        114.0,
+        148.0,
+        182.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -10,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "smallest_supported_length",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 2,
+        "centre_spacing": 5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 20,
+        "guide_diameter": 0.8,
+        "rail_width": 10,
+        "rail_thickness": 1.2,
+        "corner_radius": 0
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "ca120b21a5fd47e650545c5c40dd54499087975ccd8ec36c4c6248cf4765f097",
+      "triangles": 788,
+      "vertices": 392,
+      "volume_mm3": 478.7944122201247,
+      "analytic_volume_mm3": 478.7936284210215,
+      "extents_mm": [
+        40.0,
+        10.0,
+        1.1999998092651367
+      ],
+      "centres_mm": [
+        15.0,
+        20.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192
+      ],
+      "euler_number": -2,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "largest_supported_length",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 4,
+        "centre_spacing": 80,
+        "rail_length": 160,
+        "left_margin": 4,
+        "right_margin": 6,
+        "guide_diameter": 0.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 0
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "909277b0bd27661a21845cb7240ae7ffc012afdc7dad525704d74774eb8b15cc",
+      "triangles": 1564,
+      "vertices": 776,
+      "volume_mm3": 10795.176257453164,
+      "analytic_volume_mm3": 10795.174513684085,
+      "extents_mm": [
+        250.0,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        4.0,
+        84.0,
+        164.0,
+        244.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -6,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "count_upper_boundary",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 20,
+        "centre_spacing": 10,
+        "rail_length": 160,
+        "left_margin": 10,
+        "right_margin": 10,
+        "guide_diameter": 6,
+        "rail_width": 30,
+        "rail_thickness": 5,
+        "corner_radius": 5
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "23a1f42594afb5690a45bf35853d4a48d207420aff1eec528bad78d00e66f308",
+      "triangles": 8156,
+      "vertices": 4040,
+      "volume_mm3": 28567.003443013087,
+      "analytic_volume_mm3": 28565.26569346791,
+      "extents_mm": [
+        210.0,
+        30.0,
+        5.0
+      ],
+      "centres_mm": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0,
+        70.0,
+        80.0,
+        90.0,
+        100.0,
+        110.0,
+        120.0,
+        130.0,
+        140.0,
+        150.0,
+        160.0,
+        170.0,
+        180.0,
+        190.0,
+        200.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -38,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "gap_material_boundary",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 6,
+        "centre_spacing": 7.5,
+        "rail_length": 160,
+        "left_margin": 10,
+        "right_margin": 10,
+        "guide_diameter": 6,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 0
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "5e66257608977744ab3cd38579712d9d1951108b7cb07df82aeb24cfe962eeb6",
+      "triangles": 2340,
+      "vertices": 1160,
+      "volume_mm3": 2077.139955136676,
+      "analytic_volume_mm3": 2076.8495920947626,
+      "extents_mm": [
+        57.5,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        10.0,
+        17.5,
+        25.0,
+        32.5,
+        40.0,
+        47.5
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192,
+        192,
+        192,
+        192
+      ],
+      "euler_number": -10,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "edge_material_boundary",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 3,
+        "centre_spacing": 20,
+        "rail_length": 160,
+        "left_margin": 4,
+        "right_margin": 4,
+        "guide_diameter": 5,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 0
+      },
+      "expected_valid": true,
+      "exit_code": 0,
+      "checks": {
+        "watertight": true,
+        "winding_consistent": true,
+        "one_connected_body": true,
+        "positive_volume": true,
+        "expected_euler": true,
+        "exact_bounds": true,
+        "analytic_volume_close": true,
+        "each_hole_has_two_96_vertex_rings": true
+      },
+      "stl_sha256": "c1818eab2b16e0fcf0697e0ba6d772d59a2a0fd71db1d3260a6f3319d413e4af",
+      "triangles": 1176,
+      "vertices": 584,
+      "volume_mm3": 1932.3289245059207,
+      "analytic_volume_mm3": 1932.2283305884591,
+      "extents_mm": [
+        48.0,
+        18.0,
+        2.3999996185302734
+      ],
+      "centres_mm": [
+        4.0,
+        24.0,
+        44.0
+      ],
+      "hole_ring_vertex_counts": [
+        192,
+        192,
+        192
+      ],
+      "euler_number": -4,
+      "connected_bodies": 1,
+      "pass": true
+    },
+    {
+      "case": "unknown_mode",
+      "parameters": {
+        "layout_mode": "other",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "noninteger_count",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 2.5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "count_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 1,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "count_above_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 21,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "spacing_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 4,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "length_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 30,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "length_above_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 260,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "diameter_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 0.7,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "width_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 9,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "thickness_below_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 1.1,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "radius_above_range",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 6
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "result_too_long",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 20,
+        "centre_spacing": 80,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "holes_overlap",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 10,
+        "centre_spacing": 5,
+        "rail_length": 160,
+        "left_margin": 15,
+        "right_margin": 15,
+        "guide_diameter": 6,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "edge_wall_too_thin",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 4,
+        "right_margin": 15,
+        "guide_diameter": 6,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 0
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "corner_intersects_end_hole_rule",
+      "parameters": {
+        "layout_mode": "Spacing",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 160,
+        "left_margin": 4,
+        "right_margin": 15,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 4.5
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "margins_consume_length",
+      "parameters": {
+        "layout_mode": "Length",
+        "button_count": 5,
+        "centre_spacing": 32.5,
+        "rail_length": 40,
+        "left_margin": 20,
+        "right_margin": 20,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 2
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    },
+    {
+      "case": "derived_spacing_too_large",
+      "parameters": {
+        "layout_mode": "Length",
+        "button_count": 2,
+        "centre_spacing": 32.5,
+        "rail_length": 250,
+        "left_margin": 4,
+        "right_margin": 4,
+        "guide_diameter": 2.8,
+        "rail_width": 18,
+        "rail_thickness": 2.4,
+        "corner_radius": 0
+      },
+      "expected_valid": false,
+      "exit_code": 1,
+      "pass": true
+    }
+  ]
+}

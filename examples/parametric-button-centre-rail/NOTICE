@@ -1,0 +1,17 @@
+Sewlore Parametric Button-Centre Rail 0.1.0
+Copyright (c) 2026 Sewlore. SPDX-License-Identifier: MIT.
+
+Original AI-assisted OpenSCAD implementation prepared on 2026-10-11.
+It uses the ordinary equal-spacing formula and is a separate implementation
+from the existing Sewlore FreeCAD Button Spacing Template. No source code,
+mesh or image from the older CC BY 4.0 sliding rail was copied.
+
+The MIT license applies to this package's source, generated STL, documentation
+and native render images. Keep the copyright and license notice with copies.
+
+OpenSCAD 2021.01 and trimesh 5.1.1 were used as build/verification tools only.
+Their executables, libraries and trademarks are not included in the public
+source ZIP and are not relicensed here.
+
+Digital CAD checks do not establish physical printing, marker fit, material
+strength, fabrication tolerance, safety or sewing suitability.
