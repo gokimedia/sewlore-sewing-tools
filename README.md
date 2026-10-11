@@ -259,9 +259,9 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Paper Pattern Tile Corner Datum Gauge - Sewlore Source](https://gokimedia.github.io/sewlore-sewing-tools/examples/paper-pattern-tile-corner-datum-gauge/index.html) - Editable MIT OpenSCAD source with a CC BY 4.0 model, drawings, CAD render and guide. Digital geometry was checked; physical printing, fit and calibration remain untested.
 
-- [SVG Measurement Marks - Sewlore .NET Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/dotnet/svg-measurement-marks/README.md) - Original SVG measurement-mark generator source and package instructions. Local .NET tests and an installed-package consumer were checked; physical print dimensions and registry publication remain unverified.
+- [SVG Measurement Marks - Sewlore .NET Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/dotnet/svg-measurement-marks/README.md) - Original SVG measurement-mark generator source and package instructions. Local .NET tests and an installed-package consumer were checked; NuGet 0.1.0 is now published with verified package contents. Physical print dimensions and search impact remain unverified.
 
-- [Sewlore Specimen Tables - R Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/r/sewloreSpecimenTables/README.md) - Original R specimen-table helper source and examples with local checks. Remote R-universe builds, indexing and traffic outcomes remain unverified.
+- [Sewlore Specimen Tables - R Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/r/sewloreSpecimenTables/README.md) - Original R specimen-table helper source and examples. Published R-universe 0.1.0 passed an installed-package consumer check; the provider reports nine successful checks. Google indexing and traffic outcomes remain unverified.
 
 - [Fabric Direction Lab - Sewlore Godot Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/examples/godot-fabric-direction-lab/README.md) - Original interactive Godot fabric-direction lab source and guide with a synthetic native viewport preview. Local native checks were run; this is source distribution, with asset-library acceptance unverified.
 
@@ -274,6 +274,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore - Mastodon Profile](https://mastodon.social/@sewlore) - Public Sewlore profile with native bio and Website links and no posts. Anonymous HTML has a rel=me homepage identity link, with profile anchors requiring client rendering; actual indexing and search impact remain unverified.
 
 - [Sewlore.SvgMeasurementMarks 0.1.0 - NuGet](https://www.nuget.org/packages/Sewlore.SvgMeasurementMarks) - Live MIT .NET package for generating SVG measurement marks. Published 0.1.0 content and repository signature were verified; the package page is noindex and its Sewlore links are nofollow. Physical printing and search impact remain unverified.
+
+- [sewloreSpecimenTables 0.1.0 - R-universe](https://gokimedia.r-universe.dev/sewloreSpecimenTables) - MIT R package for explicitly paired fabric-specimen measurements. The published archive passed an isolated installation and 78 native consumer assertions. Sewlore links are visible in the rendered reader; anonymous HTML has no Sewlore anchors, and registry indexing does not confirm Google indexing.
+
+- [Explicit Paired Specimen Tables - R-universe Tutorial](https://gokimedia.r-universe.dev/sewloreSpecimenTables/doc/paired-synthetic-specimens.html) - Synthetic worked examples for pairing before and after measurements, retaining incomplete observations and exporting identifiable rows. The verified document has Sewlore homepage and methods-guide links; indexing and search impact remain unverified.
 
 ## Fabric Stretch Lab
 
