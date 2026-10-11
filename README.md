@@ -217,7 +217,7 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewing Project Budget and Fabric Planner — Sewlore](https://docs.superhuman.com/@sewlore/sewing-project-budget-fabric-planner) — Fabric purchase and budget planner with synthetic examples, public Play mode and copying enabled; source links use nofollow and the page is marked noindex.
 - [Sewlore Button-Centre Marking Rail — GrabCAD](https://grabcad.com/library/sewlore-button-centre-marking-rail-freecad-step-and-stl-1) — Unprinted button-centre marking rail with native and neutral CAD files; the platform currently permits no direct Sewlore link.
 - [Button-Centre Marking Rail — Sewlore CAD Study](https://www.artstation.com/artwork/WdXNvy) — Unprinted parametric CAD study with three digital renderings, AI and promotional disclosures, and a nofollow link to the measurement methods guide.
-- [Sewlore Sewing Resources — Thingiverse Profile](https://www.thingiverse.com/sewingselami/designs) — Brand profile with a saved website reference; the button-marking model remains unpublished under the new-account publication gate.
+- [Sewlore Sewing Resources — Thingiverse Profile](https://www.thingiverse.com/sewingselami/designs) — Brand profile with a saved website reference; the button-centre marking rail is now published as an unprinted CAD prototype.
 
 - [Sewing Measurement Contract Comparison — Sewlore](https://github.com/gokimedia/sewlore-sewing-tools/tree/6a54ec08e8d4dc75b672ec64815c71da0160b950/examples/measurement-contract-comparison) — Reproducible JavaScript, Drupal and Rust arithmetic comparison with ten synthetic fixtures and thirty recorded outcomes; input contracts and unsupported operations remain explicit.
 - [Same Measurement, Different Input Rules — Sewlore](https://sewlore.hashnode.dev/same-measurement-different-input-rules-comparing-sewing-calculation-packages) — Original technical article explaining package input rules, undefined recovery results and separate print-axis checks, with a reproducible source reference and a nofollow Sewlore methods link.
@@ -280,6 +280,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Explicit Paired Specimen Tables - R-universe Tutorial](https://gokimedia.r-universe.dev/sewloreSpecimenTables/doc/paired-synthetic-specimens.html) - Synthetic worked examples for pairing before and after measurements, retaining incomplete observations and exporting identifiable rows. The verified document has Sewlore homepage and methods-guide links; indexing and search impact remain unverified.
 
 - [Sewlore Paper Pattern Tile Corner Datum Gauge - Pinshape](https://pinshape.com/items/133109-sewlore-paper-pattern-tile-corner-datum-gauge) - Unprinted CC BY 4.0 datum gauge with one STL and two digital gallery previews. An authenticated download matched the original STL; guest download requires sign-in. No ZIP is included and the model has no direct Sewlore link; the author profile carries the existing homepage link. Physical fit and search impact remain unverified.
+
+- [Sewlore Button Centre Marking Rail — Unprinted CAD Prototype](https://www.thingiverse.com/thing:7420668) - AI-assisted, unprinted CC BY 4.0 model with eight files including FCStd, STEP, STL and a source ZIP. The rendered model page links to the Sewlore measurement guide. Anonymous HTML serves the model metadata and guide URL, but no server-rendered guide anchor. Physical printing and file-download integrity remain unverified.
 
 ## Fabric Stretch Lab
 
