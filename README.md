@@ -225,6 +225,12 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 - [Sewlore Sewing Resources — GitLab Group](https://gitlab.com/sewlore) — Public sewing measurement group with a nofollow Sewlore homepage reference.
 - [Sewing Measurement Contracts — Sewlore](https://gitlab.com/sewlore/sewing-measurement-contracts) — Ten synthetic cases comparing JavaScript, Drupal JavaScript and Rust input rules, with reproducible sources and preserved MIT notices; no physical tests.
 
+- [Check Both Axes Before Printing a Sewing Pattern — Sewlore](https://speakerdeck.com/miyalinaga/check-both-axes-before-printing-a-sewing-pattern-sewlore) — Twelve-slide digital geometry guide with an exact downloadable PDF and a nofollow contextual printing reference; no physical printer tests.
+- [Sewlore Maker Resources — Hackaday Profile](https://hackaday.io/selamibababa) — Public maker profile with a nofollow Sewlore homepage link and AI-assisted digital CAD scope; creator review is pending and no project is published.
+- [Parametric Button-Centre Rail — Sewlore Source](https://github.com/gokimedia/sewlore-sewing-tools/tree/c79504dcf23d1a8bde0b66925aef642c9f93b283/examples/parametric-button-centre-rail) — Versioned OpenSCAD, STL and native previews with twenty-five digital checks; physical printing and MakerWorld compatibility remain unverified.
+- [Check Both Print Axes — Sewlore PDF Source](https://github.com/gokimedia/sewlore-sewing-tools/tree/c79504dcf23d1a8bde0b66925aef642c9f93b283/examples/check-both-print-axes) — Exact twelve-page presentation PDF with its public source notes and explicit digital-only geometry examples.
+- [Two-Axis PDF Print Check — Sewlore](https://gokimedia.github.io/sewlore-sewing-tools/tools/two-axis-print-check/print-check.html) — Self-hostable rectangular measurement calculator with separate width and height results, optional source attribution and no measurement collection or assumed pass/fail tolerance.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
