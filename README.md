@@ -269,6 +269,12 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Measurement Batch - Elixir Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/elixir/sewlore_measurement_batch/README.md) - Original Elixir measurement-batch source with local compilation, tests and package build instructions. Hex package publication and earlier supported runtimes remain unverified.
 
+- [Sewlore Sewing Resources - Pinshape Profile](https://pinshape.com/users/9086178-sewingselami?tab=designs) - Public sewingselami maker profile with a direct Sewlore homepage link. No nofollow attribute was observed in anonymous HTML; actual indexing and search impact remain unverified.
+
+- [Sewlore - Mastodon Profile](https://mastodon.social/@sewlore) - Public Sewlore profile with native bio and Website links and no posts. Anonymous HTML has a rel=me homepage identity link, with profile anchors requiring client rendering; actual indexing and search impact remain unverified.
+
+- [Sewlore.SvgMeasurementMarks 0.1.0 - NuGet](https://www.nuget.org/packages/Sewlore.SvgMeasurementMarks) - Live MIT .NET package for generating SVG measurement marks. Published 0.1.0 content and repository signature were verified; the package page is noindex and its Sewlore links are nofollow. Physical printing and search impact remain unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
