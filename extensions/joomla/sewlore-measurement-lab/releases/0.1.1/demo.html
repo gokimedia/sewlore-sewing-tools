@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Standalone sewing calculator preview | Sewlore</title><meta name="description" content="Standalone preview of local sewing calculations; synthetic examples, no measurement storage or submission."><link rel="stylesheet" href="calculator.css"><script defer src="calculator.js"></script><style>body{margin:0;background:#f7f7f0;color:#1a3432;font:17px/1.65 system-ui,sans-serif}main{max-width:850px;margin:auto;padding:42px 22px 80px}h1{font-size:2.5rem;line-height:1.12}h2{margin-top:2.5rem}a{color:#165d52}pre{overflow:auto;padding:18px;background:#e9f0eb;border-radius:8px;white-space:pre-wrap;font-size:.86rem}code{font-size:.9em}table{border-collapse:collapse;width:100%;font-size:.9rem}td,th{border:1px solid #bed0c7;padding:8px;text-align:left}.downloads{padding:18px;border-left:4px solid #2b7163;background:#e9f0eb}footer{margin-top:44px;border-top:1px solid #bed0c7;padding-top:16px;font-size:.9rem}</style></head><body><main><p><a href="./">Installation, formulas and source</a> · <a href="https://sewlore.com/">Sewlore</a></p><h1>Standalone calculator preview</h1><p>This page previews the calculator assets outside Joomla. It is not a hosted native Joomla demonstration. Starting values are synthetic examples; inputs are neither stored nor submitted.</p><section id="sewlore-measurement-lab-110" class="sewlore-measurement-lab" data-sewlore-measurement-lab data-invalid="Enter finite numbers. Dimensions and baselines must be greater than zero." data-shrinkage="Dimension change: {change}%. Retained dimension: {retained}%." data-print="Width ratio: {width}%. Height ratio: {height}%. Difference between axes: {gap} percentage points." data-conversion="{value} {unit}">
+
+  <h3>Sewing measurement lab</h3>
+
+  <p>Check units, observed fabric size changes and the two axes of a printed pattern independently. The starting values are illustrative examples.</p>
+
+  <fieldset>
+
+    <legend>Unit conversion</legend>
+
+    <label for="sewlore-measurement-lab-110-amount">Value</label>
+
+    <input id="sewlore-measurement-lab-110-amount" data-field="amount" type="number" step="any" value="1" inputmode="decimal">
+
+    <label for="sewlore-measurement-lab-110-from">From unit</label>
+
+    <select id="sewlore-measurement-lab-110-from" data-field="from"><option value="cm">cm</option><option value="mm">mm</option><option value="in">in</option></select>
+
+    <label for="sewlore-measurement-lab-110-to">To unit</label>
+
+    <select id="sewlore-measurement-lab-110-to" data-field="to"><option value="mm">mm</option><option value="cm">cm</option><option value="in">in</option></select>
+
+    <output data-result="conversion" aria-live="polite"></output>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend>Observed fabric dimension change</legend>
+
+    <p>Enter one axis before and after washing in the same unit. A positive change means shrinkage; a negative change means expansion. Measure the other axis separately.</p>
+
+    <label for="sewlore-measurement-lab-110-before">Before washing</label>
+
+    <input id="sewlore-measurement-lab-110-before" data-field="before" type="number" min="0" step="any" value="100" inputmode="decimal">
+
+    <label for="sewlore-measurement-lab-110-after">After washing</label>
+
+    <input id="sewlore-measurement-lab-110-after" data-field="after" type="number" min="0" step="any" value="95" inputmode="decimal">
+
+    <output data-result="shrinkage" aria-live="polite"></output>
+
+  </fieldset>
+
+  <fieldset>
+
+    <legend>Independent print-axis check</legend>
+
+    <p>Use the same unit for all four dimensions. These ratios describe the observed print; they do not select a printer correction or a pass/fail tolerance.</p>
+
+    <label for="sewlore-measurement-lab-110-expected-width">Expected width</label>
+
+    <input id="sewlore-measurement-lab-110-expected-width" data-field="expected-width" type="number" min="0" step="any" value="100" inputmode="decimal">
+
+    <label for="sewlore-measurement-lab-110-expected-height">Expected height</label>
+
+    <input id="sewlore-measurement-lab-110-expected-height" data-field="expected-height" type="number" min="0" step="any" value="50" inputmode="decimal">
+
+    <label for="sewlore-measurement-lab-110-measured-width">Measured width</label>
+
+    <input id="sewlore-measurement-lab-110-measured-width" data-field="measured-width" type="number" min="0" step="any" value="96" inputmode="decimal">
+
+    <label for="sewlore-measurement-lab-110-measured-height">Measured height</label>
+
+    <input id="sewlore-measurement-lab-110-measured-height" data-field="measured-height" type="number" min="0" step="any" value="52" inputmode="decimal">
+
+    <output data-result="print" aria-live="polite"></output>
+
+  </fieldset>
+
+  <p class="sewlore-measurement-lab__privacy">Calculations run in this page. This module makes no network requests, stores no measurements and includes no analytics.</p>
+
+  <noscript><p>Enable JavaScript to run the calculations. Formulas and a worked example are provided in the documentation.</p></noscript>
+
+</section>
+
+    </main></body></html>

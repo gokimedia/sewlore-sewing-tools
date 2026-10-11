@@ -1,0 +1,13 @@
+/* Copyright (c) 2026 Sewlore. SPDX-License-Identifier: GPL-3.0-or-later */
+.sewlore-measurement-lab{box-sizing:border-box;max-width:48rem;border:1px solid #d5dedc;border-radius:1rem;padding:1.25rem;background:#fcfdfa;color:#172c2b;font:inherit}
+.sewlore-measurement-lab *{box-sizing:border-box}
+.sewlore-measurement-lab h3{margin-top:0;color:inherit}
+.sewlore-measurement-lab fieldset{margin:1rem 0;padding:1rem;border:1px solid #a8bab6;border-radius:.5rem}
+.sewlore-measurement-lab legend{font-weight:700;float:none;width:auto;font-size:1.1rem;margin:0;padding:0 .3rem}
+.sewlore-measurement-lab label{display:block;margin-top:.6rem}
+.sewlore-measurement-lab input,.sewlore-measurement-lab select{display:block;width:100%;max-width:24rem;min-height:2.6rem;background:#fff;color:#172c2b;border:1px solid #758c88;border-radius:.3rem;padding:.45rem}
+.sewlore-measurement-lab input:focus-visible,.sewlore-measurement-lab select:focus-visible,.sewlore-measurement-lab a:focus-visible{outline:3px solid #296763;outline-offset:3px}
+.sewlore-measurement-lab output{display:block;min-height:3rem;white-space:pre-line;padding:.7rem;margin-top:.8rem;background:#edf4ef;border-radius:.3rem}
+.sewlore-measurement-lab output[data-state=invalid]{background:#fff0e8;color:#6b2b00}
+.sewlore-measurement-lab__privacy{font-size:.9rem}
+.sewlore-measurement-lab a{color:#174f4b;text-decoration:underline}
