@@ -251,6 +251,24 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Choose the Right Fabric Measurement | Sewlore](https://app.lumi.education/run/5MvmVJ) - Interactive lesson with three routes and nine practice questions on stretch and recovery, paired care change and rectangular area. Includes Sewlore guide and tool links; client rendering is required and indexing remains unverified.
 
+- [Sewlore – Hex Publisher](https://hex.pm/users/sewlore) - Public Sewlore publisher profile with an anonymous-verified nofollow homepage link. No packages are published; actual indexing and search impact remain unverified.
+
+- [Sewlore - Bluesky](https://bsky.app/profile/sewlore.com) - Domain-verified Sewlore profile with a native-verified clickable homepage and no published posts. Anonymous server HTML contains the Sewlore bio but no homepage anchor; actual indexing and search impact remain unverified.
+
+- [Sewlore Pattern Plane Inspector - Blender Source](https://gokimedia.github.io/sewlore-sewing-tools/extensions/blender/sewlore-pattern-plane-inspector/index.html) - Original GPL-3.0-or-later Blender extension and guide with a CC0 synthetic preview. Native CLI installation and geometry checks were tested locally; public platform acceptance and physical measurements remain unverified.
+
+- [Paper Pattern Tile Corner Datum Gauge - Sewlore Source](https://gokimedia.github.io/sewlore-sewing-tools/examples/paper-pattern-tile-corner-datum-gauge/index.html) - Editable MIT OpenSCAD source with a CC BY 4.0 model, drawings, CAD render and guide. Digital geometry was checked; physical printing, fit and calibration remain untested.
+
+- [SVG Measurement Marks - Sewlore .NET Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/dotnet/svg-measurement-marks/README.md) - Original SVG measurement-mark generator source and package instructions. Local .NET tests and an installed-package consumer were checked; physical print dimensions and registry publication remain unverified.
+
+- [Sewlore Specimen Tables - R Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/r/sewloreSpecimenTables/README.md) - Original R specimen-table helper source and examples with local checks. Remote R-universe builds, indexing and traffic outcomes remain unverified.
+
+- [Fabric Direction Lab - Sewlore Godot Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/examples/godot-fabric-direction-lab/README.md) - Original interactive Godot fabric-direction lab source and guide with a synthetic native viewport preview. Local native checks were run; this is source distribution, with asset-library acceptance unverified.
+
+- [Sewlore Measurement Records - Ruby Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/ruby/sewlore-measurement-records/README.md) - Original Ruby measurement-record helper source, examples and local package checks. Registry distribution and older supported-runtime behaviour remain unverified.
+
+- [Sewlore Measurement Batch - Elixir Source](https://github.com/gokimedia/sewlore-sewing-tools/blob/main/packages/elixir/sewlore_measurement_batch/README.md) - Original Elixir measurement-batch source with local compilation, tests and package build instructions. Hex package publication and earlier supported runtimes remain unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
@@ -334,4 +352,4 @@ These instructions refer to actual published 0.1.0 versions. Source documentatio
 
 Embedded views without an explicit source keep Sewlore links free of campaign parameters. When embedding on Sewlore, omit the source parameter so navigation within the site is not relabelled as a referral. A partner embedding the tool can choose its own source value to opt into attribution.
 
-The original application code, planning diagrams and educational templates are available under the MIT licence, except for `resources/sewlore-measurement-practice-workbook.pdf`. The workbook retains its own copyright-reserved notice; publishing it for download does not grant an open reuse licence. Sewlore names and branding remain trademarks of their respective owner; the licence does not imply endorsement. Contributions should improve measurement transparency or usability. Please do not add fabricated results, advertising repositories or unrelated link placements.
+Unless a directory or file states a different licence, the original browser application code, planning diagrams and educational templates are available under MIT. Resource-specific licence notices take precedence over this summary. The Blender Pattern Plane Inspector code and guide are GPL-3.0-or-later; its original synthetic preview is CC0 1.0. For the Paper Pattern Tile Corner Datum Gauge, the editable SCAD source and original build/drawing scripts are MIT; the STL model, dimension drawings, CAD render and descriptive guide are CC BY 4.0. `resources/sewlore-measurement-practice-workbook.pdf` retains its own copyright-reserved notice; publishing it for download does not grant an open reuse licence. Sewlore names and branding remain trademarks of their respective owner; the licence does not imply endorsement. Contributions should improve measurement transparency or usability. Please do not add fabricated results, advertising repositories or unrelated link placements.
