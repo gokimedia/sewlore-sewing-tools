@@ -1,0 +1,133 @@
+{
+  "resource": "Sewlore Pattern Plane Inspector",
+  "version": "0.1.0",
+  "status": "locally-prepared-and-native-tested; platform publication not asserted",
+  "zip_sha256": "a111d704c1ae5a755969074190f2f491e016c5280a9d291fba4fb8718422e152",
+  "zip_bytes": 17423,
+  "blender_version": "5.2.2 LTS",
+  "blender_build_hash": "d13f752e3b9c",
+  "native_extension_cli_build_and_validate": true,
+  "native_install_enable_and_uninstall": true,
+  "exact_installed_package_bytes_checked": true,
+  "passed_native_checks": [
+    {
+      "name": "Exact five ZIP members equal native-installed bytes",
+      "passed": true
+    },
+    {
+      "name": "Native scene properties and operator registered",
+      "passed": true
+    },
+    {
+      "name": "Scene Unit Scale converts 100x50 scene units to 100x50 mm",
+      "passed": true
+    },
+    {
+      "name": "Metric millimetres and square millimetres",
+      "passed": true
+    },
+    {
+      "name": "Centimetres and squared conversion",
+      "passed": true
+    },
+    {
+      "name": "Exact inch and square-inch conversion",
+      "passed": true
+    },
+    {
+      "name": "Translation and three-axis rotation preserve geometry",
+      "passed": true
+    },
+    {
+      "name": "Arbitrarily rotated plane stays within tolerance",
+      "passed": true
+    },
+    {
+      "name": "Unapplied nonuniform object scale",
+      "passed": true
+    },
+    {
+      "name": "Negative object scale gives positive lengths and area",
+      "passed": true
+    },
+    {
+      "name": "Parent scale plus child rotation creates measured world-space shear",
+      "passed": true
+    },
+    {
+      "name": "Native tessellation measures concave L as 5 square mm",
+      "passed": true
+    },
+    {
+      "name": "Hole outline included; internal face edges excluded",
+      "passed": true
+    },
+    {
+      "name": "Disconnected coplanar outlines summed",
+      "passed": true
+    },
+    {
+      "name": "Warped surface flagged outside 0.1 mm tolerance",
+      "passed": true
+    },
+    {
+      "name": "Changing flatness tolerance changes classification",
+      "passed": true
+    },
+    {
+      "name": "Base geometry option ignores modifier",
+      "passed": true
+    },
+    {
+      "name": "Evaluated modifier merges shared outline",
+      "passed": true
+    },
+    {
+      "name": "Wire mesh rejected",
+      "passed": true
+    },
+    {
+      "name": "Loose vertices or edges rejected",
+      "passed": true
+    },
+    {
+      "name": "Degenerate triangle rejected",
+      "passed": true
+    },
+    {
+      "name": "Duplicate face rejected",
+      "passed": true
+    },
+    {
+      "name": "Non-manifold shared edge rejected",
+      "passed": true
+    },
+    {
+      "name": "Closed solid volume rejected",
+      "passed": true
+    },
+    {
+      "name": "Native operator reports mixed valid and rejected selections",
+      "passed": true
+    },
+    {
+      "name": "Inspection leaves source geometry unchanged",
+      "passed": true
+    }
+  ],
+  "native_interactive_ui_test": false,
+  "physical_measurements": false,
+  "fixtures": "Synthetic geometry with analytical dimensions",
+  "tested_operating_system": "Windows",
+  "earlier_versions_tested": [],
+  "binary_assets_in_zip": [],
+  "network_or_telemetry": false,
+  "source_members_sha256": {
+    "__init__.py": "88a9587fa8ed9db3cee36c0941c2d214305d0689e7693abd89f1ab2d9251ce1d",
+    "geometry.py": "f73a03af1d022fab759ccd891298562d0f7adce1af3818a3230b29c6ef1417e0",
+    "blender_manifest.toml": "c919c9a430c0ff86be4ae0c3e64244b8dce278d28f4a87ef907d44007dc4b156",
+    "LICENSE": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+    "README.txt": "fe3ba8c036d63d98b52f97192b3ad98b1b1559ed72b9e69ab8390abc599c0fcc"
+  },
+  "native_test_script_sha256": "7f1db2d838d6b89ffd29d314d391927225b824ac0da66b307dd865187fba0519"
+}

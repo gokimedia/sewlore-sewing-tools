@@ -1,0 +1,50 @@
+<!doctype html>
+<!--
+%\VignetteIndexEntry{Explicit paired specimen tables with synthetic measurements}
+%\VignetteEngine{knitr::knitr}
+%\VignetteEncoding{UTF-8}
+-->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Explicit paired specimen tables — synthetic examples | Sewlore</title>
+<style>body{max-width:960px;margin:2rem auto;padding:0 1rem;font:16px/1.6 system-ui,sans-serif;color:#18212b}h1,h2{line-height:1.25}pre{overflow:auto;background:#f2f5f7;padding:1rem;border-radius:8px}.synthetic{border-left:6px solid #935500;background:#fff5dd;padding:1rem}img{max-width:100%;height:auto}a{color:#075985}code{font-family:monospace}</style></head><body>
+<h1>Explicit paired specimen tables</h1>
+<p>A reproducible walkthrough of <code>sewloreSpecimenTables</code>, by <a href="https://sewlore.com/">Sewlore</a>.</p>
+<div class="synthetic"><strong>All measurements shown here are invented, synthetic demonstrations.</strong> They are not laboratory observations, fabric performance results or academic research. Do not use them to select care instructions or predict a fabric's behavior.</div>
+<h2>1. Start with identifiable observations</h2>
+<p>Record a cohort, specimen identifier, cycle number, axis, stage, value and physical unit. Pairing uses cohort, specimen, cycle and axis together. The original unit remains visible after normalization.</p>
+<!--begin.rcode setup, echo=TRUE, results='markup'
+library(sewloreSpecimenTables)
+observations <- synthetic_specimens()
+print(observations[1:6, ], row.names = FALSE)
+end.rcode-->
+<h2>2. Pair only the intended before and after measurements</h2>
+<p>This example treats cycle 2 as incremental: its before value is the measurement before that particular wash. To analyze cumulative change, supply the original baseline explicitly for every cycle. The package never guesses which interpretation you intended.</p>
+<!--begin.rcode pairs, echo=TRUE, results='markup'
+pairs <- pair_specimen_measurements(observations)
+print(pairs[, c("cohort", "specimen_id", "wash_cycle", "axis",
+                "before_value", "before_unit", "after_value", "after_unit",
+                "delta_mm", "change_percent")], row.names = FALSE, digits = 4)
+end.rcode-->
+<p>Delta is <code>after_mm - before_mm</code>. Change percent divides that delta by the explicitly supplied before value. Contraction gives negative change percent and positive shrinkage percent; expansion reverses those signs.</p>
+<h2>3. Summarize comparable specimens</h2>
+<p>Cohorts must reflect actual comparability chosen by the operator. A mean across unrelated fabrics or procedures would still be mathematically computable but would lack the intended interpretation. A single complete specimen has no sample standard deviation.</p>
+<!--begin.rcode summaries, echo=TRUE, results='markup'
+summary_table <- summarise_specimen_pairs(pairs)
+print(summary_table, row.names = FALSE, digits = 4)
+end.rcode-->
+<p>The displayed standard deviation is descriptive variation among these synthetic specimen percentages. It is not instrument uncertainty, a confidence interval or evidence of material performance.</p>
+<h2>4. Keep incomplete observations visible</h2>
+<!--begin.rcode incomplete, echo=TRUE, results='markup'
+incomplete_observations <- observations[-2, ]
+reported <- pair_specimen_measurements(incomplete_observations, incomplete = "report")
+print(reported[reported$status != "paired", ], row.names = FALSE)
+end.rcode-->
+<p>The default pairing mode rejects incomplete pairs. Reporting mode retains a status and leaves computed changes missing. Repeated stages are errors even when their values agree; they are never silently averaged.</p>
+<h2>5. Export with the intended identifiers</h2>
+<pre><code>write_specimen_pairs(pairs, "my-pairs.csv")</code></pre>
+<p>By default, possible spreadsheet formula markers in text cells are prefixed with an apostrophe in the export. Numeric changes keep their signs. This means an affected exported identifier differs from its original; the in-memory object is unchanged. An existing chosen file is overwritten.</p>
+<h2>Method notes and scope</h2>
+<p>Use the <a href="https://sewlore.com/pages/fabric-measurement-methods-guide">fabric measurement methods guide</a> when planning measuring-point labels, baselines and recording precision. This package validates structure and arithmetic; it does not establish a standardized testing protocol or substitute for observing a real specimen.</p>
+<p>R uses floating-point arithmetic. Preserve full numeric results for analysis, then round displayed values to match the precision of your measurements. Do not add decimal precision that your recording method did not supply.</p>
+<p>MIT licensed. Developed with AI assistance; all source, tests and synthetic fixtures are provided. This self-contained HTML page has no tracking, remote images or external fonts.</p>
+</body></html>

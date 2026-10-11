@@ -1,0 +1,20 @@
+Package: sewloreSpecimenTables
+Type: Package
+Title: Explicitly Paired Fabric Specimen Measurement Tables
+Version: 0.1.0
+Authors@R: person("Sewlore", role = c("aut", "cre", "cph"), email = "sewingselami@gmail.com")
+Description: Validates long-format paired specimen measurements, normalizes
+    millimetres, centimetres and inches, and compares before and after values
+    within an explicitly identified cohort, specimen, wash cycle and axis.
+    Preserves original values and units and reports incomplete pairs without
+    estimating missing observations. Provides descriptive cohort tables and
+    spreadsheet-conscious CSV export. Example data are entirely synthetic
+    and are not empirical research or fabric performance claims.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: utils, stats
+Suggests: knitr
+VignetteBuilder: knitr
+URL: https://sewlore.com/pages/fabric-measurement-methods-guide, https://sewlore.com/
+NeedsCompilation: no

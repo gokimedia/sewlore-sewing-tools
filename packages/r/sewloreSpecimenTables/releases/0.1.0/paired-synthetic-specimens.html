@@ -1,0 +1,162 @@
+<!doctype html>
+<!--
+%\VignetteIndexEntry{Explicit paired specimen tables with synthetic measurements}
+%\VignetteEngine{knitr::knitr}
+%\VignetteEncoding{UTF-8}
+-->
+<html lang="en"><head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Explicit paired specimen tables — synthetic examples | Sewlore</title>
+<style>body{max-width:960px;margin:2rem auto;padding:0 1rem;font:16px/1.6 system-ui,sans-serif;color:#18212b}h1,h2{line-height:1.25}pre{overflow:auto;background:#f2f5f7;padding:1rem;border-radius:8px}.synthetic{border-left:6px solid #935500;background:#fff5dd;padding:1rem}img{max-width:100%;height:auto}a{color:#075985}code{font-family:monospace}</style></head><body>
+<h1>Explicit paired specimen tables</h1>
+<p>A reproducible walkthrough of <code>sewloreSpecimenTables</code>, by <a href="https://sewlore.com/">Sewlore</a>.</p>
+<div class="synthetic"><strong>All measurements shown here are invented, synthetic demonstrations.</strong> They are not laboratory observations, fabric performance results or academic research. Do not use them to select care instructions or predict a fabric's behavior.</div>
+<h2>1. Start with identifiable observations</h2>
+<p>Record a cohort, specimen identifier, cycle number, axis, stage, value and physical unit. Pairing uses cohort, specimen, cycle and axis together. The original unit remains visible after normalization.</p>
+<div class="chunk" id="setup"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl kwd">library</span><span class="hl def">(sewloreSpecimenTables)</span>
+<span class="hl def">observations</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">synthetic_specimens</span><span class="hl def">()</span>
+<span class="hl kwd">print</span><span class="hl def">(observations[</span><span class="hl num">1</span><span class="hl opt">:</span><span class="hl num">6</span><span class="hl def">, ],</span> <span class="hl kwc">row.names</span> <span class="hl def">=</span> <span class="hl num">FALSE</span><span class="hl def">)</span>
+</pre></div>
+<div class="output"><pre class="knitr r">##       cohort specimen_id wash_cycle axis  stage value unit
+##  SYNTHETIC_A    SYN-A-01          1 warp before  20.0   cm
+##  SYNTHETIC_A    SYN-A-01          1 warp  after 194.0   mm
+##  SYNTHETIC_A    SYN-A-02          1 warp before 200.0   mm
+##  SYNTHETIC_A    SYN-A-02          1 warp  after  19.6   cm
+##  SYNTHETIC_A    SYN-A-01          1 weft before  10.0   cm
+##  SYNTHETIC_A    SYN-A-01          1 weft  after 101.0   mm
+##               provenance value_mm
+##  SYNTHETIC_NOT_EMPIRICAL      200
+##  SYNTHETIC_NOT_EMPIRICAL      194
+##  SYNTHETIC_NOT_EMPIRICAL      200
+##  SYNTHETIC_NOT_EMPIRICAL      196
+##  SYNTHETIC_NOT_EMPIRICAL      100
+##  SYNTHETIC_NOT_EMPIRICAL      101
+</pre></div>
+</div></div>
+<h2>2. Pair only the intended before and after measurements</h2>
+<p>This example treats cycle 2 as incremental: its before value is the measurement before that particular wash. To analyze cumulative change, supply the original baseline explicitly for every cycle. The package never guesses which interpretation you intended.</p>
+<div class="chunk" id="pairs"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl def">pairs</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">pair_specimen_measurements</span><span class="hl def">(observations)</span>
+<span class="hl kwd">print</span><span class="hl def">(pairs[,</span> <span class="hl kwd">c</span><span class="hl def">(</span><span class="hl sng">&quot;cohort&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;specimen_id&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;wash_cycle&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;axis&quot;</span><span class="hl def">,</span>
+                <span class="hl sng">&quot;before_value&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;before_unit&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;after_value&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;after_unit&quot;</span><span class="hl def">,</span>
+                <span class="hl sng">&quot;delta_mm&quot;</span><span class="hl def">,</span> <span class="hl sng">&quot;change_percent&quot;</span><span class="hl def">)],</span> <span class="hl kwc">row.names</span> <span class="hl def">=</span> <span class="hl num">FALSE</span><span class="hl def">,</span> <span class="hl kwc">digits</span> <span class="hl def">=</span> <span class="hl num">4</span><span class="hl def">)</span>
+</pre></div>
+<div class="output"><pre class="knitr r">##       cohort specimen_id wash_cycle   axis before_value before_unit after_value
+##  SYNTHETIC_A    SYN-A-01          1   warp           20          cm       194.0
+##  SYNTHETIC_A    SYN-A-02          1   warp          200          mm        19.6
+##  SYNTHETIC_A    SYN-A-01          1   weft           10          cm       101.0
+##  SYNTHETIC_A    SYN-A-02          1   weft          100          mm       100.0
+##  SYNTHETIC_A    SYN-A-01          2   warp          194          mm       192.0
+##  SYNTHETIC_A    SYN-A-02          2   warp          196          mm       195.0
+##  SYNTHETIC_B    SYN-B-01          1 length            4          in        10.0
+##  after_unit delta_mm change_percent
+##          mm     -6.0        -3.0000
+##          cm     -4.0        -2.0000
+##          mm      1.0         1.0000
+##          mm      0.0         0.0000
+##          mm     -2.0        -1.0309
+##          mm     -1.0        -0.5102
+##          cm     -1.6        -1.5748
+</pre></div>
+</div></div>
+<p>Delta is <code>after_mm - before_mm</code>. Change percent divides that delta by the explicitly supplied before value. Contraction gives negative change percent and positive shrinkage percent; expansion reverses those signs.</p>
+<h2>3. Summarize comparable specimens</h2>
+<p>Cohorts must reflect actual comparability chosen by the operator. A mean across unrelated fabrics or procedures would still be mathematically computable but would lack the intended interpretation. A single complete specimen has no sample standard deviation.</p>
+<div class="chunk" id="summaries"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl def">summary_table</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">summarise_specimen_pairs</span><span class="hl def">(pairs)</span>
+<span class="hl kwd">print</span><span class="hl def">(summary_table,</span> <span class="hl kwc">row.names</span> <span class="hl def">=</span> <span class="hl num">FALSE</span><span class="hl def">,</span> <span class="hl kwc">digits</span> <span class="hl def">=</span> <span class="hl num">4</span><span class="hl def">)</span>
+</pre></div>
+<div class="output"><pre class="knitr r">##       cohort wash_cycle   axis n_paired n_missing mean_before_mm mean_after_mm
+##  SYNTHETIC_A          1   warp        2         0          200.0         195.0
+##  SYNTHETIC_A          1   weft        2         0          100.0         100.5
+##  SYNTHETIC_A          2   warp        2         0          195.0         193.5
+##  SYNTHETIC_B          1 length        1         0          101.6         100.0
+##  mean_change_percent median_change_percent sd_change_percent
+##              -2.5000               -2.5000            0.7071
+##               0.5000                0.5000            0.7071
+##              -0.7706               -0.7706            0.3682
+##              -1.5748               -1.5748                NA
+</pre></div>
+</div></div>
+<p>The displayed standard deviation is descriptive variation among these synthetic specimen percentages. It is not instrument uncertainty, a confidence interval or evidence of material performance.</p>
+<h2>4. Keep incomplete observations visible</h2>
+<div class="chunk" id="incomplete"><div class="rcode"><div class="source"><pre class="knitr r"><span class="hl def">incomplete_observations</span> <span class="hl kwb">&lt;-</span> <span class="hl def">observations[</span><span class="hl opt">-</span><span class="hl num">2</span><span class="hl def">, ]</span>
+<span class="hl def">reported</span> <span class="hl kwb">&lt;-</span> <span class="hl kwd">pair_specimen_measurements</span><span class="hl def">(incomplete_observations,</span> <span class="hl kwc">incomplete</span> <span class="hl def">=</span> <span class="hl sng">&quot;report&quot;</span><span class="hl def">)</span>
+<span class="hl kwd">print</span><span class="hl def">(reported[reported</span><span class="hl opt">$</span><span class="hl def">status</span> <span class="hl opt">!=</span> <span class="hl sng">&quot;paired&quot;</span><span class="hl def">, ],</span> <span class="hl kwc">row.names</span> <span class="hl def">=</span> <span class="hl num">FALSE</span><span class="hl def">)</span>
+</pre></div>
+<div class="output"><pre class="knitr r">##       cohort specimen_id wash_cycle axis        status before_value before_unit
+##  SYNTHETIC_A    SYN-A-01          1 warp missing_after           20          cm
+##  after_value after_unit before_mm after_mm delta_mm change_percent
+##           NA       &lt;NA&gt;       200       NA       NA             NA
+##  shrinkage_percent
+##                 NA
+</pre></div>
+</div></div>
+<p>The default pairing mode rejects incomplete pairs. Reporting mode retains a status and leaves computed changes missing. Repeated stages are errors even when their values agree; they are never silently averaged.</p>
+<h2>5. Export with the intended identifiers</h2>
+<pre><code>write_specimen_pairs(pairs, "my-pairs.csv")</code></pre>
+<p>By default, possible spreadsheet formula markers in text cells are prefixed with an apostrophe in the export. Numeric changes keep their signs. This means an affected exported identifier differs from its original; the in-memory object is unchanged. An existing chosen file is overwritten.</p>
+<h2>Method notes and scope</h2>
+<p>Use the <a href="https://sewlore.com/pages/fabric-measurement-methods-guide">fabric measurement methods guide</a> when planning measuring-point labels, baselines and recording precision. This package validates structure and arithmetic; it does not establish a standardized testing protocol or substitute for observing a real specimen.</p>
+<p>R uses floating-point arithmetic. Preserve full numeric results for analysis, then round displayed values to match the precision of your measurements. Do not add decimal precision that your recording method did not supply.</p>
+<p>MIT licensed. Developed with AI assistance; all source, tests and synthetic fixtures are provided. This self-contained HTML page has no tracking, remote images or external fonts.</p>
+</body></html>

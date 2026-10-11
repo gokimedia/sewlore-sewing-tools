@@ -1,0 +1,17 @@
+; Sewlore Fabric Direction Lab. Original source project.
+config_version=5
+
+[application]
+config/name="Fabric Direction & Pattern Placement | Sewlore"
+run/main_scene="res://demo/main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1200
+window/size/viewport_height=760
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.96, 0.95, 0.92, 1)

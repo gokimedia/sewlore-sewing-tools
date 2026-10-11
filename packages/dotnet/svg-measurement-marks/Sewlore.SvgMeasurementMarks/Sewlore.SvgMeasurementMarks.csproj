@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+    <PackageId>Sewlore.SvgMeasurementMarks</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Sewlore</Authors>
+    <Description>Unit-safe millimetre, centimetre and inch SVG calibration squares, ruler marks and measurement labels for sewing documentation and pattern reference sheets. No network access or runtime package dependencies.</Description>
+    <PackageTags>svg;sewing;measurement;calibration;units;ruler</PackageTags>
+    <PackageProjectUrl>https://sewlore.com/pages/fabric-measurement-methods-guide</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial functional release with physically dimensioned SVG generation and native unit tests. Print at actual size and verify the calibration square with a physical ruler.</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <DebugType>portable</DebugType>
+    <PathMap>$(MSBuildProjectDirectory)=/src/Sewlore.SvgMeasurementMarks</PathMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+Copyright 2026 Sewlore
+
+The original STL model, CAD render, original dimension drawings and descriptive
+guide are licensed under CC BY 4.0. The editable OpenSCAD source and original
+build/drawing scripts have the separate MIT licence in LICENSE-code-MIT.txt.
+
+You may share and adapt the CC BY material, including for commercial purposes,
+if you credit Sewlore, link to this licence and indicate changes. Do not imply
+Sewlore endorses your adaptation or physical product.
+
+Suggested attribution: Paper Pattern Tile Corner Datum Gauge by Sewlore,
+https://sewlore.com/, CC BY 4.0. Indicate any modifications you make.
+
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+Complete legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+The model is an unprinted CAD prototype. No physical fit, print success or
+calibration certification is asserted. The official CC BY legal code governs
+reuse; this explanation does not replace its terms.

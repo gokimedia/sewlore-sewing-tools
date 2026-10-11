@@ -1,0 +1,4 @@
+[
+  {"id":"synthetic-seam-a","context":"digital example, seamline not cut edge","value":2.54,"unit":"cm","target":1,"target_unit":"in","tolerance":0.1,"tolerance_unit":"mm"},
+  {"id":"synthetic-seam-b","context":"digital example with no requested comparison","value":150,"unit":"mm"}
+]

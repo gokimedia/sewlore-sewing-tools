@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850"><title>Sewlore Paper Pattern Tile Corner Datum Gauge — CAD dimensions</title><desc>Original drawing of an unprinted 70 by 70 by 3 mm L-shaped datum gauge. This drawing is not a one-to-one printing template.</desc><rect width="1200" height="850" fill="#fbfcfa"/>
+<text x="70" y="45" font-family="Arial,sans-serif" font-size="32" fill="#183a3d" dominant-baseline="hanging">Paper Pattern Tile Corner Datum Gauge</text>
+<text x="70" y="92" font-family="Arial,sans-serif" font-size="20" fill="#627579" dominant-baseline="hanging">CAD dimension drawing · millimetres · unprinted prototype</text>
+<polygon points="220,160 280,160 280,450 570,450 570,510 220,510" fill="#d2e8e5" stroke="#183a3d" stroke-width="2"/>
+<circle cx="490" cy="480" r="10" fill="#fbfcfa" stroke="#183a3d" stroke-width="2"/>
+<circle cx="250" cy="240" r="10" fill="#fbfcfa" stroke="#183a3d" stroke-width="2"/>
+<polyline points="330,450 330,470" fill="none" stroke="#2f8585" stroke-width="3"/>
+<polyline points="260,400 280,400" fill="none" stroke="#2f8585" stroke-width="3"/>
+<polyline points="405,450 405,470" fill="none" stroke="#2f8585" stroke-width="3"/>
+<polyline points="260,325 280,325" fill="none" stroke="#2f8585" stroke-width="3"/>
+<polyline points="530,450 530,470" fill="none" stroke="#2f8585" stroke-width="3"/>
+<polyline points="260,200 280,200" fill="none" stroke="#2f8585" stroke-width="3"/>
+<circle cx="280" cy="450" r="4" fill="#183a3d" stroke="#183a3d" stroke-width="2"/>
+<polyline points="220,515 220,560" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="570,515 570,560" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="220,542 220,558" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="570,542 570,558" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="220,550 570,550" fill="none" stroke="#627579" stroke-width="2"/>
+<polygon points="220,550 228,546 228,554" fill="#627579" stroke="#627579" stroke-width="2"/>
+<polygon points="570,550 562,546 562,554" fill="#627579" stroke="#627579" stroke-width="2"/>
+<text x="367.5" y="560" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">70 mm</text>
+<polyline points="215,160 170,160" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="215,510 170,510" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="170,160 170,510" fill="none" stroke="#627579" stroke-width="2"/>
+<polygon points="170,160 166,168 174,168" fill="#627579" stroke="#627579" stroke-width="2"/>
+<polygon points="170,510 166,502 174,502" fill="#627579" stroke="#627579" stroke-width="2"/>
+<text x="87" y="325" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">70 mm</text>
+<polyline points="220,155 220,137" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="280,155 280,137" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="220,125 220,141" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="280,125 280,141" fill="none" stroke="#627579" stroke-width="2"/>
+<polyline points="220,133 280,133" fill="none" stroke="#627579" stroke-width="2"/>
+<polygon points="220,133 228,129 228,137" fill="#627579" stroke="#627579" stroke-width="2"/>
+<polygon points="280,133 272,129 272,137" fill="#627579" stroke="#627579" stroke-width="2"/>
+<text x="222.5" y="143" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">12 mm</text>
+<polyline points="287,442 625,244 670,244" fill="none" stroke="#2f8585" stroke-width="2"/>
+<text x="690" y="217" font-family="Arial,sans-serif" font-size="23" fill="#183a3d" dominant-baseline="hanging">Inside datum corner</text>
+<text x="690" y="250" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">CAD coordinate (12, 12)</text>
+<text x="690" y="286" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">Ticks at 10, 25 and 50 mm</text>
+<text x="690" y="314" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">from this corner on each arm</text>
+<polyline points="495,473 655,358 675,358" fill="none" stroke="#2f8585" stroke-width="2"/>
+<text x="690" y="350" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">Two 4 mm diameter windows</text>
+<text x="690" y="385" font-family="Arial,sans-serif" font-size="18" fill="#183a3d" dominant-baseline="hanging">0.5 mm deep top-face ticks</text>
+<text x="720" y="442" font-family="Arial,sans-serif" font-size="20" fill="#183a3d" dominant-baseline="hanging">Side elevation</text>
+<polygon points="720,482 1070,482 1070,497 720,497" fill="#d2e8e5" stroke="#183a3d" stroke-width="2"/>
+<polyline points="1085,482 1085,497" fill="none" stroke="#2f8585" stroke-width="2"/>
+<polyline points="1075,482 1090,482" fill="none" stroke="#2f8585" stroke-width="2"/>
+<polyline points="1075,497 1090,497" fill="none" stroke="#2f8585" stroke-width="2"/>
+<text x="1100" y="479" font-family="Arial,sans-serif" font-size="16" fill="#183a3d" dominant-baseline="hanging">3 mm</text>
+<text x="690" y="550" font-family="Arial,sans-serif" font-size="22" fill="#183a3d" dominant-baseline="hanging">Reference use</text>
+<text x="690" y="586" font-family="Arial,sans-serif" font-size="17" fill="#183a3d" dominant-baseline="hanging">Use the inside edges as a square datum.</text>
+<text x="690" y="613" font-family="Arial,sans-serif" font-size="17" fill="#183a3d" dominant-baseline="hanging">Check printed-paper scale separately.</text>
+<text x="690" y="640" font-family="Arial,sans-serif" font-size="17" fill="#183a3d" dominant-baseline="hanging">This image is not a 1:1 print template.</text>
+<polyline points="70,708 1130,708" fill="none" stroke="#bfd0cd" stroke-width="1"/>
+<text x="70" y="731" font-family="Arial,sans-serif" font-size="20" fill="#183a3d" dominant-baseline="hanging">70 × 70 × 3 mm · 12 mm arms · one connected body</text>
+<text x="70" y="770" font-family="Arial,sans-serif" font-size="17" fill="#183a3d" dominant-baseline="hanging">Native OpenSCAD STL: 636 triangles, closed edges, consistent winding.</text>
+<text x="70" y="797" font-family="Arial,sans-serif" font-size="17" fill="#627579" dominant-baseline="hanging">No physical printing, fit or calibration verification has been performed.</text>
+</svg>

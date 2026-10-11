@@ -1,0 +1,6 @@
+export(read_specimen_csv)
+export(validate_specimen_measurements)
+export(pair_specimen_measurements)
+export(summarise_specimen_pairs)
+export(write_specimen_pairs)
+export(synthetic_specimens)

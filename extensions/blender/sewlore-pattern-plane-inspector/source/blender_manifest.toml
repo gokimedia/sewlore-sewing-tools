@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+id = "sewlore_pattern_plane_inspector"
+version = "0.1.0"
+name = "Sewlore Pattern Plane Inspector"
+tagline = "Measure flat pattern mesh boundaries and surface area"
+maintainer = "Sewlore"
+type = "add-on"
+website = "https://gokimedia.github.io/sewlore-sewing-tools/extensions/blender/sewlore-pattern-plane-inspector/"
+tags = ["Mesh", "Modeling"]
+blender_version_min = "5.2.2"
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2026 Sewlore"]
+
+[build]
+paths = ["__init__.py", "geometry.py", "LICENSE", "README.txt"]

@@ -1,0 +1,56 @@
+{
+  "resource": "Paper Pattern Tile Corner Datum Gauge",
+  "version": "0.1.0",
+  "status": "locally-prepared; no platform publication or physical print asserted",
+  "source_sha256": "a98685a06ac9b9d302e7c1de1838a9427ede9ccf1b6058954e61f3bea33bcb68",
+  "stl_sha256": "1772f04388e858610075dcdad485f35f689f2364559f29bf288a6cfd470c80af",
+  "native_exporter": "OpenSCAD 2021.01",
+  "native_cad_render": true,
+  "cad_dimensions_mm": {
+    "x": 70,
+    "y": 70,
+    "z": 3,
+    "arm_width": 12,
+    "view_hole_diameter": 4,
+    "tick_offsets_from_inside_corner": [
+      10,
+      25,
+      50
+    ]
+  },
+  "mesh_checks": {
+    "faces": 636,
+    "vertices": 316,
+    "edges": 954,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        70.0,
+        70.0,
+        3.0
+      ]
+    ],
+    "signed_volume_mm3": 4525.522707516,
+    "surface_area_mm2": 3961.183151152333,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "single_connected_body": true,
+    "euler_characteristic": -2,
+    "degenerate_faces": 0
+  },
+  "physical_print_fit_or_calibration_test": false,
+  "render_is_photograph": false,
+  "dimension_drawing_is_1_to_1_template": false,
+  "native_build_recipe_sha256": "9f070edea00b7046a9d1b2c3bdb71b488daa82e5cd17b947f2c5fc3962dbcce6",
+  "mesh_check_script_sha256": "03f222f4e63cf07b9ef645700700779f572440ec26316b6f931cf5dac26d9abc",
+  "dimension_drawing_recipe_sha256": "e9fc16a15b76caf77ccdb174b40f478e3a3b72fd8328e94b7fadf1c8f99a453a",
+  "licence_scope": {
+    "editable_source": "MIT",
+    "model_drawings_guide": "CC-BY-4.0"
+  },
+  "scope_of_licence_review": "Prepared terms for owner review before external publication"
+}

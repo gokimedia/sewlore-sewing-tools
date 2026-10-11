@@ -1,0 +1,10 @@
+Original synthetic-native-preview.png: CC0 1.0 Universal
+Created by Sewlore, 2026; a native render of synthetic meshes, not physical data.
+
+To the extent possible under law, Sewlore has waived copyright and related rights
+in this original preview image under CC0. This does not grant trademark rights.
+The extension source code and guide have the separate GPL-3.0-or-later licence.
+No binary assets or font files are bundled inside the extension ZIP.
+
+Summary: https://creativecommons.org/publicdomain/zero/1.0/
+Complete legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode.en
