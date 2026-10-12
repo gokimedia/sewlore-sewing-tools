@@ -283,6 +283,14 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Button Centre Marking Rail — Unprinted CAD Prototype](https://www.thingiverse.com/thing:7420668) - AI-assisted, unprinted CC BY 4.0 model with eight files including FCStd, STEP, STL and a source ZIP. The rendered model page links to the Sewlore measurement guide. Anonymous HTML serves the model metadata and guide URL, but no server-rendered guide anchor. Physical printing and file-download integrity remain unverified.
 
+- [Measurement Rounding: Why a Repeated Step Can Change the Final Cut Size](https://sewlore.mataroa.blog/blog/measurement-rounding-why-a-repeated-step-can-change-the-final-cut-size/) — AI-assisted article with hypothetical millimetre examples comparing a repeated rounded step with positions calculated from one origin. The public article includes a calculation table and a direct Sewlore measurement-methods link with no rel attribute observed. No physical test or search impact is claimed.
+
+- [Seam Allowance Decisions: Corners, Curves and Folds | Sewlore](https://sewingselami.crevado.com/seam-allowance-decisions-corners-curves-and-folds-sewlore) — Three original geometry plates explain perpendicular corners, normal offsets on curves and cut-on-fold boundaries. The public gallery links to the Sewlore measurement methods guide with nofollow. Examples are hypothetical; no physical cutting, sewing test or search impact is claimed.
+
+- [Two-axis Print Scale Lab | Sewlore](https://jsfiddle.net/sewinglore/0rd8ofw7/) — Working native browser demo showing why one multiplier cannot correct two unequal print axes. Publicly saved HTML includes the Sewlore methods link with noopener noreferrer. The anonymous editor has no rendered guide anchor, and its observed standalone result route returned 404; iframe indexing and search impact remain unverified.
+
+- [Count the Gaps — Button Centre Spacing | Sewlore](https://freetrinket.io/html/0c6bfb0811dc) — Interactive button-centre lesson using count minus one gaps, with hypothetical examples and an original diagram. Its publicly bundled saved HTML includes the Sewlore methods link with noopener noreferrer. Anonymous share and runner responses are app shells; the working native result requires JavaScript. Guest output indexing and search impact remain unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
