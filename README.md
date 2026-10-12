@@ -297,6 +297,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Reading a Pattern Measurement Note | Sewlore](https://sewlore-measurement-notes.tilda.ws) — A six-field checklist for reading sewing pattern measurements: preserve value and unit, endpoints and direction, line role and allowance, material state, percentage baseline, and displayed rounding. Worked arithmetic is hypothetical; the illustrated lesson was prepared with AI assistance.
 
+- [Sewlore publisher profile on Yumpu](https://www.yumpu.com/user/sewlore) — Publisher profile for Sewlore’s sewing measurement notes and the Sewing Measurement Error Atlas. The About section describes the focus on units, line roles and measurement states, and the website field links to Sewlore.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
