@@ -291,6 +291,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Count the Gaps — Button Centre Spacing | Sewlore](https://freetrinket.io/html/0c6bfb0811dc) — Interactive button-centre lesson using count minus one gaps, with hypothetical examples and an original diagram. Its publicly bundled saved HTML includes the Sewlore methods link with noopener noreferrer. Anonymous share and runner responses are app shells; the working native result requires JavaScript. Guest output indexing and search impact remain unverified.
 
+- [Sewing Measurement States: A Field Guide | Sewlore](https://sewlore-measurement-states-selamibayirduzu.flowershow.me/) — A field guide to baseline, stretched, released and post-care readings, with three worked tables and a checklist for comparing sewing measurements. Examples are hypothetical and AI-assisted; retain units, direction and method context when using real records.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
