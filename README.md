@@ -293,6 +293,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewing Measurement States: A Field Guide | Sewlore](https://sewlore-measurement-states-selamibayirduzu.flowershow.me/) — A field guide to baseline, stretched, released and post-care readings, with three worked tables and a checklist for comparing sewing measurements. Examples are hypothetical and AI-assisted; retain units, direction and method context when using real records.
 
+- [Textile Collections Reading Map | Sewlore](https://umap.openstreetmap.fr/tr/map/textile-collections-reading-map-sewlore_1471794) — Explore eight textile collections and museums through an interactive map. Each marker pairs an institution link with an original question about units, axes, whole objects, components or documented states. Use the reading worksheet to keep measurement context with your notes. Original learning prompts prepared with AI assistance.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
