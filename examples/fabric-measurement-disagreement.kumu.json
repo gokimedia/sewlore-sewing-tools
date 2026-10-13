@@ -1,0 +1,450 @@
+{
+  "elements": [
+    {
+      "id": "start",
+      "label": "Why do the numbers disagree?",
+      "type": "question",
+      "description": "Two numbers can disagree because they describe different things. This map helps you decide whether two sewing or fabric records are actually comparable before interpreting the difference as an error.\n\nStart with the seven blue checks. Open an orange example to see invented arithmetic, then move to the green record and review nodes. The arrows describe a reading sequence and the information a comparison needs; they do not express causal strength or probabilities.\n\nAll dimensions and scenarios are hypothetical. No fabric specimens were tested. Text and this conceptual map were prepared with AI assistance for Sewlore.",
+      "tags": [
+        "start",
+        "hypothetical",
+        "reading-sequence"
+      ]
+    },
+    {
+      "id": "unit",
+      "label": "1. Unit",
+      "type": "check",
+      "description": "Write the unit beside each value, not only in a filename or a chart title. Convert both values to one declared unit before subtraction. A matching numeral is not a matching length: 10 inches and 10 centimetres are different lengths.\n\nThe exact conversion used here is 1 inch = 25.4 millimetres. Unit conversion changes the representation, not the measured endpoints, line role or fabric state. See the worked conversion example.",
+      "tags": [
+        "unit",
+        "comparison"
+      ]
+    },
+    {
+      "id": "endpoints",
+      "label": "2. Start and end points",
+      "type": "check",
+      "description": "Name the two endpoints and describe where each sits. A-to-B and A-to-C are different spans even when they use the same ruler and unit. On a pattern, a notch, seam intersection, finished edge and cut edge are not interchangeable landmarks.\n\nRecord whether the value runs between the same named points. If endpoints are unknown, mark the comparison as unresolved rather than inventing a correction.",
+      "tags": [
+        "endpoints",
+        "comparison"
+      ]
+    },
+    {
+      "id": "line-role",
+      "label": "3. Line role",
+      "type": "check",
+      "description": "Identify whether each value belongs to a seam line, cut line, fold line, finished edge or another explicitly named reference. Seam allowance can separate a seam boundary from a cut boundary.\n\nDo not assume that a cut-line width equals a seam-line width plus one allowance. The rectangle example includes an allowance on both opposite sides. Curved corners and changing offset directions need their own geometry; this example only concerns straight, parallel boundaries.",
+      "tags": [
+        "line-role",
+        "comparison"
+      ]
+    },
+    {
+      "id": "state",
+      "label": "4. Measurement state",
+      "type": "check",
+      "description": "Write the condition in which the value was recorded: for example relaxed, extended, recovered, before treatment or after treatment. Also record relevant conditioning and treatment assumptions if available.\n\nA before/after change may be the quantity you intend to study. It is not a measurement error simply because the two lengths differ. This map's invented before/after example is arithmetic only, not a claim about a fabric or a care process.",
+      "tags": [
+        "state",
+        "comparison"
+      ]
+    },
+    {
+      "id": "denominator",
+      "label": "5. Formula and denominator",
+      "type": "check",
+      "description": "A percentage needs a named numerator and denominator. Write the formula and its baseline beside the result. Relative change from an initial value is not the same question as a difference expressed as a percentage of the final value.\n\nUse compatible length units in a ratio, and require a nonzero denominator. A percentage without its baseline cannot be reconciled reliably with another percentage. The worked example shows why the same 20 mm difference can produce two valid but differently defined numbers.",
+      "tags": [
+        "formula",
+        "denominator",
+        "comparison"
+      ]
+    },
+    {
+      "id": "rounding",
+      "label": "6. Rounding and precision",
+      "type": "check",
+      "description": "Distinguish the stored or calculated value from the displayed value. Record the display precision and rounding rule. Rounding each component before addition can change the final displayed total.\n\nFor calculations, retain appropriate internal precision and round the final display once. More decimal places do not prove that the underlying physical measurement was more precise. The example here specifies nearest 0.01 cm and uses values that are not midpoint ties.",
+      "tags": [
+        "rounding",
+        "precision",
+        "comparison"
+      ]
+    },
+    {
+      "id": "path",
+      "label": "7. Path and direction",
+      "type": "check",
+      "description": "Record how the length follows the geometry: a straight chord, a curved seam path, a projected width or another defined route. Name the measuring direction as well as the endpoints. Matching endpoints alone do not make two path lengths comparable.\n\nHypothetical geometry: a semicircular arc of radius 10 mm has length 10 × pi mm, approximately 31.42 mm. Its straight endpoint-to-endpoint chord is 20 mm. Neither is a correction of the other; they describe different paths. This is an ideal mathematical shape, not a tested textile specimen.",
+      "tags": [
+        "path",
+        "direction",
+        "geometry"
+      ]
+    },
+    {
+      "id": "example-unit",
+      "label": "Example: 10 in and 25.4 cm",
+      "type": "example",
+      "description": "**Invented comparison.** Record A is 10 in. Record B is 25.4 cm.\n\n10 × 25.4 = 254 mm.\n25.4 × 10 = 254 mm.\n\nAfter exact conversion, both represent the same length. This resolves the unit representation only. We would still need matching endpoints, line role, state and path to say the records describe the same measurement.",
+      "tags": [
+        "unit",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "example-endpoints",
+      "label": "Example: A-B is not A-C",
+      "type": "example",
+      "description": "**Invented straight-line geometry.** Place A at 0 mm, B at 100 mm and C at 110 mm on the same axis.\n\nLength A-B = 100 mm.\nLength A-C = 110 mm.\n\nThe 10 mm difference arises from choosing a different endpoint. A conversion or a different rounding rule will not make these the same span. First select the intended landmark pair; do not subtract an assumed 10 mm from an unrelated pattern record.",
+      "tags": [
+        "endpoints",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "example-lines",
+      "label": "Example: two opposite allowances",
+      "type": "example",
+      "description": "**Invented rectangular pattern.** A seam-boundary rectangle is 40 mm wide and 60 mm long. A cut boundary lies 5 mm outside every straight side.\n\nCut width = 40 + 5 + 5 = 50 mm.\nCut length = 60 + 5 + 5 = 70 mm.\n\nA 40 mm seam-line width and a 50 mm cut-line width can both be correct for their named roles. The 10 mm difference is two opposite allowances. These calculations do not specify a sewing method, corner treatment or real finished size.",
+      "tags": [
+        "line-role",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "example-state",
+      "label": "Example: 100 mm before, 90 mm after",
+      "type": "example",
+      "description": "**Invented before/after record.** The same named span is 100 mm before an unspecified treatment and 90 mm after it.\n\nDimensional reduction relative to the before value = (100 - 90) / 100 × 100% = 10%.\n\nThe two lengths intentionally represent different states. Comparing them is useful when the state transition is the question. We have no measured fabric, treatment protocol or experimental repeatability evidence here, so the example does not predict shrinkage for a product.",
+      "tags": [
+        "state",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "example-denominator",
+      "label": "Example: 20% and 16.67%",
+      "type": "example",
+      "description": "**Invented ratio comparison.** Initial length = 100 mm; final length = 120 mm; difference = 20 mm.\n\nDifference / initial length = 20 / 100 × 100% = 20%.\nDifference / final length = 20 / 120 × 100% ≈ 16.67%.\n\nThe numerator is the same. The baseline is different, so the results answer different questions. For relative change from the initial length, name 100 mm as the denominator. Do not average these percentages as though they were duplicate readings of one quantity.",
+      "tags": [
+        "denominator",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "example-rounding",
+      "label": "Example: round the total once",
+      "type": "example",
+      "description": "**Invented calculation.** Three components are each 0.154 cm. Display results to the nearest 0.01 cm.\n\nRounding components first: 0.15 + 0.15 + 0.15 = 0.45 cm.\nSumming first: 0.154 × 3 = 0.462 cm; the displayed total is 0.46 cm.\n\nThe displayed totals differ by 0.01 cm, which equals 0.1 mm. This is a rounding-order effect in the invented arithmetic. It is not evidence of ruler resolution, fabric stretch or a physical tolerance.",
+      "tags": [
+        "rounding",
+        "worked-example",
+        "hypothetical"
+      ]
+    },
+    {
+      "id": "record",
+      "label": "Make a comparable record",
+      "type": "outcome",
+      "description": "Before interpreting the difference, align or explicitly document these seven fields:\n\n1. Value and unit.\n2. Named start and end points.\n3. Line role.\n4. Measurement state.\n5. Formula and denominator, if derived.\n6. Internal/display precision and rounding rule.\n7. Path and direction.\n\nAn honest outcome can be 'not comparable yet'. If a field remains unknown, preserve that uncertainty. Do not silently rename endpoints, invent treatment conditions or change a baseline just to make numbers agree.",
+      "tags": [
+        "record",
+        "comparison",
+        "decision"
+      ]
+    },
+    {
+      "id": "review",
+      "label": "If a difference remains, recheck",
+      "type": "outcome",
+      "description": "Once the definitions match, recheck transcription, unit conversion and arithmetic. For a real physical comparison, repeat measurement using the same defined procedure and record the repeated readings; assess equipment and procedure uncertainty with appropriate evidence.\n\nKeep the original record and document any correction. A disagreement can reflect an error, variation or missing information; this conceptual map cannot determine a cause without the relevant observations. These hypothetical examples establish no physical tolerance or product performance claim.",
+      "tags": [
+        "review",
+        "uncertainty",
+        "decision"
+      ]
+    },
+    {
+      "id": "methods",
+      "label": "Sewlore measurement methods",
+      "type": "reference",
+      "description": "This original map applies Sewlore's measurement-record approach to seven reasons that two numbers can be difficult to compare. The numerical examples and network structure were created for this teaching resource; they are not experimental data.\n\nRead the [Fabric Measurement Methods Guide](https://sewlore.com/pages/fabric-measurement-methods-guide) for fabric stretch, recovery and dimensional-change recording, formulas, worked examples and downloadable resources.\n\nPublisher: Sewlore. Prepared with AI assistance. No fabric specimens were tested. Kumu is the hosting and mapping platform; this resource does not imply its endorsement of Sewlore.",
+      "tags": [
+        "source",
+        "methods",
+        "sewlore"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "link-01",
+      "from": "start",
+      "to": "unit",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-02",
+      "from": "unit",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-03",
+      "from": "start",
+      "to": "endpoints",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-04",
+      "from": "endpoints",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-05",
+      "from": "start",
+      "to": "line-role",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-06",
+      "from": "line-role",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-07",
+      "from": "start",
+      "to": "state",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-08",
+      "from": "state",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-09",
+      "from": "start",
+      "to": "denominator",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-10",
+      "from": "denominator",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-11",
+      "from": "start",
+      "to": "rounding",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-12",
+      "from": "rounding",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-13",
+      "from": "start",
+      "to": "path",
+      "direction": "directed",
+      "type": "check",
+      "label": "check",
+      "description": "A field to define before treating two numerical records as comparable."
+    },
+    {
+      "id": "link-14",
+      "from": "path",
+      "to": "record",
+      "direction": "directed",
+      "type": "record",
+      "label": "record explicitly",
+      "description": "Carry the declared definition into the comparison record; keep unknowns visible."
+    },
+    {
+      "id": "link-15",
+      "from": "unit",
+      "to": "example-unit",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-16",
+      "from": "example-unit",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-17",
+      "from": "endpoints",
+      "to": "example-endpoints",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-18",
+      "from": "example-endpoints",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-19",
+      "from": "line-role",
+      "to": "example-lines",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-20",
+      "from": "example-lines",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-21",
+      "from": "state",
+      "to": "example-state",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-22",
+      "from": "example-state",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-23",
+      "from": "denominator",
+      "to": "example-denominator",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-24",
+      "from": "example-denominator",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-25",
+      "from": "rounding",
+      "to": "example-rounding",
+      "direction": "directed",
+      "type": "example",
+      "label": "worked example",
+      "description": "An invented example illustrating this distinction; no fabric specimens were tested."
+    },
+    {
+      "id": "link-26",
+      "from": "example-rounding",
+      "to": "record",
+      "direction": "directed",
+      "type": "application",
+      "label": "apply the distinction",
+      "description": "Use the distinction rather than copying the example's invented dimensions into a real record."
+    },
+    {
+      "id": "link-27",
+      "from": "record",
+      "to": "review",
+      "direction": "directed",
+      "type": "next-step",
+      "label": "if a difference remains",
+      "description": "Only investigate remaining differences after documenting comparable definitions."
+    },
+    {
+      "id": "link-28",
+      "from": "start",
+      "to": "methods",
+      "direction": "directed",
+      "type": "reference",
+      "label": "background method",
+      "description": "Contextual publisher source for the measurement-record approach."
+    },
+    {
+      "id": "link-29",
+      "from": "record",
+      "to": "methods",
+      "direction": "directed",
+      "type": "reference",
+      "label": "recording guide",
+      "description": "Further methods, formulas and downloadable resources."
+    }
+  ]
+}
