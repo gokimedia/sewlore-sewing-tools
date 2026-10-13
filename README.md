@@ -307,6 +307,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Seam Corner Offset Lab — Sewlore (Framer)](https://sewlore-seam-corner-lab.framer.website/) — An interactive straight-line geometry lesson distinguishing perpendicular offset allowance from angle-bisector miter distance. Includes labelled reference and offset edges, worked examples, a zero-allowance case and explicit units. Hypothetical examples prepared with AI assistance; no physical fabric testing.
 
+- [Sewlore Measurement References 0.1.0-1 — LuaRocks](https://luarocks.org/modules/gokimedia/sewlore-measurement-refs) — A dependency-free Lua module validating named sewing measurement endpoints, units, direction and line role before comparing matching straight spans. Keeps explicit sample identity and prewash/postwash states with normalized coordinates and signed length change. Examples are hypothetical and prepared with AI assistance; no physical fabric testing.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
