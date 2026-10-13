@@ -309,6 +309,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Measurement References 0.1.0-1 — LuaRocks](https://luarocks.org/modules/gokimedia/sewlore-measurement-refs) — A dependency-free Lua module validating named sewing measurement endpoints, units, direction and line role before comparing matching straight spans. Keeps explicit sample identity and prewash/postwash states with normalized coordinates and signed length change. Examples are hypothetical and prepared with AI assistance; no physical fabric testing.
 
+- [Name the measured quantity | Sewlore — Softr](https://sewlore-measurement-labels.softr.app/) — Six hypothetical sewing measurement prompts with full model answers, example record labels and recording tips. Explains straight and curved routes, seam, cut and fold lines, direction and state in a public read-only lesson. Prepared with AI assistance; no physical fabric testing.
+
+- [Sewlore Percentage Return Lab — Webnode](https://sewlore-education-bqixty.webnode.com.tr/) — A hypothetical sewing measurement lesson on successive percentage factors, changing baselines and exact reverse rates. Shows why 100 → 90 → 99 mm does not return to the start, with worked checks, scope notes and an offline blank comparison record. Prepared with AI assistance; no physical fabric testing.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
