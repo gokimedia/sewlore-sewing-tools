@@ -299,6 +299,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore publisher profile on Yumpu](https://www.yumpu.com/user/sewlore) — Publisher profile for Sewlore’s sewing measurement notes and the Sewing Measurement Error Atlas. The About section describes the focus on units, line roles and measurement states, and the website field links to Sewlore.
 
+- [Why Two Fabric Measurements Disagree — Sewlore](https://kumu.io/sewlore/why-two-fabric-measurements-disagree) — Follow seven connected checks for comparing fabric readings: units, endpoints, line role, measurement state, percentage denominator, rounding and measurement path. Six worked examples use hypothetical numbers.
+
+- [Fabric Test Card — Sewlore](https://sewlore.craft.me/fabric-test-card) — An illustrated fabric-test recording card with two tables for keeping measurement context with the readings.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
