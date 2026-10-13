@@ -303,6 +303,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Fabric Test Card — Sewlore](https://sewlore.craft.me/fabric-test-card) — An illustrated fabric-test recording card with two tables for keeping measurement context with the readings.
 
+- [Sewlore Measurement Baselines 0.1.0 — pub.dev](https://pub.dev/packages/sewlore_measurement_baselines) — A dependency-free Dart library for explicit-unit length comparisons with a required before/after percentage baseline. The immutable report keeps the normalized pair, signed difference, denominator and formula together. Examples are hypothetical and prepared with AI assistance.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
