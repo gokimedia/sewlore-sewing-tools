@@ -305,6 +305,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Measurement Baselines 0.1.0 — pub.dev](https://pub.dev/packages/sewlore_measurement_baselines) — A dependency-free Dart library for explicit-unit length comparisons with a required before/after percentage baseline. The immutable report keeps the normalized pair, signed difference, denominator and formula together. Examples are hypothetical and prepared with AI assistance.
 
+- [Seam Corner Offset Lab — Sewlore (Framer)](https://sewlore-seam-corner-lab.framer.website/) — An interactive straight-line geometry lesson distinguishing perpendicular offset allowance from angle-bisector miter distance. Includes labelled reference and offset edges, worked examples, a zero-allowance case and explicit units. Hypothetical examples prepared with AI assistance; no physical fabric testing.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
