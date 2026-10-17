@@ -325,6 +325,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Why Two Fabric Measurements Disagree | Sewlore](https://online.fliphtml5.com/sewlore-notes/bmwa/) — Eight-page illustrated sewing flipbook about comparable fabric readings, stretch and recovery, and PDF pattern print scale, with original Sewlore explanations and worked hypothetical examples.
 
+- [Why a Valid CSV Row Can Still Fail a Submission Policy | Sewlore](https://deepnote.com/app/sewlore-32c9/Why-a-Valid-CSV-Row-Can-Still-Fail-a-Submission-Policy-or-Sewlore-a7cc2391-3222-489f-a1e7-2c8f75564abb) — Executed sewing-data lesson contrasts validation of a single CSV row with whole-file policy, using 72 synthetic cases and saved outputs. Includes a contextual link to the original Sewlore resource.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
