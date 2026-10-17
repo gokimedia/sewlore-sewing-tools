@@ -319,6 +319,12 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Pattern Annotation Subset — SVG Source](https://github.com/gokimedia/sewlore-sewing-tools/tree/main/assets/pattern-annotation-subset) — Twelve original sewing-pattern reference illustrations in light and dark SVG variants, with an editable Python generator, a JSON legend and an MIT licence. The 64-unit drawing grid is not a calibrated ruler. Prepared with AI assistance; native editor import and physical print testing remain unverified.
 
+- [Why Two Fabric Measurements Disagree | Sewlore](https://www.docswell.com/s/3130291/KL3293-why-two-fabric-measurements-disagree) — Eight-page illustrated guide to comparing fabric measurements and checking PDF pattern print scale; original Sewlore resource with contextual source links.
+
+- [Pattern Printing & Fabric Preparation | Sewlore](https://flipboard.com/@sewingselami/pattern-printing-fabric-preparation-%7C-sewlore-a4t6o8krz) — Sewlore's public magazine collects six practical guides and free tools about PDF print scale, fabric measurements, stretch and reusable annotation symbols.
+
+- [Why Two Fabric Measurements Disagree | Sewlore](https://online.fliphtml5.com/sewlore-notes/bmwa/) — Eight-page illustrated sewing flipbook about comparable fabric readings, stretch and recovery, and PDF pattern print scale, with original Sewlore explanations and worked hypothetical examples.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
