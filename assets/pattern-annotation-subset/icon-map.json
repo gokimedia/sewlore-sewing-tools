@@ -1,0 +1,164 @@
+{
+  "name": "Sewlore Pattern Annotation Subset",
+  "version": "1.0.0",
+  "licenseStatus": "MIT",
+  "icons": [
+    {
+      "id": "grain-direction",
+      "label": "Grain direction",
+      "meaning": "A two-ended arrow for a documented reference direction.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "fold-edge",
+      "label": "Fold edge",
+      "meaning": "A boundary line with two arrows pointing towards it.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "alignment-single",
+      "label": "Single alignment mark",
+      "meaning": "One V-shaped alignment mark against a reference edge.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "alignment-double",
+      "label": "Double alignment mark",
+      "meaning": "Two V-shaped alignment marks against a reference edge.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "centre-reference",
+      "label": "Centre reference",
+      "meaning": "A dashed reference axis and a short transverse centre mark.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "seam-offset",
+      "label": "Seam offset",
+      "meaning": "Two parallel angular paths with a perpendicular distance indicator.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "cut-edge",
+      "label": "Cut edge",
+      "meaning": "A continuous angular outline used with an explicit cut-edge label.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "stitch-path",
+      "label": "Stitch path",
+      "meaning": "A dashed curved path with distinct start and end markers.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "drill-reference",
+      "label": "Drill reference",
+      "meaning": "A circular reference target; not a safe drilling instruction.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "pleat-pair",
+      "label": "Pleat pair",
+      "meaning": "A pair of fold references with arrows directed toward the middle.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "button-position",
+      "label": "Button position",
+      "meaning": "A circular button position with two hole references.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    },
+    {
+      "id": "reference-square",
+      "label": "Reference square",
+      "meaning": "An uncalibrated square and side indicators for a labelled reference feature.",
+      "viewBox": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "nominalStrokeWidth": 2,
+      "physicalScale": "undefined"
+    }
+  ],
+  "source": "https://github.com/gokimedia/sewlore-sewing-tools/tree/main/assets/pattern-annotation-subset"
+}
