@@ -317,6 +317,8 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [The same 5 mm can mean four different percentages | Sewlore](https://www.goconqr.com/note/41134775/the-same-5-mm-can-mean-four-different-percentages-sewlore) — Four hypothetical fabric-span comparisons explain changing percentage denominators, signed contraction or expansion, and rounding. Includes a practice question, worked answers and the Sewlore methods reference. Prepared with AI assistance; no physical fabric tests.
 
+- [Sewlore Pattern Annotation Subset — SVG Source](https://github.com/gokimedia/sewlore-sewing-tools/tree/main/assets/pattern-annotation-subset) — Twelve original sewing-pattern reference illustrations in light and dark SVG variants, with an editable Python generator, a JSON legend and an MIT licence. The 64-unit drawing grid is not a calibrated ruler. Prepared with AI assistance; native editor import and physical print testing remain unverified.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
