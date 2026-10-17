@@ -313,6 +313,10 @@ Two small, transparent measurement tools for people who sew. Enter measurements 
 
 - [Sewlore Percentage Return Lab — Webnode](https://sewlore-education-bqixty.webnode.com.tr/) — A hypothetical sewing measurement lesson on successive percentage factors, changing baselines and exact reverse rates. Shows why 100 → 90 → 99 mm does not return to the start, with worked checks, scope notes and an offline blank comparison record. Prepared with AI assistance; no physical fabric testing.
 
+- [Sewlore Sewing Notes — Podchaser](https://www.podchaser.com/podcasts/sewlore-sewing-notes-6637289) — Find the directory entry for Sewlore Sewing Notes, with its show description, official website and RSS feed. The podcast shares practical notes on PDF pattern printing and measurement preparation.
+
+- [The same 5 mm can mean four different percentages | Sewlore](https://www.goconqr.com/note/41134775/the-same-5-mm-can-mean-four-different-percentages-sewlore) — Four hypothetical fabric-span comparisons explain changing percentage denominators, signed contraction or expansion, and rounding. Includes a practice question, worked answers and the Sewlore methods reference. Prepared with AI assistance; no physical fabric tests.
+
 ## Fabric Stretch Lab
 
 Mark a span on your relaxed sample. Measure the same span at a gentle, comfortable extension and again after release and a recorded rest time. Keep your method consistent and test width, length and bias separately when relevant. This is a practical sample check, not a standardized textile laboratory test.
